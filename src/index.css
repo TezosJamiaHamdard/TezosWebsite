@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face{
+  font-family: HeadFont;
+  src: url('../../tezos/src/assets/conversion_2/CONVERSION.otf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face{
+font-family: FirstFont;
+src: url('../../tezos/src/assets/cyborg_punk/Cyborg\ Punk.ttf');
+}
+
+/* ----- BASE ----- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+/* ----- SMOOTH SCROLL ----- */
+html,body{
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+
+/* ----- CHANGE THE SCROLL BAR DESIGN ----- */
+/* ::-webkit-scrollbar{
+  width: 10px;
+  border-radius: 25px;
+}
+::-webkit-scrollbar-track{
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+  background: #ccc;
+  border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #bbb;
+} */
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/* global css */
+section{
+  background-color: #151515;
 }

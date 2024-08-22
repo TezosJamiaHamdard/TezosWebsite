@@ -1,0 +1,101 @@
+.footer-div{
+    height: 80vh;
+    background: #000;
+    position: relative;
+}
+/* ----- FOOTER BOX ----- */
+.footer_div{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60vh;
+  overflow: hidden;
+  padding-inline: 100px;
+  background: #000;
+}
+footer{
+    row-gap: 30px;
+    padding-block: 40px 60px;
+}
+.top-footer p{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: HeadFont;
+    color: white;
+    margin-bottom: 20px;
+}
+.top-footer h3{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 10px;
+}
+.general, .miscellaneous{
+    display: flex;
+    flex-direction: column;
+    gap: 13px 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.general h2, .miscellaneous h2{
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+}
+.footer_menu_list{
+    list-style: none;
+}
+.footer_menu_list a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin-inline: 20px;
+}
+.footer-social-icons{
+    display: flex;
+    gap: 30px;   
+}
+.bottom-footer{
+    font-size: 14px;
+    margin-top: 10px;
+    color: white;
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid white;
+
+}
+
+hr{
+    border-top-width: 1px;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.h3{
+    padding-inline: 100px;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
