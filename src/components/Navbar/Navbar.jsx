@@ -29,7 +29,7 @@ window.addEventListener("scroll", updateNav);
   return (
     <div>
       <nav id="nav">
-        <logo> <img src={logo} alt="" className='logo' /> </logo>
+        <img src={logo} alt="" className='logo' />
         <div className="nav-menu" id="myNavMenu">
           <ul className="nav_menu_list">
             <li className="nav_list">
@@ -59,7 +59,7 @@ window.addEventListener("scroll", updateNav);
             </li>
           </ul>
         </div>
-        <div class="nav-button">
+        <div className="nav-button">
           <button className="join"> JoinUs </button>
           <button className="about"> About</button>
         </div>
