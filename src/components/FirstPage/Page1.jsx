@@ -31,7 +31,6 @@ export default function First() {
 
     return (
         <div>
-            {/* <video autoPlay loop muted className="back-video" src={video} type="video/mp4" /> */}
             <video
                 src={video}
                 autoPlay
@@ -49,32 +48,32 @@ export default function First() {
                     </div>
                     <div className="social-icons">
                         <div className="icon">
-                            <a className="btn-icon">
+                            <a href="/"className="btn-icon">
                                 <FaGithub style={{ color: "#fff" }} size={30} />
                             </a>
                         </div>
                         <div className="icon">
-                            <a className="btn-icon">
+                            <a href="/"className="btn-icon">
                                 <FaLinkedinIn style={{ color: "#fff", paddingTop: "4px" }} size={25} />
                             </a>
                         </div>
                         <div className="icon">
-                            <a className="btn-icon">
+                            <a href="/"className="btn-icon">
                                 <FaReddit style={{ color: "#fff" }} size={30} />
                             </a>
                         </div>
                         <div className="icon">
-                            <a className="btn-icon">
+                            <a href="/"className="btn-icon">
                                 <FaDiscord style={{ color: "#fff", paddingTop: "4px" }} size={25} />
                             </a>
                         </div>
                         <div className="icon">
-                            <a className="btn-icon">
+                            <a href="/"className="btn-icon">
                                 <FaXTwitter style={{ color: "#fff", paddingTop: "4px" }} size={25} />
                             </a>
                         </div>
                         <div className="icon">
-                            <a className="btn-icon" >
+                            <a href="/"className="btn-icon" >
                                 <FaInstagram style={{ color: "#fff", paddingTop: "4px" }} size={25} />
                             </a>
                         </div>
@@ -85,5 +84,3 @@ export default function First() {
         </div>
     )
 }
-
-// export default first

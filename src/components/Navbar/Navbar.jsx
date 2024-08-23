@@ -1,9 +1,19 @@
 import './Navbar.css'
-import Logo from '../../assets/logo.jpg'
+import Logo from '../../assets/logo-no-bg.png'
 import { useEffect } from 'react'
 import {Link} from "react-router-dom"
+import { CiMenuBurger } from "react-icons/ci";
 
+/* ----- NAVIGATION BAR FUNCTION ----- */
+function MenuFunction(){
+  var menuBtn = document.getElementById("myNavMenu");
 
+  if(menuBtn.className === "nav-menu"){
+    menuBtn.className += " responsive";
+  } else {
+    menuBtn.className = "nav-menu";
+  }
+}
 export default function Navbar({contactRef}) {
   useEffect(()=>{
 const nav = document.querySelector("#nav");
@@ -23,6 +33,7 @@ function updateNav() {
 
 // Add a scroll event listener to the window
 window.addEventListener("scroll", updateNav);
+MenuFunction();
   })
   
 
@@ -67,6 +78,9 @@ window.addEventListener("scroll", updateNav);
           <Link>
           <button className="join" style={{whiteSpace:"pre"}} > About Us </button>
           </Link>
+        </div>
+        <div className="nav-menu-btn">
+            <CiMenuBurger size={25} className="uil uil-bars" onClick={MenuFunction}/>
         </div>
       </nav>
     </div>

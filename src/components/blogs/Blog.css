@@ -1,21 +1,35 @@
 .blogs{
-    /* position: relative; */
+    position: relative;
     font-family: "Poppins", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    /* overflow: hidden; */
+    height: 200vh;
     background: #111113;
 }
+.blog-title{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f1f1f1;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 100px 0px;
+}
 .slider-wrapper {
-    /* overflow: hidden; */
     max-width: 1200px;
     margin: 0 70px 55px;
     height: 400px;
+    display: flex;
+    flex-direction: row;
   }
-  
+  .swiper-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+ 
+  } 
+
   .card-list .card-item {
     height: auto;
     user-select: none;

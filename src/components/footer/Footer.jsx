@@ -5,7 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaReddit } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-
+import Logo from '../../assets/logo.png'
 
 function Footer() {
   return (
@@ -13,36 +13,36 @@ function Footer() {
       {/* --------------- FOOTER --------------- */}
       <footer className='footer_div'>
         <div className="top-footer">
-          <p>TEZOS</p>
+          <img src={Logo} alt="" className='logo' />
           <h2 style={{ color: "white" }}>FOLLOW US </h2>
           <div className="footer-social-icons">
             <div className="icon">
-              <a className="btn-icon" >
+              <a href="/" className="btn-icon" >
                 <FaInstagram style={{ color: "#fff", paddingTop: "4px" }} size={25} />
               </a>
             </div>
             <div className="icon">
-              <a className="btn-icon">
+              <a href="/" className="btn-icon">
                 <FaGithub style={{ color: "#fff" }} size={30} />
               </a>
             </div>
             <div className="icon">
-              <a className="btn-icon">
+              <a href="/" className="btn-icon">
                 <FaLinkedinIn style={{ color: "#fff", paddingTop: "4px" }} size={25} />
               </a>
             </div>
             <div className="icon">
-              <a className="btn-icon">
+              <a href="/" className="btn-icon">
                 <FaReddit style={{ color: "#fff" }} size={30} />
               </a>
             </div>
             <div className="icon">
-              <a className="btn-icon">
+              <a href="/" className="btn-icon">
                 <FaDiscord style={{ color: "#fff", paddingTop: "4px" }} size={25} />
               </a>
             </div>
             <div className="icon">
-              <a className="btn-icon">
+              <a href="/" className="btn-icon">
                 <FaXTwitter style={{ color: "#fff", paddingTop: "4px" }} size={25} />
               </a>
             </div>
@@ -51,26 +51,29 @@ function Footer() {
           <h3 >For media inquiries please contact communications@tezos.foundation</h3>
 
         </div>
-        <div className="middle-footer">
-          <div className="general">
-            <h2>General</h2>
-            <a href="http://">Fundraiser</a>
-            <a href="http://">Career</a>
-            <a href="http://">Blog</a>
-          </div>
-        </div>
+        <div className='mid-bottom'>
 
-        <div className="bottom-footer">
-          <div className="miscellaneous">
-            <h2>Miscellaneous</h2>
-            <a href="http://">Merchandise</a>
-            <a href="http://">Events</a>
-            <a href="http://">Blog</a>
+          <div className="middle-footer">
+            <div className="general">
+              <h2>General</h2>
+              <a href="/" >Fundraiser</a>
+              <a href="/" >Career</a>
+              <a href="/" >Blog</a>
+            </div>
+          </div>
+
+          <div className="bottom-footer">
+            <div className="miscellaneous">
+              <h2>Miscellaneous</h2>
+              <a href="/">Merchandise</a>
+              <a href="/">Events</a>
+              <a href="/">Blog</a>
+            </div>
           </div>
         </div>
       </footer>
-      <hr/>
-    <h3 className='h3'>Privacy Notice</h3>
+      <hr />
+      <h3 className='h3'>Privacy Notice</h3>
     </div>
   )
 }
