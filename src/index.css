@@ -1,19 +1,10 @@
 
-
-@font-face{
-font-family: 'CyborgFont';
-src: url('../../tezos/src/fonts/Cyborg\ Punk.ttf') format('truetype');
-}
-
 @font-face{
   font-family: 'TechnoFont';
   src: url('../../tezos/src/fonts/techno_hideo_bold.ttf') format('truetype');
   }
 
-@font-face{
-  font-family: 'RaceFont';
-  src: url('../../tezos/src/fonts/Race\ Sport.ttf') format('truetype');
-}  
+
 
 /* ----- BASE ----- */
 *{
