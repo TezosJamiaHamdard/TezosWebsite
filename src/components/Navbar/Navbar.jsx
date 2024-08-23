@@ -63,7 +63,10 @@ window.addEventListener("scroll", updateNav);
           <Link to="/#contactform">
           <button onClick={()=>(contactRef.current.scrollIntoView())} className="join" style={{whiteSpace:"pre"}} > Join Us </button>
           </Link>
-          <button className="about"> About</button>
+       
+          <Link>
+          <button className="join" style={{whiteSpace:"pre"}} > About Us </button>
+          </Link>
         </div>
       </nav>
     </div>

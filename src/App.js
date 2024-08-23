@@ -17,8 +17,8 @@ const App = () => {
         <Route path="/" element={
           <>
           <Page1 /> 
-          <Page2 />
           <Page3 />
+          <Page2 />
           <Pagefour contactRef={contactRef}/>
           </>
           } />
