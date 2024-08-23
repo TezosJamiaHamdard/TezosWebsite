@@ -1,11 +1,3 @@
-
-@font-face{
-  font-family: 'TechnoFont';
-  src: url('../../tezos/src/fonts/techno_hideo_bold.ttf') format('truetype');
-  }
-
-
-
 /* ----- BASE ----- */
 *{
   margin: 0;
