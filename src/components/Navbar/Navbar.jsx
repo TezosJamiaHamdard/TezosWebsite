@@ -1,10 +1,10 @@
 import './Navbar.css'
-import logo from '../../assets/logo.jpg'
+import Logo from '../../assets/logo.jpg'
 import { useEffect } from 'react'
 import {Link} from "react-router-dom"
 
 
-export default function Navbar() {
+export default function Navbar({contactRef}) {
   useEffect(()=>{
 const nav = document.querySelector("#nav");
 
@@ -29,7 +29,7 @@ window.addEventListener("scroll", updateNav);
   return (
     <div>
       <nav id="nav">
-        <logo> <img src={logo} alt="" className='logo' /> </logo>
+        <img src={Logo} alt="" className='logo' />
         <div className="nav-menu" id="myNavMenu">
           <ul className="nav_menu_list">
             <li className="nav_list">
@@ -59,8 +59,10 @@ window.addEventListener("scroll", updateNav);
             </li>
           </ul>
         </div>
-        <div class="nav-button">
-          <button className="join"> JoinUs </button>
+        <div className="nav-button">
+          <Link to="/#contactform">
+          <button onClick={()=>(contactRef.current.scrollIntoView())} className="join" style={{whiteSpace:"pre"}} > Join Us </button>
+          </Link>
           <button className="about"> About</button>
         </div>
       </nav>

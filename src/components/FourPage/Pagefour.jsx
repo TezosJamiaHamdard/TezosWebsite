@@ -2,11 +2,11 @@ import React from 'react'
 import './PageFour.css'
 import bg from '../../assets/contact4.jpg'
 
-function Pagefour() {
+function Pagefour({contactRef}) {
     return (
-        <div className='four' style={{backgroundImage: `url(${bg})`}}>
+        <div ref={contactRef} className='four'  style={{backgroundImage: `url(${bg})`}}>
             {/* <h1></h1> */}
-            <div className="form-container">
+            <div className="form-container" name="contactform">
                 <form className="form">
                     <div className="form-group">
                         <label htmlFor="email">Want to Join Us?</label>

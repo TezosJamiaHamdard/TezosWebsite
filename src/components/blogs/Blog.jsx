@@ -3,7 +3,7 @@ import "./Blog.css"
 import { useEffect } from 'react'
 
 
-function Blog() {
+export default function Blog() {
 
   useEffect(() => {
     // const swiper = new Swiper('.slider-wrapper', {
@@ -119,6 +119,4 @@ function Blog() {
     </div>
   )
 }
-
-
-export default Blog
+;
