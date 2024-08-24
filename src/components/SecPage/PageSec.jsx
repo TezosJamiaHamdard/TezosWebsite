@@ -1,11 +1,15 @@
 import React from 'react'
 import './Page-2.css'
 import { useEffect } from 'react'
+import Event1 from '../../assets/event1.jpg'
+import Event2 from '../../assets/event2.png'
+import Event3 from '../../assets/event3.jpg'
+import Event4 from '../../assets/event4.jpg'
+import Event5 from '../../assets/event5.jpg'
+
 
 
 const PageSec = () => {
-    const imageUrl = "https://cdn.mos.cms.futurecdn.net/KerS8YfraFj9SUL5j7AaEQ-1200-80.jpg"
-    // const imageUrl2 = "https://cdn.mos.cms.futurecdn.net/KerS8YfraFj9SUL5j7AaEQ-1200-80.jpg"
     useEffect(() => {
         const panels = document.querySelectorAll(".panel");
 
@@ -32,46 +36,62 @@ const PageSec = () => {
                     className="panel active"
                     style={{
                         backgroundImage:
-                            `url(${imageUrl})`
+                            `url(${Event1})`,
+                              opacity: "0.8"
                     }}
                 >
-                    <h3>Event</h3>
+                    <h3>Event 2:- WORKSHOP ON “SHARDEUM and SPHERON</h3>
+                    <button className='btn-event'><a href="https://lu.ma/5z0wgmgi"> Check It Out</a></button>
+                    <button className='btn-vid-event'><a href="https://lu.ma/5z0wgmgi"> Watch Video</a></button>
                 </div>
                 <div
                     className="panel"
                     style={{
                         backgroundImage:
-                            `url(${imageUrl})`
+                            `url(${Event2})`,
+                              opacity: "0.8"
                     }}
                 >
-                    <h3>event</h3>
+                    <h3>Event 2:- WORKSHOP ON “SHARDEUM and SPHERON</h3>
+                    <button className='btn-event'><a href="https://lu.ma/5z0wgmgi"> Check It Out</a></button>
+                    <button className='btn-vid-event'><a href="https://lu.ma/5z0wgmgi"> Watch Video</a></button>
                 </div>
                 <div
                     className="panel"
                     style={{
                         backgroundImage:
-                            `url(${imageUrl})`
+                            `url(${Event3})`,
+                              opacity: "0.8"
                     }}
                 >
+                    <h3>Event 3:- Careers in WEB3</h3>
+                    <button className='btn-event'><a href="https://lu.ma/5z0wgmgi"> Check It Out</a></button>
+                    <button className='btn-vid-event'><a href="https://lu.ma/5z0wgmgi"> Watch Video</a></button>
                     
                 </div>
                 <div
                     className="panel"
                     style={{
                         backgroundImage:
-                            `url(${imageUrl})`
+                            `url(${Event4})`,
+                              opacity: "0.8"
                     }}
                 >
-                    <h3>Enemies</h3>
+                    <h3>Event 4:-  Workshop By Xiaohui Liu on Smart Contracts on Bitcoin using sCrypt</h3>
+                    <button className='btn-event'><a href="https://lu.ma/5z0wgmgi"> Check It Out</a></button>
+                    <button className='btn-vid-event'><a href="https://lu.ma/5z0wgmgi"> Watch Video</a></button>
                 </div>
                 <div
                     className="panel"
                     style={{
                         backgroundImage:
-                            `url(${imageUrl})`
+                            `url(${Event5})`,
+                            opacity: "0.8"
                     }}
                 >
-                    <h3>Items and Abilities</h3>
+                    <h3>Event 5:- Tezos & NFTs : Start to Stardom</h3>
+                    <button className='btn-event'><a href="https://lu.ma/5z0wgmgi"> Check It Out</a></button>
+                    <button className='btn-vid-event'><a href="https://lu.ma/5z0wgmgi"> Watch Video</a></button>
                 </div>
             </div>
 

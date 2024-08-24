@@ -4,7 +4,6 @@
     justify-content: center;
 }
 .first-section h1{
-    font-size: 55px;
     text-align: center;
     color: #f1f1f1;
     text-transform: uppercase;
@@ -12,9 +11,9 @@
     padding-top: 60px;
     padding-bottom: 30px;
     letter-spacing: 10px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 0px 0px 10px #000000;
     font-size: 100px;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .back-video{

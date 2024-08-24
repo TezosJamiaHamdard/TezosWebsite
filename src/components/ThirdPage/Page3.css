@@ -1,7 +1,7 @@
 .PageThird{
   position: relative;
   background: #000;
-  /* overflow: hidden; */
+  height: 150vh;
 
 }
 
@@ -30,38 +30,30 @@
   align-items: center;
 }
 
-/* .team{
-  height: 100vh;
-  object-fit: cover;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  justify-content: center;
-} */
-
 .btn-conteiner {
   display: flex;
-  justify-content: center;
-  --color-text: #ffffff;
-  --color-background: #ff135a;
-  --color-outline: #ff145b80;
-  --color-shadow: #00000080;
+    justify-content: center;
+    --color-text: #ffffff;
+    --color-background: #6c0b87;
+    --color-outline: #6c0b87;
+    --color-shadow: #00000080;
 }
 
 .btn-content {
   display: flex;
   align-items: center;
-  padding: 5px 30px;
+  padding: 3px 20px;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 18px;
   color: var(--color-text);
   background: var(--color-background);
   transition: 1s;
   border-radius: 100px;
   box-shadow: 0 0 0.2em 0 var(--color-background);
 }
+
 
 .btn-content:hover, .btn-content:focus {
   transition: 0.5s;
@@ -90,6 +82,14 @@
   top: 6%;
 }
 
+.buttons{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  white-space: pre;
+}
+
 /* Button animations */
 @-webkit-keyframes btn-content {
   0% {
@@ -109,6 +109,20 @@
 @media (max-width: 768px) {
   .responsive-background {
     background-image: url('../../assets/team-for-mobile.png');
+    background-position: cover;
+    background-size: cover;
+    height: 80vh;
+    margin-bottom: 0px;
+  }
+  .btn-content {
+    display: flex;
+    align-items: center;
+    padding: 1px 4px;
+    font-weight: 200;
+    font-size: 6px;
+  }
+  .buttons{
+    gap: 5px;
   }
 }
 

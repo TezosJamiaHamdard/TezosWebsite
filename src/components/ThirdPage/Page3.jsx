@@ -8,26 +8,44 @@ function Page3() {
       <div className="responsive-background"></div>
 
       {/* <img src="/team1.svg" alt='' classNameName='team' /> */}
-      <div className="btn-conteiner">
-        <a className="btn-content" href="/">
-          <span className="btn-title">Tech Team</span>
-        </a>
+      <div className="buttons">
+
+        <div className="btn-conteiner">
+          <a className="btn-content" href="/">
+            <span className="btn-title">Tech Team</span>
+          </a>
+        </div>
+        <div className="btn-conteiner">
+          <a className="btn-content" href="/">
+            <span className="btn-title">Photography Team</span>
+          </a>
+        </div>
+        <div className="btn-conteiner">
+          <a className="btn-content" href="/">
+            <span className="btn-title">PR Team</span>
+          </a>
+        </div>
+        <div className="btn-conteiner">
+          <a className="btn-content" href="/">
+            <span className="btn-title">Designing Team</span>
+          </a>
+        </div>
+        <div className="btn-conteiner">
+          <a className="btn-content" href="/">
+            <span className="btn-title">Social Media Team</span>
+          </a>
+        </div>
+        <div className="btn-conteiner">
+          <a className="btn-content" href="/">
+            <span className="btn-title">Content Team</span>
+          </a>
+        </div>
+        <div className="btn-conteiner">
+          <a className="btn-content" href="/">
+            <span className="btn-title">Management Team</span>
+          </a>
+        </div>
       </div>
-      {/* <div className="btn-conteiner">
-        <a className="btn-content" href="#">
-          <span className="btn-title">Tech Team</span>
-        </a>
-      </div>
-      <div className="btn-conteiner">
-        <a className="btn-content" href="#">
-          <span className="btn-title">Tech Team</span>
-        </a>
-      </div>
-      <div className="btn-conteiner">
-        <a className="btn-content" href="#">
-          <span className="btn-title">Tech Team</span>
-        </a>
-      </div> */}
     </div>
   )
 }

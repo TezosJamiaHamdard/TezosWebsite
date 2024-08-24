@@ -49,7 +49,7 @@ MenuFunction();
               </Link>
             </li>
             <li className="nav_list">
-              <Link to="/" className="nav-link">
+              <Link to="/members" className="nav-link">
                 Members
               </Link>
             </li>
@@ -64,7 +64,7 @@ MenuFunction();
               </Link >
             </li>
             <li className="nav_list">
-              <Link to="/about" className="nav-link">
+              <Link to="" className="nav-link">
                 Contact
               </Link>
             </li>
@@ -75,7 +75,7 @@ MenuFunction();
           <button onClick={()=>(contactRef.current.scrollIntoView())} className="join" style={{whiteSpace:"pre"}} > Join Us </button>
           </Link>
        
-          <Link>
+          <Link to="/about">
           <button className="join" style={{whiteSpace:"pre"}} > About Us </button>
           </Link>
         </div>

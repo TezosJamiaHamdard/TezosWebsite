@@ -12,7 +12,8 @@ nav{
     transition: .3s;
     z-index: 99;
     text-transform: uppercase;
-}
+
+  }
 .nav-logo{
    position: relative;
 }

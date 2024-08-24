@@ -7,6 +7,8 @@ import Page3 from './components/ThirdPage/Page3';
 import Pagefour from './components/FourPage/Pagefour';
 import Footer from './components/footer/Footer';
 import Blog from './components/blogs/Blog';
+import About from './components/about/About';
+import Members from './components/members/Members';
 const App = () => {
   const contactRef=useRef(null);
   return (
@@ -24,6 +26,8 @@ const App = () => {
           } />
 
         <Route path="/blogs" element={<Blog/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/members" element={<Members/>} />
       </Routes>
       <Footer />
       </Router>
