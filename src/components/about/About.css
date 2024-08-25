@@ -56,4 +56,63 @@
     padding-left: 40px;
 }
 
+.tezos-1{
+    width: 100%;
+    height: 10vh;
+    /* text-align: center; */
+    line-height: 120px;
+    font-size: 5rem;
+    padding-left: 30px;
+}
 
+.about-section2{
+    background-color: #fff;
+}
+
+.tezos-2{
+    width: 100%;
+    height: 10vh;
+    line-height: 120px;
+    font-size: 5rem;
+    padding-left: 30px;
+    color: #a716d7;
+}
+.about-sec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    font-weight: 400;
+    padding-inline: 30px;
+
+}
+
+.sec2-subtitle{
+    font-size: 2rem;
+}
+
+.sec-about-img{
+    margin-top: 80px;
+    color: black;
+    display: flex;
+    gap: 30px;
+    padding-inline: 40px;
+    background-color: #fff;
+}
+
+.sec2-img{
+    width: 60%;
+}
+
+.sec2-about-img{
+    width: 100%;
+}
+
+.sec2-img-text{
+    padding-top: 40px;
+    padding-inline: 40px;
+}
