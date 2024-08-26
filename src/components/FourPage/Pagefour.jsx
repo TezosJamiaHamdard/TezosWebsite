@@ -31,7 +31,7 @@ function Pagefour({contactRef}) {
         }
       };
     return (
-        <div ref={contactRef} className='four'  style={{backgroundImage: `url(${bg})`}}>
+        <div ref={contactRef} className='four'  style={{backgroundImage: `url(${bg})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
             {/* <h1></h1> */}
             <div className="form-container" name="contactform">
                 <form className="form" onSubmit={onSubmit}>

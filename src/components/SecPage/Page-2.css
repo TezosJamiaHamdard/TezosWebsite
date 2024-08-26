@@ -7,7 +7,8 @@
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background: linear-gradient(to right, #510863, #511a81);
+  background: rgb(92,15,163);
+background: linear-gradient(90deg, rgba(92,15,163,1) 0%, rgba(117,33,235,0.9922093837535014) 21%, rgba(121,44,228,1) 35%, rgba(111,41,210,1) 53%, rgba(0,212,255,1) 100%);
 }
 .container {
   display: flex;

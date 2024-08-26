@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import {Link} from "react-router-dom"
 import { CiMenuBurger } from "react-icons/ci";
 
+
 /* ----- NAVIGATION BAR FUNCTION ----- */
 function MenuFunction(){
   var menuBtn = document.getElementById("myNavMenu");
@@ -14,7 +15,7 @@ function MenuFunction(){
     menuBtn.className = "nav-menu";
   }
 }
-export default function Navbar({contactRef}) {
+export default function Navbar({contactRef, EventRef}) {
   useEffect(()=>{
 const nav = document.querySelector("#nav");
 
@@ -34,6 +35,9 @@ function updateNav() {
 // Add a scroll event listener to the window
 window.addEventListener("scroll", updateNav);
 MenuFunction();
+
+
+
   })
   
 
@@ -54,8 +58,8 @@ MenuFunction();
               </Link>
             </li>
             <li className="nav_list">
-              <Link to="/" className="nav-link">
-                Events
+              <Link to="/#events" className="nav-link">
+                <span onClick={()=>(setTimeout(() => EventRef.current.scrollIntoView()) , 1000)}>Events</span>
               </Link>
             </li>
             <li className="nav_list">
@@ -69,15 +73,15 @@ MenuFunction();
               </Link>
             </li>
           </ul>
-        </div>
         <div className="nav-button">
           <Link to="/#contactform">
-          <button onClick={()=>(contactRef.current.scrollIntoView())} className="join" style={{whiteSpace:"pre"}} > Join Us </button>
+            <button onClick={()=>(setTimeout(() => contactRef.current.scrollIntoView()) , 1000)} className="join" style={{whiteSpace:"pre"}} > Join Us </button>
           </Link>
        
           <Link to="/about">
-          <button className="join" style={{whiteSpace:"pre"}} > About Us </button>
+            <button className="join" style={{whiteSpace:"pre"}} > About Us </button>
           </Link>
+        </div>
         </div>
         <div className="nav-menu-btn">
             <CiMenuBurger size={25} className="uil uil-bars" onClick={MenuFunction}/>

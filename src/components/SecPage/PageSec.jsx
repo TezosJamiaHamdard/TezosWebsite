@@ -9,7 +9,7 @@ import Event5 from '../../assets/event5.jpg'
 
 
 
-const PageSec = () => {
+const PageSec = ({EventRef}) => {
     useEffect(() => {
         const panels = document.querySelectorAll(".panel");
 
@@ -30,7 +30,7 @@ const PageSec = () => {
         }
     })
     return (
-        <div className="PageSecond">
+        <div className="PageSecond" name ="events" ref={EventRef}>
             <div className="container">
                 <div
                     className="panel active"

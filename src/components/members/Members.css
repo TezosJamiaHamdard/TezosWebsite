@@ -10,17 +10,15 @@
 .btn-container{
   padding: 8px 12px;
 }
-  .active{
-    background-color: #303030;
-    color: #f0f0f0;
-  }
-
   .team-title{
     margin-bottom: 60px;
     color: #f0f0f0;
     }
     
     .button-team{
+      display: flex;
+      justify-content: center;
+      align-items: center;
         gap: 10px;
         background-color: #303030;
         padding-top: 100px;
@@ -43,7 +41,7 @@
     border-radius: 4px;
     width: 100%;
     max-width: 1400px;
-    display: none;
+    /* display: none; */
   
     /* // Scrollbar */
     &::-webkit-scrollbar {
@@ -99,6 +97,7 @@
             z-index: 1;
             transform: scale(1);
             filter: grayscale(0);
+            
       
 
           }
@@ -207,11 +206,21 @@
     }
   }
 
+.wrapper{
+  display: none;
+} 
 
-.wrapper.active-member{
+.active-members{
   display: block;
 }
-  
+
+
+.actives{
+  background-color: #303030;
+  color: #f0f0f0;
+}
+
+
   /* // Responsive */
   @media screen and (min-width: 1080px) {
     .wrapper {

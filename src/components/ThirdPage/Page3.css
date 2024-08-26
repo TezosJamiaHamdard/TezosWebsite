@@ -19,7 +19,7 @@
 } */
 
 .responsive-background {
-  background-image: url('../../assets/team1.svg');
+  background-image: url('../../assets/team.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,80 +30,6 @@
   align-items: center;
 }
 
-.btn-conteiner {
-  display: flex;
-    justify-content: center;
-    --color-text: #ffffff;
-    --color-background: #6c0b87;
-    --color-outline: #6c0b87;
-    --color-shadow: #00000080;
-}
-
-.btn-content {
-  display: flex;
-  align-items: center;
-  padding: 3px 20px;
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  color: var(--color-text);
-  background: var(--color-background);
-  transition: 1s;
-  border-radius: 100px;
-  box-shadow: 0 0 0.2em 0 var(--color-background);
-}
-
-
-.btn-content:hover, .btn-content:focus {
-  transition: 0.5s;
-  -webkit-animation: btn-content 1s;
-  animation: btn-content 1s;
-  outline: 0.1em solid transparent;
-  outline-offset: 0.2em;
-  box-shadow: 0 0 0.4em 0 var(--color-background);
-}
-
-.btn-content .icon-arrow {
-  transition: 0.5s;
-  margin-right: 0px;
-  transform: scale(0.6);
-}
-
-.btn-content:hover .icon-arrow {
-  transition: 0.5s;
-  margin-right: 25px;
-}
-
-.icon-arrow {
-  width: 20px;
-  margin-left: 15px;
-  position: relative;
-  top: 6%;
-}
-
-.buttons{
-  display: flex;
-  gap: 30px;
-  align-items: center;
-  justify-content: center;
-  white-space: pre;
-}
-
-/* Button animations */
-@-webkit-keyframes btn-content {
-  0% {
-    outline: 0.2em solid var(--color-background);
-    outline-offset: 0;
-  }
-}
-
-@keyframes btn-content {
-  0% {
-    outline: 0.2em solid var(--color-background);
-    outline-offset: 0;
-  }
-}
 
 /* Background for smaller screens */
 @media (max-width: 768px) {
@@ -113,16 +39,6 @@
     background-size: cover;
     height: 80vh;
     margin-bottom: 0px;
-  }
-  .btn-content {
-    display: flex;
-    align-items: center;
-    padding: 1px 4px;
-    font-weight: 200;
-    font-size: 6px;
-  }
-  .buttons{
-    gap: 5px;
   }
 }
 

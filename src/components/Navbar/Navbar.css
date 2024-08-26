@@ -20,7 +20,6 @@ nav{
 .nav-name{
     font-size: 3rem;
     font-weight: 400;
-    color: var(--text-color-third);
     font-family: "Dancing Script", cursive;
     font-style: normal;
 }
@@ -41,7 +40,6 @@ nav{
 }
 .nav-link{
     text-decoration: none;
-    color: var(--text-color-third);
     font-weight: 500;
     padding-inline: 2px;
     margin-inline: 14px;
@@ -55,7 +53,6 @@ nav{
 }
 .active-link{
     position: relative;
-    color: var(--first-color);
     transition: .3;
 }
 
@@ -106,9 +103,6 @@ nav{
 
  /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
 @media only screen and (max-width: 900px) {
-    .nav-button{
-        display: none;
-    }
     .nav-menu.responsive{
         left: 0;
     }
@@ -116,7 +110,6 @@ nav{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: var(--first-color);
         backdrop-filter: blur(20px);
         width: 100%;
         min-height: 450px;
@@ -129,12 +122,10 @@ nav{
     .nav_menu_list{
         flex-direction: column;
     }
-    .nav-menu ul li a{
-        color: var(--text-color-third);
-    }
     .nav-menu-btn{
         display: flex;
         align-items: center;
         justify-content: center;
     }
+   
 }
