@@ -11,6 +11,9 @@ function About() {
           <h1 className="about-title">About Us</h1>
         </div>
         <div className="about-details">
+          {/* <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style={{ position: "absolute", opacity: "0.4", left: "0", top: "10" }}>
+            <path fill="#8E05C2" d="M60.8,-51.2C72,-34.5,69.6,-9.6,63.6,13.7C57.6,36.9,48.1,58.4,31.3,67.6C14.4,76.7,-9.6,73.4,-29.6,63.1C-49.5,52.9,-65.2,35.7,-69.8,15.8C-74.5,-4,-68,-26.5,-54.5,-43.7C-41,-60.9,-20.5,-72.9,2.2,-74.6C24.8,-76.3,49.6,-67.8,60.8,-51.2Z" transform="translate(100 100)" />
+          </svg> */}
           <h2 className="tezos-1">What Is Tezos?</h2>
           <div className='about-background'>
             <p className="about-text"> Welcome to The Tezos Community, a platform where like-minded individuals come together to share ideas, learn and grow together. We are a community of developers, designers, artists, and enthusiasts who share a common interest in the Tezos ecosystem.
@@ -221,3 +224,15 @@ function About() {
 
 export default About
 
+
+
+
+
+// .magicpattern { 
+//   width: 100%;
+//   height: 100%;
+//   background-size: cover;
+//   background-position: center center;
+//   background-repeat: repeat;
+//   background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 2000 1400%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cmask id=%22b%22 x=%220%22 y=%220%22 width=%222000%22 height=%221400%22%3E%3Cpath fill=%22url(%23a)%22 d=%22M0 0h2000v1400H0z%22%2F%3E%3C%2Fmask%3E%3Cpath fill=%22%2300000a%22 d=%22M0 0h2000v1400H0z%22%2F%3E%3Cg mask=%22url(%23b)%22%3E%3Cg transform=%22matrix(1.12887 .21943 -.04063 1.16363 0 0)%22 style=%22transform-origin:center center%22 fill=%22%239624bb%22%3E%3Ccircle cx=%221330%22 cy=%2266.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%221795.5%22 cy=%22199.5%22 r=%223.2%22%2F%3E%3Ccircle cy=%22332.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%22266%22 cy=%22332.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%22399%22 cy=%22332.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%221463%22 cy=%22332.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%221396.5%22 cy=%22465.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%22665%22 cy=%22598.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%22931%22 cy=%22598.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%221529.5%22 cy=%22731.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%22598.5%22 cy=%22997.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%22731.5%22 cy=%22997.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%221396.5%22 cy=%22997.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%22399%22 cy=%221130.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%22532%22 cy=%221130.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%22798%22 cy=%221130.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%22598.5%22 cy=%221263.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%221130.5%22 cy=%221263.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%221662.5%22 cy=%221263.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%22798%22 cy=%221396.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%221330%22 cy=%221396.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%221596%22 cy=%221396.5%22 r=%223.2%22%2F%3E%3Ccircle cx=%221862%22 cy=%221396.5%22 r=%223.2%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3Cdefs%3E%3CradialGradient id=%22a%22%3E%3Cstop offset=%220%22 stop-color=%22%23fff%22%2F%3E%3Cstop offset=%221%22 stop-color=%22%23fff%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3C%2Fsvg%3E");
+// }
