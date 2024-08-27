@@ -2,10 +2,11 @@ import React from 'react'
 import './Footer.css'
 import { FaGithub, FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
-import { FaReddit } from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import Logo from '../../assets/logo.png'
+
 
 function Footer() {
   return (
@@ -33,12 +34,12 @@ function Footer() {
             </div>
             <div className="icon">
               <a href="/" className="btn-icon">
-                <FaReddit style={{ color: "#fff" }} size={30} />
+                <FaWhatsapp style={{ color: "#fff" }} size={30} />
               </a>
             </div>
             <div className="icon">
-              <a href="/" className="btn-icon">
-                <FaDiscord style={{ color: "#fff", paddingTop: "4px" }} size={25} />
+              <a href="https://youtube.com/@tezosjh?si=NZ40ocBmoLjIoTN6" className="btn-icon">
+                <FaYoutube style={{ color: "#fff", paddingTop: "4px" }} size={25} />
               </a>
             </div>
             <div className="icon">

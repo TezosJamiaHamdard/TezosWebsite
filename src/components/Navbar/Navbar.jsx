@@ -68,8 +68,8 @@ MenuFunction();
               </Link >
             </li>
             <li className="nav_list">
-              <Link to="" className="nav-link">
-                Contact
+              <Link to="/roadmap" className="nav-link">
+                Roadmap
               </Link>
             </li>
           </ul>

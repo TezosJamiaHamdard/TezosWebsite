@@ -9,6 +9,7 @@ import Footer from './components/footer/Footer';
 import Blog from './components/blogs/Blog';
 import About from './components/about/About';
 import Members from './components/members/Members';
+import Roadmap from './components/roadmap/Roadmap';
 
 // ScrollToTop Component
 const ScrollToTop = () => {
@@ -42,6 +43,7 @@ const App = () => {
         <Route path="/blogs" element={<Blog/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/members" element={<Members/>} />
+        <Route path="/roadmap" element={<Roadmap/>} />
       </Routes>
       <Footer />
     </Router>

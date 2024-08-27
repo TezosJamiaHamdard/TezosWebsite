@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import './Members.css';
+import './Membersteam.css';
 
 const TeamMember = ({ id, name, title, bio, avatar }) => (
   <>
