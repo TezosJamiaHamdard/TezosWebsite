@@ -119,7 +119,8 @@ background: linear-gradient(90deg, rgba(92,15,163,1) 0%, rgba(117,33,235,0.99220
     background-position: center;
   }
   .panel {
-    background-size: 100%;
+    background-size: 80%;
+    object-fit: cover;
   }
 
   .panel h3 {

@@ -17,17 +17,17 @@ function Footer() {
           <h2 style={{ color: "white" }}>FOLLOW US </h2>
           <div className="footer-social-icons">
             <div className="icon">
-              <a href="/" className="btn-icon" >
+              <a href="https://www.instagram.com/tezosclub.jh?igsh=MXF5b3h2bDUweTlk" className="btn-icon" >
                 <FaInstagram style={{ color: "#fff", paddingTop: "4px" }} size={25} />
               </a>
             </div>
             <div className="icon">
-              <a href="/" className="btn-icon">
+              <a href="https://github.com/TezosJamiaHamdard" className="btn-icon">
                 <FaGithub style={{ color: "#fff" }} size={30} />
               </a>
             </div>
             <div className="icon">
-              <a href="/" className="btn-icon">
+              <a href="https://www.linkedin.com/company/tezos-club-jamia-hamdard/" className="btn-icon">
                 <FaLinkedinIn style={{ color: "#fff", paddingTop: "4px" }} size={25} />
               </a>
             </div>
@@ -42,7 +42,7 @@ function Footer() {
               </a>
             </div>
             <div className="icon">
-              <a href="/" className="btn-icon">
+              <a href="https://x.com/Tezosclubjh?t=g_CSWx9n_vny9Id24Oizrw&s=09" className="btn-icon">
                 <FaXTwitter style={{ color: "#fff", paddingTop: "4px" }} size={25} />
               </a>
             </div>

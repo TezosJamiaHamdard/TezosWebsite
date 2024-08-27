@@ -49,7 +49,7 @@ function About() {
               <div className="sec2-img-text">
                 <p className="sec2-text">
                   <ul>
-                    <h4>The Tezos Community</h4>
+                    <h3 className="sec2-subtitle-com">The Tezos Community</h3>
                     <li>Meet like-minded individuals who share a common interest in the Tezos ecosystem.</li>
                     <li>Connect with like-minded individuals who share a common interest in the Tezos ecosystem.</li>
                     <li>Learn, share, and build together.</li>

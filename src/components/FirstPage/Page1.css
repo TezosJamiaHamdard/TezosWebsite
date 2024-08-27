@@ -67,14 +67,7 @@
   display: flex;
   gap: 20px;
 }
-/* .featured-text-btn>.blue-btn{
-  background: var(--first-color);
-  color: var(--text-color-second);
-}
-.featured-text-btn>.blue-btn:hover{
-  background: var(--first-color-hover);
-  color: var(--first-color);
-} */
+
 .social-icons{
   display: flex;
   justify-content: center;
@@ -98,4 +91,7 @@
   .first-section h1{
     font-size: 50px;
   }
+  /* .social-icons{
+
+  } */
 }
