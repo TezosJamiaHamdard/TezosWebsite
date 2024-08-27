@@ -1,4 +1,4 @@
-/* .team-members-div {
+.team-members-div {
   font-family: "Manrope", sans-serif;
   background-color: #303030;
   color: #fbfbfb;
@@ -44,6 +44,7 @@
   max-width: 1400px;
   display: none;
 
+  /* // Scrollbar */
   &::-webkit-scrollbar {
     width: 6px;
   }
@@ -171,9 +172,9 @@
 
  
 
-.wrapper {
+/* .wrapper {
   display: none;
-}
+} */
 
 .active-members {
   display: block;
@@ -184,249 +185,6 @@
   color: #f0f0f0;
 }
 
-
-// Responsive
-@media screen and (min-width: 1080px) {
-  .wrapper {
-    .team-wrapper {
-      .cards {
-        .card-wrapper {
-          .card {
-            flex-flow: row nowrap;
-
-            .avatar {
-              width: 300px;
-              max-height: unset;
-              border-radius: 4px 0 0 4px;
-            }
-
-            .info {
-              padding: calc(20px * 2);
-            }
-          }
-        }
-      }
-    }
-  }
-} */
-
-
-
-
-
-.team-members-div{
-  font-family: "Manrope", sans-serif;
-  background-color: #303030;
-  color: #fbfbfb;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-.btn-container{
-padding: 8px 12px;
-}
-.active{
-  background-color: #303030;
-  color: #f0f0f0;
-}
-
-.team-title{
-  margin-bottom: 60px;
-  color: #f0f0f0;
-  }
-  
-  .button-team{
-      gap: 10px;
-      background-color: #303030;
-      padding-top: 100px;
-      padding-bottom: 30px;
-  }
-
-.wrapper {
-  box-sizing: border-box;
-  margin: 20px;
-  padding: 20px;
-  max-height: calc(100vh - 4 * 20px);
-  overflow-y: auto;
-  overflow-x: hidden;
-  display: flex;
-  flex-flow: column nowrap;
-  gap: calc(20px * 2);
-  background: #181818;
-  border: 1px solid #242424;
-  box-shadow: 0 8px 25px #02020280;
-  border-radius: 4px;
-  width: 100%;
-  max-width: 1400px;
-  display: none;
-
-  /* // Scrollbar */
-  &::-webkit-scrollbar {
-    width: 6px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: #02020280;
-    border-radius: 4px;
-  }
-
-  .team-wrapper {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 20px;
-
-    .members {
-      position: relative;
-      flex: 0 1 auto;
-      display: flex;
-      flex-flow: column nowrap;
-
-      .tile {
-        cursor: pointer;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100px;
-        height: 100px;
-        border-radius: 4px;
-        background: #02020280;
-        overflow: hidden;
-        transform: scale(0.7);
-        filter: grayscale(1);
-        transition: all 0.2s ease;
-
-        img {
-          display: flex;
-          object-fit: cover;
-          pointer-events: none;
-          user-select: none;
-        }
-
-        &:hover {
-          filter: grayscale(0.6);
-          transform: scale(0.8);
-        }
-
-        &.active {
-          box-shadow: 0 0 10px 10px #181818;
-          background: #ccc;
-          position: sticky;
-          top: 0;
-          z-index: 1;
-          transform: scale(1);
-          filter: grayscale(0);
-    
-
-        }
-      }
-    }
-
-    .divider {
-      flex: 0 0 2px;
-      background: #242424;
-      border-radius: 4px;
-      align-self: stretch;
-      box-shadow: 0 0 2px #02020280;
-    }
-
-    .cards {
-      flex: 1 1 auto;
-
-      .card-wrapper {
-        position: sticky;
-        top: 0;
-
-        .card {
-          border-radius: 4px;
-          border-bottom: 2px solid #242424;
-          background: linear-gradient(130deg, #303030 0%, #101010 100%);
-          display: flex;
-          align-items: flex-start;
-          flex-flow: column nowrap;
-          visibility: hidden;
-          opacity: 0;
-          transition: all 0.6s ease;
-          position: absolute;
-          top: 0;
-
-          .avatar {
-            flex: 1 0 auto;
-            display: flex;
-            width: 100%;
-            max-height: 200px;
-            align-self: stretch;
-            border-radius: 4px 4px 0 0;
-            object-fit: cover;
-            pointer-events: none;
-            user-select: none;
-          }
-
-          .info {
-            padding: 20px;
-            display: flex;
-            flex-flow: column nowrap;
-
-            .name {
-              font-size: 28px;
-              font-weight: 700;
-              letter-spacing: -0.4px;
-            }
-
-            .title {
-              font-size: 18px;
-              font-weight: 500;
-              color: #ffcc70;
-            }
-
-            .bio {
-              font-size: 16px;
-              font-weight: 300;
-              color: #f0f0f0;
-            }
-          }
-        }
-      }
-
-      input {
-        appearance: unset;
-
-        &:checked + .card {
-          visibility: visible;
-          opacity: 1;
-        }
-      }
-    }
-  }
-
-  .intro-wrapper,
-  .cta-wrapper {
-    border-top: 2px solid #242424;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-flow: column nowrap;
-    min-height: 300px;
-    font-weight: 600;
-    font-size: 36px;
-  }
-
-  .intro-wrapper {
-    border-radius: 4px 4px 0 0;
-    text-shadow: 0 2px 2px #151515;
-    background-image: linear-gradient(130deg, #303030 0%, #101010 100%);
-    font-size: 68px;
-    font-weight: 800;
-    border-top: none;
-    border-bottom: 3px solid #242424;
-  }
-}
-
-
-.wrapper.active-member{
-display: block;
-}
 
 /* // Responsive */
 @media screen and (min-width: 1080px) {
