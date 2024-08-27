@@ -215,3 +215,13 @@
       }
     }
   }
+
+  @media only screen and (max-width: 800px) {
+    .about-text{
+      font-size: 1rem;
+    }
+    .sec1-about-image{
+      width: 90%;
+      height: 50%;
+    }
+  }

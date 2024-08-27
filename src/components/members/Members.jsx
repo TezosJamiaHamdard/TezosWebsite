@@ -1,8 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 import './Members.css'
 
-
 function Members() {
+  const [showtab, setShowtab] = useState(1);
+
+  const handletab = (e) => {
+    setShowtab(e);
+  };
 
   useEffect(() => {
     function initializeEventListeners() {
@@ -12,11 +16,10 @@ function Members() {
         tile.addEventListener("click", () => {
           tiles.forEach((tile) => {
             tile.classList.remove("active");
-          })
+          });
           tile.classList.add("active");
         });
       });
-
     }
 
     function initialize() {
@@ -26,15 +29,8 @@ function Members() {
     // Start it up
     initialize();
 
-
-
-
-  })
-  const [showtab, setShowtab] = useState(1);
-  const handletab = (e) => {
-    setShowtab(e);
-  }
-
+  // }, [showtab]); // Add showtab as a dependency
+  });
   return (
     <>
       <div className="buttons button-team">
@@ -63,11 +59,9 @@ function Members() {
           Management Team
         </button>
         <button className={showtab === 9 ? "btn-container actives" : "btn-container"} onClick={() => handletab(9)}>
-          Desinging Team
+          Designing Team
         </button>
       </div>
-
-
 
       <div className='team-members-div'>
         <div className={showtab === 1 ? "wrapper active-members" : "wrapper"} >
@@ -489,9 +483,8 @@ function Members() {
           </div>
         </div>
       </div>
-
 {/* second */}
-      <div className='team-members-div'> 
+      <div className='team-members-div'>
         <div className={showtab === 2 ? "wrapper active-members" : "wrapper"} >
           {/* CTA Wrapper */}
           <div className="intro-wrapper">
@@ -912,13 +905,14 @@ function Members() {
         </div>
       </div>
 
+      {/* Repeat the above structure for other tabs */}
 
-      {/* third */}
-      <div className='team-members-div'>
+{/* third */}
+ <div className='team-members-div'>
         <div className={showtab === 3 ? "wrapper active-members" : "wrapper"} >
           {/* CTA Wrapper */}
           <div className="intro-wrapper">
-            <div className="team-title">PR TEAM</div>
+            <div className="team-title">CORE TEAM</div>
           </div>
           {/* Team Wrapper */}
           <div className="team-wrapper">
@@ -3875,7 +3869,7 @@ function Members() {
 
 
     </>
-  )
+  );
 }
 
 export default Members
