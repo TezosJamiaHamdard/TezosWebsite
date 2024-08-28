@@ -27,7 +27,7 @@ const App = () => {
   const EventRef = useRef(null);
 
   return (
-    <Router>
+    <Router basename="/TezosWebsite">
       <ScrollToTop /> {/* This ensures the page scrolls to the top on route changes */}
       <Navbar contactRef={contactRef} EventRef={EventRef} />
       <Routes>
