@@ -11,10 +11,12 @@ function MenuFunction() {
 
   if (menuBtn.className === "nav-menu") {
     menuBtn.className += " responsive";
-  } else {
+  } 
+  else {
     menuBtn.className = "nav-menu";
   }
 }
+
 export default function Navbar({ contactRef, EventRef }) {
   useEffect(() => {
     const nav = document.querySelector("#nav");
@@ -68,7 +70,7 @@ export default function Navbar({ contactRef, EventRef }) {
               </Link >
             </li>
             <li className="nav_list">
-              <Link to="/roadmap" className="nav-link">
+              <Link to="/roadmap" className="nav-link roadmap-link">
                 Roadmap
               </Link>
             </li>

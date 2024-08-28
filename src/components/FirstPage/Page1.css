@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .first-section h1{
     text-align: center;
@@ -9,11 +10,24 @@
     text-transform: uppercase;
     font-weight: 900;
     padding-top: 60px;
-    padding-bottom: 30px;
-    letter-spacing: 10px;
+    /* padding-bottom: 30px; */
+    letter-spacing: 20px;
     text-shadow: 0px 0px 10px #000000;
     font-size: 100px;
     font-family: "Bebas Neue", sans-serif;
+}
+
+.first-section h4{
+  padding-top: 0px;
+  text-align: center;
+  color: #f1f1f1;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding-bottom: 30px;
+  letter-spacing: 15px;
+  text-shadow: 0px 0px 10px #000000;
+  font-size: 20px;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .back-video{
@@ -89,6 +103,8 @@
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
 @media only screen and (max-width: 900px) {
   .first-section h1{
+    padding-top: 10px;
+    text-align: center;
     font-size: 50px;
   }
   /* .social-icons{

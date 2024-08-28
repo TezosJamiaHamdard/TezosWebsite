@@ -44,7 +44,8 @@ export default function First() {
             <div className="featured-box" id="main">
                 <div className="featured-text">
                     <div className="first-section">
-                        <h1>Tezos JHU</h1>
+                        <h1>Tezos</h1>
+                        <h4>Jamia Hamdard</h4>
                     </div>
                     <div className="social-icons">
                         <div className="icon">
