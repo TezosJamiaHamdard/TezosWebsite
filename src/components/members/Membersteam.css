@@ -270,13 +270,13 @@
 
   .team-wrapper {
     display: flex;
-    flex-flow: row nowrap;
-    /* flex-direction: column; */
+    /* flex-flow: row nowrap; */
+    flex-direction: row;
     gap: 20px;
 
     .members {
       position: relative;
-      /* flex: 0 1 auto; */
+      flex: 0 1 auto;
       display: flex;
       flex-direction: column;
       /* flex-flow: column nowrap; */
