@@ -416,3 +416,9 @@
     }
   }
 }
+
+.team-wrapper .cards .card-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
