@@ -22,25 +22,23 @@ const Team = ({ teamMembers, title }) => (
         <div className="team-title">{title}</div>
       </div>
       <div className="team-wrapper">
-          <div className="members">
-            <div style={{ display: 'flex', flexDirection: 'column', backgroundColor: 'red' }} >
-              {teamMembers.map((member, index) => (
-                <div key={index} style={{ display: 'flex', flexDirection: 'column' }}>
-                <label htmlFor={member.id}  className={index === 0 ? "tile active" : "tile"}>
-                  <img src={member.avatar} style={{ width: '10rem', height: '10rem', objectFit: 'cover' }} />
-                </label>
-                </div>
-              ))}
+        <div className="members">
+          {teamMembers.map((member, index) => (
+            <div key={index} style={{ display: 'flex', flexDirection: 'column' }}>
+              <label htmlFor={member.id} className={index === 0 ? "tile active" : "tile"}>
+                <img src={member.avatar} style={{ width: '10rem', height: '10rem', objectFit: 'cover' }} />
+              </label>
             </div>
+          ))}
+        </div>
+        <div className="divider" />
+        <div className="cards">
+          <div className="card-wrapper">
+            {teamMembers.map((member, index) => (
+              <TeamMember key={index} {...member} />
+            ))}
           </div>
-          <div className="divider" />
-          <div className="cards">
-            <div className="card-wrapper">
-              {teamMembers.map((member, index) => (
-                <TeamMember key={index} {...member} />
-              ))}
-            </div>
-          </div>
+        </div>
       </div>
     </div>
   </div>
