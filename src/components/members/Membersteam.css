@@ -277,7 +277,8 @@
       position: relative;
       flex: 0 1 auto;
       display: flex;
-      flex-flow: column nowrap;
+      flex-direction: column;
+      /* flex-flow: column nowrap; */
     }
 
     .divider {
