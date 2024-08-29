@@ -263,6 +263,7 @@
   &::-webkit-scrollbar {
     width: 6px;
   }
+
   &::-webkit-scrollbar-thumb {
     background: #02020280;
     border-radius: 4px;
@@ -292,7 +293,7 @@
 
     .cards {
       flex: 1 1 auto;
-      /* trial */
+      width: 100%;
       background-color: red;
 
       .card-wrapper {
@@ -353,7 +354,7 @@
       input {
         appearance: unset;
 
-        &:checked + .card {
+        &:checked+.card {
           visibility: visible;
           opacity: 1;
         }
@@ -419,4 +420,3 @@
     }
   }
 }
-
