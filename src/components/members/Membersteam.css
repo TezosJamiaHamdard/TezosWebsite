@@ -292,6 +292,8 @@
 
     .cards {
       flex: 1 1 auto;
+      /* trial */
+      background-color: red;
 
       .card-wrapper {
         position: sticky;
