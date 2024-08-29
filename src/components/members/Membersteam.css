@@ -270,12 +270,13 @@
 
   .team-wrapper {
     display: flex;
-    flex-flow: row nowrap;
+    /* flex-flow: row nowrap; */
+    flex-direction: column;
     gap: 20px;
 
     .members {
       position: relative;
-      flex: 0 1 auto;
+      /* flex: 0 1 auto; */
       display: flex;
       flex-direction: column;
       /* flex-flow: column nowrap; */
@@ -417,8 +418,3 @@
   }
 }
 
-.team-wrapper .cards .card-wrapper {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-}

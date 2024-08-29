@@ -26,6 +26,7 @@ const Team = ({ teamMembers, title }) => (
           {teamMembers.map((member, index) => (
             <label htmlFor={member.id} key={index} className={index === 0 ? "tile active" : "tile"}>
               <img src={member.avatar} style={{ width: '10rem', height: '10rem', objectFit: 'cover'  }} />
+              <p>askjdlask</p>
             </label>
           ))}
         </div>
