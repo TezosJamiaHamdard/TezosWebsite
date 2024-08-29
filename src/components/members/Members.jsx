@@ -22,13 +22,16 @@ const Team = ({ teamMembers, title }) => (
         <div className="team-title">{title}</div>
       </div>
       <div className="team-wrapper">
-        <div style={{ display: 'flex', flexDirection: 'row',gap: '20px' }}>
           <div className="members">
-            {teamMembers.map((member, index) => (
-              <label htmlFor={member.id} key={index} className={index === 0 ? "tile active" : "tile"}>
-                <img src={member.avatar} style={{ width: '10rem', height: '10rem', objectFit: 'cover' }} />
-              </label>
-            ))}
+            <div style={{ display: 'flex', flexDirection: 'column' }} >
+              {teamMembers.map((member, index) => (
+                <div key={index} style={{ display: 'flex', flexDirection: 'column' }}>
+                <label htmlFor={member.id}  className={index === 0 ? "tile active" : "tile"}>
+                  <img src={member.avatar} style={{ width: '10rem', height: '10rem', objectFit: 'cover' }} />
+                </label>
+                </div>
+              ))}
+            </div>
           </div>
           <div className="divider" />
           <div className="cards">
@@ -38,7 +41,6 @@ const Team = ({ teamMembers, title }) => (
               ))}
             </div>
           </div>
-        </div>
       </div>
     </div>
   </div>
