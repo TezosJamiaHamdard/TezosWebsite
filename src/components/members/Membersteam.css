@@ -272,7 +272,7 @@
   .team-wrapper {
     display: flex;
     /* flex-flow: row nowrap; */
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
 
     .members {
@@ -293,8 +293,7 @@
 
     .cards {
       flex: 1 1 auto;
-      width: 100%;
-      background-color: red;
+      background-color: yellow;
 
       .card-wrapper {
         position: sticky;

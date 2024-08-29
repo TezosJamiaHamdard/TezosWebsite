@@ -5,7 +5,7 @@ const TeamMember = ({ id, name, title, bio, avatar }) => (
   <>
     <input type="radio" id={id} name="members" />
     <div className="card">
-      <img src={avatar} className="avatar"  style={{ width: '20rem', height: '20rem', minHeight: '5rem', minWidth: '5rem', objectFit: 'cover'  }}/>
+      <img src={avatar} className="avatar" style={{ width: '20rem', height: '20rem', minHeight: '5rem', minWidth: '5rem', objectFit: 'cover' }} />
       <div className="info">
         <div className="name">{name}</div>
         <div className="title">{title}</div>
@@ -22,19 +22,21 @@ const Team = ({ teamMembers, title }) => (
         <div className="team-title">{title}</div>
       </div>
       <div className="team-wrapper">
-        <div className="members">
-          {teamMembers.map((member, index) => (
-            <label htmlFor={member.id} key={index} className={index === 0 ? "tile active" : "tile"}>
-              <img src={member.avatar} style={{ width: '10rem', height: '10rem', objectFit: 'cover'  }} />
-            </label>
-          ))}
-        </div>
-        <div className="divider" />
-        <div className="cards">
-          <div className="card-wrapper">
+        <div style={{ display: 'flex', flexDirection: 'row',gap: '20px' }}>
+          <div className="members">
             {teamMembers.map((member, index) => (
-              <TeamMember key={index} {...member} />
+              <label htmlFor={member.id} key={index} className={index === 0 ? "tile active" : "tile"}>
+                <img src={member.avatar} style={{ width: '10rem', height: '10rem', objectFit: 'cover' }} />
+              </label>
             ))}
+          </div>
+          <div className="divider" />
+          <div className="cards">
+            <div className="card-wrapper">
+              {teamMembers.map((member, index) => (
+                <TeamMember key={index} {...member} />
+              ))}
+            </div>
           </div>
         </div>
       </div>
@@ -121,8 +123,8 @@ function Members() {
       ]
     },
   };
-  
-  
+
+
   return (
     <>
       <div className="buttons button-team">
