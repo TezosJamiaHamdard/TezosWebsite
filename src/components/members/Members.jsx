@@ -23,7 +23,7 @@ const Team = ({ teamMembers, title }) => (
       </div>
       <div className="team-wrapper">
           <div className="members">
-            <div style={{ display: 'flex', flexDirection: 'column' }} >
+            {/* <div style={{ display: 'flex', flexDirection: 'column' }} > */}
               {teamMembers.map((member, index) => (
                 <div key={index} style={{ display: 'flex', flexDirection: 'column' }}>
                 <label htmlFor={member.id}  className={index === 0 ? "tile active" : "tile"}>
@@ -31,7 +31,7 @@ const Team = ({ teamMembers, title }) => (
                 </label>
                 </div>
               ))}
-            </div>
+            {/* </div> */}
           </div>
           <div className="divider" />
           <div className="cards">
