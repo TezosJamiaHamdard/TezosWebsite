@@ -4,7 +4,7 @@ import './Membersteam.css';
 const TeamMember = ({ id, name, title, bio, avatar }) => (
   <>
     <input type="radio" id={id} name="members-name" />
-    <div className="card">
+    <div className="card-mem">
       <img src={avatar} className="avatar" style={{ width: '20rem', height: '20rem', minHeight: '5rem', minWidth: '5rem', objectFit: 'cover' }} />
       <div className="info">
         <div className="name">{name}</div>
