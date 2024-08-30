@@ -345,6 +345,7 @@
           transition: all 0.6s ease;
           position: absolute;
           top: 0;
+          /* height: 270px;` */
 
           .avatar {
             flex: 1 0 auto;
@@ -362,6 +363,7 @@
             padding: 20px;
             display: flex;
             flex-flow: column nowrap;
+            /* height: 270px; */
 
             .name {
               font-size: 28px;
@@ -428,7 +430,7 @@
   background-color: #303030;
   color: #f0f0f0;
 }
-
+/* 
 @media screen and (min-width: 1080px) {
   .wrapper-members {
     .team-wrapper {
@@ -451,4 +453,4 @@
       }
     }
   }
-}
+} */

@@ -5,7 +5,9 @@ const TeamMember = ({ id, name, title, bio, avatar }) => (
   <>
     <input type="radio" id={id} name="member" />
     <div className="card-mem">
-      <img src={avatar} className="avatar" style={{ width: '20rem', height: '20rem', minHeight: '5rem', minWidth: '5rem', objectFit: 'cover' }} />
+      <img src={avatar} className="avatar"
+        style={{ width: '20rem', height: '20rem', minHeight: '5rem', minWidth: '5rem', objectFit: 'cover' }}
+      />
       <div className="info-member">
         <div className="name">{name}</div>
         <div className="title">{title}</div>
@@ -25,7 +27,9 @@ const Team = ({ teamMembers, title }) => (
         <div className="members-name">
           {teamMembers.map((member, index) => (
             <label htmlFor={member.id} className={index === 0 ? "tile active" : "tile"}>
-              <img src={member.avatar} style={{ width: '10rem', height: '10rem', objectFit: 'cover' }} />
+              <img src={member.avatar}
+                style={{ width: '10rem', height: '10rem', objectFit: 'cover' }}
+              />
             </label>
           ))}
         </div>
