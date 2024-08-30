@@ -50,7 +50,7 @@ function Members() {
   };
 
   useEffect(() => {
-    const tiles = document.querySelectorAll(".wrapper-members .members .tile");
+    const tiles = document.querySelectorAll(".wrapper-members .members-name .tile");
 
     tiles?.forEach((tile) => {
       tile.addEventListener("click", () => {
@@ -132,7 +132,7 @@ function Members() {
           </button>
         ))}
       </div>
-      <Team teamMembers={teams[showtab].members} title={teams[showtab].title} />
+      <Team teamMembers={teams[showtab].members - name} title={teams[showtab].title} />
     </>
   );
 }

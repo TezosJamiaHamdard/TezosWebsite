@@ -48,6 +48,9 @@ function Footer() {
               </a>
             </div>
           </div>
+          <h3>To Join Tezos Unofficial Whatsapp group Click Here-
+            {/* <a href="https://x.com/Tezosclubjh?t=g_CSWx9n_vny9Id24Oizrw&s=09"></a> */}
+          </h3>
           <h3 >Feedback or comments? Get in touch with us at reachout@tezos.com</h3>
           <h3 >For media inquiries please contact communications@tezos.foundation</h3>
 
