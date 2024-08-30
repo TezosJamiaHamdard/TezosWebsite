@@ -273,8 +273,7 @@
     flex-direction: row;
     gap: 20px;
     width: 100%;
-    min-height: 20vh;
-
+    min-height: 30vh;
     .members-name {
       position: relative;
       flex: 0 1 auto;

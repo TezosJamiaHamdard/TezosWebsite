@@ -34,9 +34,9 @@ const Team = ({ teamMembers, title }) => (
       {/* issue starts from here */}
       <div
         className="team-wrapper"
-        style={{ backgroundColor: "purple", display: "flex" }}
+        style={{ display: "flex" }}
       >
-        <div className="members-name" style={{ backgroundColor: "orange" ,display:"flex"}}>
+        <div className="members-name" style={{ display:"flex"}}>
           {teamMembers.map((member, index) => (
             <label
               htmlFor={member.id}
@@ -50,7 +50,7 @@ const Team = ({ teamMembers, title }) => (
           ))}
         </div>
         <div className="divider" />
-        <div className="cards-member" style={{ backgroundColor: "pink" }}>
+        <div className="cards-member" >
           <div className="card-wrapper">
             {teamMembers.map((member, index) => (
               <TeamMember key={index} {...member} />
