@@ -36,7 +36,7 @@ const Team = ({ teamMembers, title }) => (
         className="team-wrapper"
         style={{ backgroundColor: "purple", display: "flex" }}
       >
-        {/* <div className="members-name" style={{ backgroundColor: "orange" }}>
+        <div className="members-name" style={{ backgroundColor: "orange" }}>
           {teamMembers.map((member, index) => (
             <label
               htmlFor={member.id}
@@ -48,24 +48,16 @@ const Team = ({ teamMembers, title }) => (
               />
             </label>
           ))}
-        </div> */}
-        {/* <div className="divider" /> */}
-        {/* <div className="cards-member" style={{ backgroundColor: "pink" }}>
+        </div>
+        <div className="divider" />
+        <div className="cards-member" style={{ backgroundColor: "pink" }}>
           <div className="card-wrapper">
             {teamMembers.map((member, index) => (
               <TeamMember key={index} {...member} />
             ))}
           </div>
-        </div> */}
-        <div
-          style={{ backgroundColor: "red", width: "5rem", height: "5rem" }}
-        ></div>
-        <div
-          style={{ backgroundColor: "orange", width: "5rem", height: "5rem" }}
-        ></div>
-        <div
-          style={{ backgroundColor: "green", width: "5rem", height: "5rem" }}
-        ></div>
+        </div>
+        
       </div>
       {/* issue ends here */}
     </div>
