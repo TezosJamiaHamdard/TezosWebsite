@@ -24,11 +24,9 @@ const Team = ({ teamMembers, title }) => (
       <div className="team-wrapper">
         <div className="members">
           {teamMembers.map((member, index) => (
-            <div key={index} style={{ display: 'flex', flexDirection: 'column' }}>
               <label htmlFor={member.id} className={index === 0 ? "tile active" : "tile"}>
                 <img src={member.avatar} style={{ width: '10rem', height: '10rem', objectFit: 'cover' }} />
               </label>
-            </div>
           ))}
         </div>
         <div className="divider" />

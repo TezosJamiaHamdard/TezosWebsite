@@ -273,12 +273,13 @@
     display: flex;
     flex-flow: row nowrap;
     gap: 20px;
+    background-color: yellow;
 
     .members {
       position: relative;
       flex: 0 1 auto;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       max-width: 11rem;
       flex-wrap: wrap;
       /* flex-flow: column nowrap; */
