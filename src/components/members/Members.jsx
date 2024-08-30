@@ -26,21 +26,16 @@ const TeamMember = ({ id, name, title, bio, avatar }) => (
 );
 
 const Team = ({ teamMembers, title }) => (
-  <div
-    className="team-members-div"
-
-  >
-    <div
-      className="wrapper-members active-members"
-   
-    >
-      <div className="intro-wrapper" >
-        <div className="team-title" >
-          {title}
-        </div>
+  <div className="team-members-div" style={{ display: "flex" }}>
+    <div className="wrapper-members active-members" style={{ display: "flex" }}>
+      <div className="intro-wrapper">
+        <div className="team-title">{title}</div>
       </div>
       {/* issue starts from here */}
-      <div className="team-wrapper" style={{ backgroundColor: "purple" }}>
+      <div
+        className="team-wrapper"
+        style={{ backgroundColor: "purple", display: "flex" }}
+      >
         {/* <div className="members-name" style={{ backgroundColor: "orange" }}>
           {teamMembers.map((member, index) => (
             <label
@@ -62,9 +57,15 @@ const Team = ({ teamMembers, title }) => (
             ))}
           </div>
         </div> */}
-        <div style={{ backgroundColor: "red",width:"5rem",height:"5rem" }}></div>
-        <div style={{ backgroundColor: "orange",width:"5rem",height:"5rem" }}></div>
-        <div style={{ backgroundColor: "green",width:"5rem",height:"5rem" }}></div>
+        <div
+          style={{ backgroundColor: "red", width: "5rem", height: "5rem" }}
+        ></div>
+        <div
+          style={{ backgroundColor: "orange", width: "5rem", height: "5rem" }}
+        ></div>
+        <div
+          style={{ backgroundColor: "green", width: "5rem", height: "5rem" }}
+        ></div>
       </div>
       {/* issue ends here */}
     </div>
