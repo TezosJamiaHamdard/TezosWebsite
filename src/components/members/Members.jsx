@@ -3,7 +3,7 @@ import './Membersteam.css';
 
 const TeamMember = ({ id, name, title, bio, avatar }) => (
   <>
-    <input type="radio" id={id} name="members" />
+    <input type="radio" id={id} name="members-name" />
     <div className="card">
       <img src={avatar} className="avatar" style={{ width: '20rem', height: '20rem', minHeight: '5rem', minWidth: '5rem', objectFit: 'cover' }} />
       <div className="info">
@@ -17,20 +17,20 @@ const TeamMember = ({ id, name, title, bio, avatar }) => (
 
 const Team = ({ teamMembers, title }) => (
   <div className="team-members-div">
-    <div className="wrapper active-members">
+    <div className="wrapper-members active-members">
       <div className="intro-wrapper">
         <div className="team-title">{title}</div>
       </div>
       <div className="team-wrapper">
-        <div className="members">
+        <div className="members-name">
           {teamMembers.map((member, index) => (
-              <label htmlFor={member.id} className={index === 0 ? "tile active" : "tile"}>
-                <img src={member.avatar} style={{ width: '10rem', height: '10rem', objectFit: 'cover' }} />
-              </label>
+            <label htmlFor={member.id} className={index === 0 ? "tile active" : "tile"}>
+              <img src={member.avatar} style={{ width: '10rem', height: '10rem', objectFit: 'cover' }} />
+            </label>
           ))}
         </div>
         <div className="divider" />
-        <div className="cards">
+        <div className="cards-member">
           <div className="card-wrapper">
             {teamMembers.map((member, index) => (
               <TeamMember key={index} {...member} />
@@ -50,7 +50,7 @@ function Members() {
   };
 
   useEffect(() => {
-    const tiles = document.querySelectorAll(".wrapper .members .tile");
+    const tiles = document.querySelectorAll(".wrapper-members .members .tile");
 
     tiles?.forEach((tile) => {
       tile.addEventListener("click", () => {

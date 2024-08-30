@@ -26,7 +26,7 @@
 
 
 
-.wrapper {
+.wrapper-member {
   box-sizing: border-box;
   margin: 20px;
   padding: 20px;
@@ -58,7 +58,7 @@
     flex-flow: row nowrap;
     gap: 20px;
 
-    .members {
+    .members-name {
       position: relative;
       flex: 0 1 auto;
       display: flex;
@@ -73,7 +73,7 @@
       box-shadow: 0 0 2px #02020280;
     }
 
-    .cards {
+    .cards-member-member {
       flex: 1 1 auto;
 
       .card-wrapper {
@@ -184,9 +184,9 @@
 
 
 @media screen and (min-width: 1080px) {
-  .wrapper {
+  .wrapper-member {
     .team-wrapper {
-      .cards {
+      .cards-member-member {
         .card-wrapper {
           .card {
             flex-flow: row nowrap;
@@ -207,11 +207,9 @@
   }
 } */
 
-/* .wrapper {
+/* .wrapper-member {
   display: none;
 } */
-
-
 
 .team-members-div {
   font-family: "Manrope", sans-serif;
@@ -241,7 +239,7 @@
   padding-bottom: 30px;
 }
 
-.wrapper {
+.wrapper-members {
   box-sizing: border-box;
   margin: 20px;
   padding: 20px;
@@ -275,13 +273,13 @@
     gap: 20px;
     background-color: yellow;
 
-    .members {
+    .members-name {
       position: relative;
       flex: 0 1 auto;
       display: flex;
       flex-direction: column;
       max-width: 11rem;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       /* flex-flow: column nowrap; */
       /*  */
     }
@@ -294,7 +292,7 @@
       box-shadow: 0 0 2px #02020280;
     }
 
-    .cards {
+    .cards-member {
       flex: 1 1 auto;
 
       .card-wrapper {
@@ -355,7 +353,7 @@
       input {
         appearance: unset;
 
-        &:checked+.card {
+        &:checked + .card {
           visibility: visible;
           opacity: 1;
         }
@@ -397,11 +395,10 @@
   color: #f0f0f0;
 }
 
-
 @media screen and (min-width: 1080px) {
-  .wrapper {
+  .wrapper-members {
     .team-wrapper {
-      .cards {
+      .cards-member {
         .card-wrapper {
           .card {
             flex-flow: row nowrap;
