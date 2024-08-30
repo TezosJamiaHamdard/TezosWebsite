@@ -269,9 +269,11 @@
 
   .team-wrapper {
     display: flex;
-    flex-flow: row nowrap;
+    /* flex-flow: row nowrap; */
+    flex-direction: row;
     gap: 20px;
-    /* background-color: yellow; */
+    width: 100%;
+    min-height: 20vh;
 
     .members-name {
       position: relative;
