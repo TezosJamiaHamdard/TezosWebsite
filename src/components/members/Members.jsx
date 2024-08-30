@@ -3,10 +3,10 @@ import './Membersteam.css';
 
 const TeamMember = ({ id, name, title, bio, avatar }) => (
   <>
-    <input type="radio" id={id} name="members-name" />
+    <input type="radio" id={id} name="member" />
     <div className="card-mem">
       <img src={avatar} className="avatar" style={{ width: '20rem', height: '20rem', minHeight: '5rem', minWidth: '5rem', objectFit: 'cover' }} />
-      <div className="info">
+      <div className="info-member">
         <div className="name">{name}</div>
         <div className="title">{title}</div>
         <div className="bio">{bio}</div>
@@ -132,7 +132,7 @@ function Members() {
           </button>
         ))}
       </div>
-      <Team teamMembers={teams[showtab].members - name} title={teams[showtab].title} />
+      <Team teamMembers={teams[showtab].members} title={teams[showtab].title} />
     </>
   );
 }
