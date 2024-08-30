@@ -282,6 +282,7 @@
       max-width: 11rem;
       flex-wrap: wrap;
       /* flex-flow: column nowrap; */
+      /*  */
     }
 
     .divider {
