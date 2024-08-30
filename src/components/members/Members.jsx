@@ -36,7 +36,7 @@ const Team = ({ teamMembers, title }) => (
         className="team-wrapper"
         style={{ backgroundColor: "purple", display: "flex" }}
       >
-        <div className="members-name" style={{ backgroundColor: "orange" }}>
+        <div className="members-name" style={{ backgroundColor: "orange" ,display:"flex"}}>
           {teamMembers.map((member, index) => (
             <label
               htmlFor={member.id}
