@@ -425,7 +425,7 @@
 }
 
 .active-members {
-  display: block;
+  display: flex;
 }
 
 .actives {
