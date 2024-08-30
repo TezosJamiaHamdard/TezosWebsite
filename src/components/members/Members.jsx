@@ -51,7 +51,7 @@ const Team = ({ teamMembers, title }) => (
         </div>
         <div className="divider" />
         <div className="cards-member" >
-          <div className="card-wrapper" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <div className="card-wrapper" style={{ display: "flex", flexDirection: "column", alignItems: "flex-start" }}>
             {teamMembers.map((member, index) => (
               <TeamMember key={index} {...member} />
             ))}
@@ -88,7 +88,7 @@ function Members() {
 
   const teams = {
     1: {
-      title: "CORE TEAM",
+      title: "TECH TEAM",
       members: [
         {
           id: "m1",
@@ -106,13 +106,69 @@ function Members() {
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
         },
+        {
+          id: "m3",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m4",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m5",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m6",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m7",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m8",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m9",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
       ],
     },
     2: {
-      title: "TEAM",
+      title: "SOCIAL MEDIA TEAM",
       members: [
         {
-          id: "m3",
+          id: "m10",
           name: "Bob Johnson",
           title: "Member",
           bio: "User Bio Goes Here",
@@ -120,12 +176,44 @@ function Members() {
             "https://images.unsplash.com/photo-1639149888905-fb39731f2e6c?q=80&w=400&auto=format&fit=crop",
         },
         {
-          id: "m4",
+          id: "m11",
           name: "Alice Brown",
           title: "Member",
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m12",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m13",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m14",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m15",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
         },
       ],
     },
@@ -133,7 +221,7 @@ function Members() {
       title: "BOARD TEAM",
       members: [
         {
-          id: "m5",
+          id: "m16",
           name: "Tom Williams",
           title: "Board Member",
           bio: "User Bio Goes Here",
@@ -141,12 +229,28 @@ function Members() {
             "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&auto=format&fit=crop",
         },
         {
-          id: "m6",
+          id: "m17",
           name: "Emma Davis",
           title: "Board Member",
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m18",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m19",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
         },
       ],
     },
@@ -154,7 +258,7 @@ function Members() {
       title: "FOUNDING MEMBERS",
       members: [
         {
-          id: "m7",
+          id: "m20",
           name: "Robert Miller",
           title: "Founding Member",
           bio: "User Bio Goes Here",
@@ -162,12 +266,20 @@ function Members() {
             "https://images.unsplash.com/photo-1569913486515-b74bf7751574?q=80&w=400&auto=format&fit=crop",
         },
         {
-          id: "m8",
+          id: "m21",
           name: "Olivia Wilson",
           title: "Founding Member",
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m22",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
         },
       ],
     },
@@ -175,7 +287,7 @@ function Members() {
       title: "PHOTOGRAPHY TEAM",
       members: [
         {
-          id: "m9",
+          id: "m23",
           name: "David Lee",
           title: "Photographer",
           bio: "User Bio Goes Here",
@@ -183,12 +295,28 @@ function Members() {
             "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=400&auto=format&fit=crop",
         },
         {
-          id: "m10",
+          id: "m24",
           name: "Sophia Taylor",
           title: "Photographer",
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m25",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m26",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
         },
       ],
     },
@@ -196,7 +324,7 @@ function Members() {
       title: "CONTENT TEAM",
       members: [
         {
-          id: "m11",
+          id: "m27",
           name: "James Anderson",
           title: "Content Creator",
           bio: "User Bio Goes Here",
@@ -204,12 +332,36 @@ function Members() {
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
         },
         {
-          id: "m12",
+          id: "m28",
           name: "Emily Martinez",
           title: "Content Creator",
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m29",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m30",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m31",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
         },
       ],
     },
@@ -217,7 +369,7 @@ function Members() {
       title: "MANAGEMENT TEAM",
       members: [
         {
-          id: "m13",
+          id: "m32",
           name: "William Thompson",
           title: "Manager",
           bio: "User Bio Goes Here",
@@ -225,12 +377,36 @@ function Members() {
             "https://images.unsplash.com/photo-1639149888905-fb39731f2e6c?q=80&w=400&auto=format&fit=crop",
         },
         {
-          id: "m14",
+          id: "m33",
           name: "Ava Garcia",
           title: "Manager",
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m34",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m35",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m36",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
         },
       ],
     },
@@ -238,7 +414,7 @@ function Members() {
       title: "DESIGNING TEAM",
       members: [
         {
-          id: "m15",
+          id: "m37",
           name: "Michael Robinson",
           title: "Designer",
           bio: "User Bio Goes Here",
@@ -246,12 +422,36 @@ function Members() {
             "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=400&auto=format&fit=crop",
         },
         {
-          id: "m16",
+          id: "m38",
           name: "Sofia Hernandez",
           title: "Designer",
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m39",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m40",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m41",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
         },
       ],
     },

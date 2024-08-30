@@ -29,7 +29,9 @@ nav {
   font-size: 5em;
   color: white;
 }
-.nav-menu,
+.nav-menu {
+  display: flex;
+}
 .nav_menu_list {
   display: flex;
 }
@@ -45,7 +47,7 @@ nav {
 }
 
 .roadmap-link {
-  margin-right: 120px;
+  margin-right: 10rem;
 }
 .nav-menu-btn {
   display: none;
@@ -70,7 +72,6 @@ nav {
   transform: translate(-50%, -50%);
   width: 5px;
   height: 5px;
-  background: var(--first-color);
   border-radius: 50%;
 }
 
@@ -106,6 +107,11 @@ nav {
 
 /* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
 @media only screen and (max-width: 900px) {
+  .nav-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .roadmap-link {
     margin-right: 0px;
   }
@@ -127,10 +133,5 @@ nav {
   }
   .nav_menu_list {
     flex-direction: column;
-  }
-  .nav-menu-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 }
