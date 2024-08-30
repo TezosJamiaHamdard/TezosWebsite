@@ -51,7 +51,7 @@ const Team = ({ teamMembers, title }) => (
         </div>
         <div className="divider" />
         <div className="cards-member" >
-          <div className="card-wrapper" style={{ display: "flex",backgroundColor: "red", flexDirection: "column", alignItems: "center" }}>
+          <div className="card-wrapper" style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
             {teamMembers.map((member, index) => (
               <TeamMember key={index} {...member} />
             ))}
