@@ -50,7 +50,7 @@ const Team = ({ teamMembers, title }) => (
           ))}
         </div>
         <div className="divider" />
-        <div className="cards-member" >
+        <div className="cards-member" style={{ display:"flex"}} >
           <div className="card-wrapper">
             {teamMembers.map((member, index) => (
               <TeamMember key={index} {...member} />
