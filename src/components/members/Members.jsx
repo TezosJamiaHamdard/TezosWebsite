@@ -3,7 +3,7 @@ import "./Membersteam.css";
 import khalique from "../../assets/khalique2.jpg";
 import hamza from "../../assets/hamza.jpg";
 
-const TeamMember = ({ id, name, title, bio, avatar }) => (
+const TeamMember = ({ id, name, title, bio, avatar, social_links }) => (
   <>
     <input type="radio" id={id} name="member" />
     <div className="card-mem">
@@ -21,6 +21,24 @@ const TeamMember = ({ id, name, title, bio, avatar }) => (
       <div className="info-member">
         <div className="name">{name} </div>
         <div className="title">{title}</div>
+        {social_links && (
+          <div className="socialLinks">
+            {social_links.map((link, index) => (
+              <a href={link.link} target="_blank" rel="noopener noreferrer" key={index}>
+                <div style={{ width: "50px", height: "50px" }}>
+                  <img
+                    title={`${link.name} Profile`}
+                    src={`./${link.name.toLowerCase()}.png`}
+                    // alt={link.name}
+                    style={{ width:link.name === "LinkedIn" ? "130%" : "100%", height: link.name === "LinkedIn" ? "130%" : "100%", cursor: "pointer",objectFit: "cover", transform: link.name === "LinkedIn" && "translate(-12%,-10%)"  }}
+                    className="socialLink"
+                  />
+                </div>
+              </a>
+            ))}
+          </div>
+        )}
+
         <div className="bio">{bio}</div>
       </div>
     </div>
@@ -101,6 +119,24 @@ function Members() {
           title: "BCA 3rd YEAR",
           bio: "Hi, my name is Khalique Hussain. I’m currently in a BCA 3rd year at Jamia Hamdard University majoring in Computer Science. I’m also a member of the Tezos Tech team. I’m passionate about learning new technologies and collaborating with others.",
           avatar: khalique,
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ]
         },
         {
           id: "m2",
