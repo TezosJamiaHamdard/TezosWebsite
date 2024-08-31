@@ -81,7 +81,7 @@ nav {
   gap: 25px;
 }
 
-.logo {
+.Navbar-logo {
   width: 200px;
   margin-top: 10px;
 }
@@ -133,5 +133,8 @@ nav {
   }
   .nav_menu_list {
     flex-direction: column;
+  }
+  .Navbar-logo {
+    display: block;
   }
 }

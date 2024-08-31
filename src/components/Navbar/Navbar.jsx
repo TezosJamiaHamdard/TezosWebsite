@@ -41,7 +41,7 @@ export default function Navbar({ contactRef, EventRef }) {
   return (
     <div>
       <nav id="nav">
-        <img src={Logo} alt="" className="logo" />
+        <img src={Logo} alt="" className="Navbar-logo" />
         <div className="nav-menu" id="myNavMenu">
           <ul className="nav_menu_list">
             <li className="nav_list">

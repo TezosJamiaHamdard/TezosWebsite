@@ -1,10 +1,10 @@
-.footer-div{
-    height: 70vh;
-    background: #000;
-    position: relative;
+.footer-div {
+  height: 70vh;
+  background: #000;
+  position: relative;
 }
 /* ----- FOOTER BOX ----- */
-.footer_div{
+.footer_div {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -15,118 +15,123 @@
   padding-inline: 100px;
   background: #000;
 }
-footer{
-    row-gap: 30px;
-    padding-block: 40px 60px;
+footer {
+  row-gap: 30px;
+  padding-block: 40px 60px;
 }
-.logo{
-    width: 200px;
-  }
-.top-footer h3{
-    font-size: 15px;
-    font-weight: 100;
-    font-family: sans-serif;
-    color: white;
-    margin-bottom: 10px;
+.logo {
+  width: 200px;
 }
-
-.mid-bottom{
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
-}
-.general, .miscellaneous{
-    display: flex;
-    flex-direction: column;
-    gap: 13px 0px;
-    font-size: 17px;
-    font-weight: 500;
-}
-.general h2, .miscellaneous h2{
-    font-size: 20px;
-    font-weight: 900;
-    color: white;
-    margin-bottom: 20px;
-}
-.footer_menu_list{
-    list-style: none;
-}
-.footer_menu_list a{
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    margin-inline: 20px;
-}
-.footer-social-icons{
-    display: flex;
-    gap: 30px;   
+.top-footer h3 {
+  font-size: 15px;
+  font-weight: 100;
+  font-family: sans-serif;
+  color: white;
+  margin-bottom: 10px;
 }
 
-.bottom-footer{
-    font-size: 14px;
-    color: white;
+.mid-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+.general,
+.miscellaneous {
+  display: flex;
+  flex-direction: column;
+  gap: 13px 0px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.general h2,
+.miscellaneous h2 {
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 20px;
+}
+.footer_menu_list {
+  list-style: none;
+}
+.footer_menu_list a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  margin-inline: 20px;
+}
+.footer-social-icons {
+  display: flex;
+  gap: 30px;
+}
+
+.bottom-footer {
+  font-size: 14px;
+  color: white;
 }
 
 .footer-social-icons {
-    display: flex;
-    gap: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.icon{
-    display: flex;
-    justify-content: center;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    cursor: pointer;
-    border: 2px solid white;
-
+.icon {
+  display: flex;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
 }
 
-hr{
-    border-top-width: 1px;
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible;
+hr {
+  border-top-width: 1px;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
 }
 
-.h3{
-    padding-inline: 100px;
-    font-size: 15px;
-    font-weight: 100;
-    font-family: sans-serif;
-    color: white;
-    margin-bottom: 10px;
-    margin-top: 20px;
+.h3 {
+  padding-inline: 100px;
+  font-size: 15px;
+  font-weight: 100;
+  font-family: sans-serif;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
+/* .whatsapp{
 
+} */
 
 @media (max-width: 768px) {
-    .logo{
-        display: none;
-    }
-    .top-footer h2,h3{
-        font-size: 25px;
-    }
+  .logo {
+    display: none;
+  }
+  .top-footer h2,
+  h3 {
+    font-size: 25px;
+  }
 
-    .footer_div{
-        padding-inline: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
+  .footer_div {
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
 
-    .mid-bottom{
-        display: flex;
-        flex-direction: row;
-        font-size: 9px;
-        gap: 40px;
-    }
-    .general h2, .miscellaneous h2{
-        margin-bottom: 0px;
-    }
+  .mid-bottom {
+    display: flex;
+    flex-direction: row;
+    font-size: 9px;
+    gap: 40px;
+  }
+  .general h2,
+  .miscellaneous h2 {
+    margin-bottom: 0px;
+  }
 }

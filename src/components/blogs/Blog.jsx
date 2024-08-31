@@ -1,9 +1,8 @@
 // import React from 'react'
-import "./Blog.css"
-import Blog1 from "../../assets/Blog1.avif"
-import Blog2 from "../../assets/Blog2.avif"
-
-
+import "./Blog.css";
+import Blog1 from "../../assets/Blog1.avif";
+import Blog2 from "../../assets/Blog2.avif";
+import Blog3 from "../../assets/blog3.jpeg";
 
 export default function Blog() {
   return (
@@ -26,9 +25,18 @@ export default function Blog() {
                 className="user-image"
               />
               <h2 className="user-name">Tauqeer Ahmed</h2>
-              <p className="user-profession">Deploying your Application on Azure Kubernetes ServiceAzure Kubernetes Service (AKS) is a managed Kubernetes service provided by Microsoft. It allows you to deploy and manage containerized applications without the
+              <p className="user-profession">
+                Deploying your Application on Azure Kubernetes ServiceAzure
+                Kubernetes Service (AKS) is a managed Kubernetes service
+                provided by Microsoft. It allows you to deploy and manage
+                containerized applications without the
               </p>
-              <button className="message-button"><a href="https://tauqeerahmad.hashnode.dev/deploying-your-application-on-azure-kubernetes-service"> Read More </a></button>
+              <button className="message-button">
+                <a href="https://tauqeerahmad.hashnode.dev/deploying-your-application-on-azure-kubernetes-service">
+                  {" "}
+                  Read More{" "}
+                </a>
+              </button>
             </div>
             <div className="card-item swiper-slide">
               <img
@@ -38,19 +46,43 @@ export default function Blog() {
                 className="user-image"
               />
               <h2 className="user-name">Tauqeer Ahmed</h2>
-              <p className="user-profession">Welcome to the world of Azure Command-Line Interface (CLI)! As cloud computing continues to revolutionize the way we build, deploy, and manage applications, having a powerful and efficient tool like the Azure CLI in your toolkit is essential.</p>
-              <button className="message-button"><a href="https://tauqeerahmad.hashnode.dev/navigating-the-microsoft-azure-cli"> Read More </a></button>
+              <p className="user-profession">
+                Welcome to the world of Azure Command-Line Interface (CLI)! As
+                cloud computing continues to revolutionize the way we build,
+                deploy, and manage applications, having a powerful and efficient
+                tool like the Azure CLI in your toolkit is essential.
+              </p>
+              <button className="message-button">
+                <a href="https://tauqeerahmad.hashnode.dev/navigating-the-microsoft-azure-cli">
+                  {" "}
+                  Read More{" "}
+                </a>
+              </button>
             </div>
             <div className="card-item swiper-slide">
               <img
                 decoding="async"
-                // src="images/Jaw-Long.png"
+                src={Blog3}
                 alt="Blog 3"
                 className="user-image"
               />
-              <h2 className="user-name">Jaw-Long</h2>
-              <p className="user-profession">Hiring Manager</p>
-              <button className="message-button">Read More</button>
+              <h2 className="user-name">Khalique Hussain</h2>
+              <p className="user-profession">
+                Software development is a dynamic field that requires a deep
+                understanding of technology, user needs, and market trends. By
+                following best practices, adopting the right methodologies, and
+                staying updated with emerging trends, developers can create
+                high-quality software that meets the needs of businesses and
+                users alike. Whether you're a beginner or an experienced
+                developer, continuous learning and adaptation are key to success
+                in the ever-evolving world of software development.
+              </p>
+              <button className="message-button">
+                <a href="https://khaliquehussain.hashnode.dev/software-development">
+                  {" "}
+                  Read More{" "}
+                </a>
+              </button>
             </div>
             <div className="card-item swiper-slide">
               <img
@@ -91,8 +123,6 @@ export default function Blog() {
           <div className="swiper-slide-button swiper-button-next" />
         </div>
       </div>
-
     </div>
-  )
+  );
 }
-;

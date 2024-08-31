@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Membersteam.css";
+import khalique from "../../assets/khalique2.jpg";
 
 const TeamMember = ({ id, name, title, bio, avatar }) => (
   <>
@@ -9,9 +10,9 @@ const TeamMember = ({ id, name, title, bio, avatar }) => (
         src={avatar}
         className="avatar"
         style={{
-          width: "20rem",
-          height: "20rem",
-          minHeight: "5rem",
+          width: "100%",
+          height: "70vh",
+          // minHeight: "5rem",
           minWidth: "5rem",
           objectFit: "cover",
         }}
@@ -32,11 +33,8 @@ const Team = ({ teamMembers, title }) => (
         <div className="team-title">{title}</div>
       </div>
       {/* issue starts from here */}
-      <div
-        className="team-wrapper"
-        style={{ display: "flex" }}
-      >
-        <div className="members-name" style={{ display:"flex"}}>
+      <div className="team-wrapper" style={{ display: "flex" }}>
+        <div className="members-name" style={{ display: "flex" }}>
           {teamMembers.map((member, index) => (
             <label
               htmlFor={member.id}
@@ -50,14 +48,20 @@ const Team = ({ teamMembers, title }) => (
           ))}
         </div>
         <div className="divider" />
-        <div className="cards-member" >
-          <div className="card-wrapper" style={{ display: "flex", flexDirection: "column", alignItems: "flex-start" }}>
+        <div className="cards-member">
+          <div
+            className="card-wrapper"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "flex-start",
+            }}
+          >
             {teamMembers.map((member, index) => (
               <TeamMember key={index} {...member} />
             ))}
           </div>
         </div>
-        
       </div>
       {/* issue ends here */}
     </div>
@@ -92,11 +96,10 @@ function Members() {
       members: [
         {
           id: "m1",
-          name: "John Doe",
-          title: "Founder",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1628157588553-5eeea00af15c?q=80&w=400&auto=format&fit=crop",
+          name: "Khalique Hussain",
+          title: "BCA 3rd YEAR",
+          bio: "Hi, my name is Khalique Hussain. I’m currently in a BCA 3rd year at Jamia Hamdard University majoring in Computer Science. I’m also a member of the Tezos Tech team. I’m passionate about learning new technologies and collaborating with others.",
+          avatar: khalique,
         },
         {
           id: "m2",
