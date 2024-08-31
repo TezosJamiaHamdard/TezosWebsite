@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TezosWebsite/static/css/main.3d09aa65.css",
-    "main.js": "/TezosWebsite/static/js/main.bad09638.js",
+    "main.css": "/TezosWebsite/static/css/main.3b5d4b2e.css",
+    "main.js": "/TezosWebsite/static/js/main.d630a6fa.js",
     "static/js/453.5e034db7.chunk.js": "/TezosWebsite/static/js/453.5e034db7.chunk.js",
     "static/media/01.mp4": "/TezosWebsite/static/media/01.a5640c3c4e7eb668eab7.mp4",
     "static/media/team.svg": "/TezosWebsite/static/media/team.d55865a42c21021f71ca.svg",
@@ -23,6 +23,7 @@
     "static/media/event4.jpg": "/TezosWebsite/static/media/event4.d169cf108356076b3fd8.jpg",
     "static/media/khalique2.jpg": "/TezosWebsite/static/media/khalique2.c99a278015c59ad219cc.jpg",
     "static/media/roadmap5.jpg": "/TezosWebsite/static/media/roadmap5.923e9c4afa079d4f6f8e.jpg",
+    "static/media/hamza.jpg": "/TezosWebsite/static/media/hamza.127514f8d9db25d7b37c.jpg",
     "static/media/logo.png": "/TezosWebsite/static/media/logo.ba9cedc06547da70eb33.png",
     "static/media/logo-no-bg.png": "/TezosWebsite/static/media/logo-no-bg.ba9bee0ef1eb2a02e95b.png",
     "static/media/roadmap1.jpg": "/TezosWebsite/static/media/roadmap1.342f642598e9ad6b7073.jpg",
@@ -30,12 +31,12 @@
     "static/media/roadmap2.jpeg": "/TezosWebsite/static/media/roadmap2.6ff6be0f29543eaf98fa.jpeg",
     "static/media/Blog1.avif": "/TezosWebsite/static/media/Blog1.c93e2573c4e53667b38c.avif",
     "index.html": "/TezosWebsite/index.html",
-    "main.3d09aa65.css.map": "/TezosWebsite/static/css/main.3d09aa65.css.map",
-    "main.bad09638.js.map": "/TezosWebsite/static/js/main.bad09638.js.map",
+    "main.3b5d4b2e.css.map": "/TezosWebsite/static/css/main.3b5d4b2e.css.map",
+    "main.d630a6fa.js.map": "/TezosWebsite/static/js/main.d630a6fa.js.map",
     "453.5e034db7.chunk.js.map": "/TezosWebsite/static/js/453.5e034db7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d09aa65.css",
-    "static/js/main.bad09638.js"
+    "static/css/main.3b5d4b2e.css",
+    "static/js/main.d630a6fa.js"
   ]
 }
