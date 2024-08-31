@@ -22,7 +22,7 @@ const TeamMember = ({ id, name, title, bio, avatar, social_links }) => (
         <div className="name">{name} </div>
         <div className="title">{title}</div>
         {social_links && (
-          <div className="socialLinks">
+          <div className="socialLinks" style={{ display: "flex" }}>
             {social_links.map((link, index) => (
               <a href={link.link} target="_blank" rel="noopener noreferrer" key={index}>
                 <div style={{ width: "50px", height: "50px" }}>
