@@ -12,14 +12,14 @@ const TeamMember = ({ id, name, title, bio, avatar }) => (
         className="avatar"
         style={{
           width: "100%",
-          height: "auto",
+          height: "400px",
           // minHeight: "5rem",
-          minWidth: "5rem",
+          // minWidth: "5rem",
           objectFit: "cover",
         }}
       />
       <div className="info-member">
-        <div className="name">{name}</div>
+        <div className="name">{name} </div>
         <div className="title">{title}</div>
         <div className="bio">{bio}</div>
       </div>
@@ -292,8 +292,8 @@ function Members() {
       members: [
         {
           id: "m23",
-          name: "David Lee",
-          title: "Photographer",
+          name: "Hamza ",
+          title: "BCA 3rd YEAR",
           bio: "User Bio Goes Here",
           avatar: hamza,
         },
@@ -450,6 +450,51 @@ function Members() {
         },
         {
           id: "m41",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+      ],
+    },
+    9: {
+      title: "PR TEAM",
+      members: [
+        {
+          id: "m42",
+          name: "Michael Robinson",
+          title: "Designer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m43",
+          name: "Sofia Hernandez",
+          title: "Designer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m44",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m45",
+          name: "Jane Smith",
+          title: "Developer",
+          bio: "User Bio Goes Here",
+          avatar:
+            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        },
+        {
+          id: "m46",
           name: "Jane Smith",
           title: "Developer",
           bio: "User Bio Goes Here",
