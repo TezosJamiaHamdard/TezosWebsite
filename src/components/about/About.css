@@ -100,7 +100,8 @@
   padding-inline: 30px;
 }
 
-.sec2-subtitle , .sec2-subtitle-com {
+.sec2-subtitle,
+.sec2-subtitle-com {
   font-size: 2rem;
 }
 
@@ -119,10 +120,11 @@
 
 .sec2-about-img {
   width: 100%;
+  margin-bottom: 30px;
 }
 
 .sec2-img-text {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-inline: 40px;
 }
 
@@ -206,6 +208,10 @@
   }
 }
 
+.sec2-text ul li {
+  font-size: 1.2rem;
+}
+
 .item-1 {
   @media (min-width: 60em) {
     grid-column: 1 / span 2;
@@ -242,29 +248,29 @@
     flex-direction: column;
   }
 
-  .tezos-1{
+  .tezos-1 {
     font-size: 3rem;
   }
-  .tezos-2{
+  .tezos-2 {
     font-size: 2.5rem;
     padding-left: 10px;
   }
-  .about-sec2{
+  .about-sec2 {
     flex-direction: column;
   }
 
-  .sec-about-img{
+  .sec-about-img {
     flex-direction: column;
   }
 
-  .sec2-img{
+  .sec2-img {
     width: 100%;
   }
   .sec2-about-img {
     width: 100%;
     object-fit: cover;
   }
-  .sec2-subtitle-com{
+  .sec2-subtitle-com {
     font-size: 1.5rem;
     padding-bottom: 20px;
   }

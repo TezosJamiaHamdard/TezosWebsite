@@ -11,7 +11,7 @@ const TeamMember = ({ id, name, title, bio, avatar }) => (
         className="avatar"
         style={{
           width: "100%",
-          height: "70vh",
+          height: "auto",
           // minHeight: "5rem",
           minWidth: "5rem",
           objectFit: "cover",
@@ -42,7 +42,7 @@ const Team = ({ teamMembers, title }) => (
             >
               <img
                 src={member.avatar}
-                style={{ width: "10rem", height: "10rem", objectFit: "cover" }}
+                style={{ width: "100px", height: "100px", objectFit: "cover" }}
               />
             </label>
           ))}
