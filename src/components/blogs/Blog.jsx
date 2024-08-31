@@ -3,6 +3,7 @@ import "./Blog.css";
 import Blog1 from "../../assets/Blog1.avif";
 import Blog2 from "../../assets/Blog2.avif";
 import Blog3 from "../../assets/blog3.jpeg";
+import Blog4 from "../../assets/blog4.avif";
 
 export default function Blog() {
   return (
@@ -87,13 +88,25 @@ export default function Blog() {
             <div className="card-item swiper-slide">
               <img
                 decoding="async"
-                // src="images/Michael Rasmussen.png"
+                src={Blog4}
                 alt="4"
                 className="user-image"
               />
-              <h2 className="user-name">Michael Rasmussen</h2>
-              <p className="user-profession">Software Developer</p>
-              <button className="message-button">Read More</button>
+              <h2 className="user-name">Hamza</h2>
+              <p className="user-profession">
+                In the ever-evolving IT landscape, you’ve likely come across the
+                term “DevOps” — a concept that’s rapidly gaining traction among
+                major tech companies. With its emphasis on streamlining
+                operations and development, DevOps is shaping the future of IT
+                practices. In this blog, I’ll dive into what DevOps means, and
+                the key aspects we’ll explore include:-
+              </p>
+              <button className="message-button">
+                <a href="https://hashnode.com/post/cm0i7yhxm000609jqcd6ee2ch">
+                  {" "}
+                  Read More{" "}
+                </a>
+              </button>
             </div>
             <div className="card-item swiper-slide">
               <img

@@ -24,13 +24,25 @@ const TeamMember = ({ id, name, title, bio, avatar, social_links }) => (
         {social_links && (
           <div className="socialLinks" style={{ display: "flex" }}>
             {social_links.map((link, index) => (
-              <a href={link.link} target="_blank" rel="noopener noreferrer" key={index}>
+              <a
+                href={link.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                key={index}
+              >
                 <div style={{ width: "50px", height: "50px" }}>
                   <img
                     title={`${link.name} Profile`}
                     src={`./${link.name.toLowerCase()}.png`}
                     // alt={link.name}
-                    style={{ width:link.name === "LinkedIn" ? "130%" : "100%", height: link.name === "LinkedIn" ? "130%" : "100%", cursor: "pointer",objectFit: "cover", transform: link.name === "LinkedIn" && "translate(-12%,-10%)"  }}
+                    style={{
+                      width: link.name === "LinkedIn" ? "130%" : "100%",
+                      height: link.name === "LinkedIn" ? "130%" : "100%",
+                      cursor: "pointer",
+                      objectFit: "cover",
+                      transform:
+                        link.name === "LinkedIn" && "translate(-12%,-10%)",
+                    }}
                     className="socialLink"
                   />
                 </div>
@@ -136,7 +148,7 @@ function Members() {
               name: "Whatsapp",
               link: "http://wa.me/+919711644284",
             },
-          ]
+          ],
         },
         {
           id: "m2",
@@ -145,6 +157,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m3",
@@ -153,6 +183,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m4",
@@ -161,6 +209,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m5",
@@ -169,6 +235,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m6",
@@ -177,6 +261,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m7",
@@ -185,6 +287,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m8",
@@ -193,6 +313,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m9",
@@ -201,6 +339,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
       ],
     },
@@ -214,6 +370,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1639149888905-fb39731f2e6c?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m11",
@@ -222,6 +396,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m12",
@@ -230,6 +422,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m13",
@@ -238,6 +448,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m14",
@@ -246,6 +474,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m15",
@@ -254,11 +500,29 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
       ],
     },
     3: {
-      title: "BOARD TEAM",
+      title: "PHOTOGRAPHY TEAM",
       members: [
         {
           id: "m16",
@@ -267,6 +531,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m17",
@@ -275,6 +557,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m18",
@@ -283,6 +583,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m19",
@@ -291,19 +609,62 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
       ],
     },
     4: {
-      title: "FOUNDING MEMBERS",
+      title: "BOARD MEMBERS",
       members: [
         {
           id: "m20",
-          name: "Robert Miller",
-          title: "Founding Member",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1569913486515-b74bf7751574?q=80&w=400&auto=format&fit=crop",
+          name: "HAMZA",
+          title: "BCA 3rd YEAR",
+          bio: "I’m Hamza, currently pursuing a BCA degree from Jamia Hamdard, where I’m deeply involved in the tech community as the chairperson of Tezos JH. My passion for Web Development and DevOps drives me to engage with various societies, including Hacked JH and GDSC JH, where I collaborate with like-minded individuals to push the boundaries of what technology can achieve. My hands-on experience includes an internship with Delhi Police, where I applied my skills in Web Development and DevOps to real-world challenges, making a tangible impact. I’ve also had the opportunity to participate in and win multiple hackathons with my team, where we leveraged our expertise in Linux, C, C++, Java, SQL, and DSA to create innovative solutions. Beyond technical projects, I’m committed to sharing knowledge and building strong connections. Through my tech blogs and LinkedIn, I’ve established a network of professionals and enthusiasts who inspire and challenge me to keep learning and growing. Guiding students and staying on the cutting edge of technology are what keep me motivated. I’m always eager to take on new challenges, explore emerging technologies, and contribute to the ever-evolving tech landscape. Let’s connect and collaborate to shape the future of technology together!",
+          avatar: hamza,
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/ansari_hamza69?igsh=Y291d3ZtZDlyZHg==",
+            },
+            {
+              name: "LinkedIn",
+              link: "https://www.linkedin.com/in/hamza69?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+            {
+              name: "X",
+              link: "https://x.com/ansari_hamza69?t=cghrEi-V_xNfkkofTN2UIw&s=09",
+            },
+            {
+              name: "Github",
+              link: "https://github.com/ansarihamza69",
+            },
+          ],
         },
         {
           id: "m21",
@@ -312,6 +673,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m22",
@@ -320,11 +699,29 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
       ],
     },
     5: {
-      title: "BOARD MEMBERS",
+      title: "FOUNDING MEMBERS",
       members: [
         {
           id: "m23",
@@ -332,6 +729,24 @@ function Members() {
           title: "BCA 3rd YEAR",
           bio: "User Bio Goes Here",
           avatar: hamza,
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m24",
@@ -340,6 +755,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m25",
@@ -348,6 +781,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m26",
@@ -356,6 +807,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
       ],
     },
@@ -369,6 +838,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m28",
@@ -377,6 +864,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m29",
@@ -385,6 +890,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m30",
@@ -393,6 +916,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m31",
@@ -401,6 +942,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
       ],
     },
@@ -414,6 +973,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1639149888905-fb39731f2e6c?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m33",
@@ -422,6 +999,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m34",
@@ -430,6 +1025,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m35",
@@ -438,6 +1051,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m36",
@@ -446,6 +1077,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
       ],
     },
@@ -459,6 +1108,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m38",
@@ -467,6 +1134,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m39",
@@ -475,6 +1160,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m40",
@@ -483,6 +1186,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m41",
@@ -491,6 +1212,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
       ],
     },
@@ -504,6 +1243,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m43",
@@ -512,6 +1269,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m44",
@@ -520,6 +1295,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m45",
@@ -528,6 +1321,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
         {
           id: "m46",
@@ -536,6 +1347,24 @@ function Members() {
           bio: "User Bio Goes Here",
           avatar:
             "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+            },
+            {
+              name: "LinkedIn",
+              link: "http://linkedin.com/in/khaliquehussain7",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:khaliquehussain7@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919711644284",
+            },
+          ],
         },
       ],
     },
