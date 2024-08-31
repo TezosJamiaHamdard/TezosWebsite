@@ -19,9 +19,9 @@ footer {
   row-gap: 30px;
   padding-block: 40px 60px;
 }
-.logo {
+/* .logo {
   width: 200px;
-}
+} */
 .top-footer h3 {
   font-size: 15px;
   font-weight: 100;
@@ -108,9 +108,9 @@ hr {
 } */
 
 @media (max-width: 768px) {
-  .logo {
+  /* .logo {
     display: none;
-  }
+  } */
   .top-footer h2,
   h3 {
     font-size: 25px;

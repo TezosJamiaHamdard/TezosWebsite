@@ -13,7 +13,7 @@ function Footer() {
       {/* --------------- FOOTER --------------- */}
       <footer className="footer_div">
         <div className="top-footer">
-          <img src={Logo} alt="" className="logo" />
+          {/* <img src={Logo} alt="" className="logo" /> */}
           <h2 style={{ color: "white" }}>FOLLOW US </h2>
           <div className="footer-social-icons">
             <div className="icon">
@@ -77,7 +77,10 @@ function Footer() {
           {/* <div className="whatsapp"> */}
           <h3>
             To Join Tezos Unofficial Whatsapp group Click Here:
-            <a href="/" className="btn-icon">
+            <a
+              href="https://chat.whatsapp.com/H9aWrPegFYNEzesrkfMksM"
+              className="btn-icon"
+            >
               <FaWhatsapp
                 style={{
                   color: "#fff",
@@ -90,10 +93,11 @@ function Footer() {
           </h3>
           {/* </div> */}
           <h3>
-            Feedback or comments? Get in touch with us at reachout@tezos.com
+            Want to host Tech Events? Get in touch with us at tezosjh@gmail.com
           </h3>
           <h3>
-            For media inquiries please contact communications@tezos.foundation
+            For Feedback, Comments and Media Inquiries please contact us on:
+            tezosjh.secondary@gmail.com
           </h3>
         </div>
         <div className="mid-bottom">

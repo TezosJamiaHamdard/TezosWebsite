@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Membersteam.css";
 import khalique from "../../assets/khalique2.jpg";
+import hamza from "../../assets/hamza.jpg";
 
 const TeamMember = ({ id, name, title, bio, avatar }) => (
   <>
@@ -287,15 +288,14 @@ function Members() {
       ],
     },
     5: {
-      title: "PHOTOGRAPHY TEAM",
+      title: "BOARD MEMBERS",
       members: [
         {
           id: "m23",
           name: "David Lee",
           title: "Photographer",
           bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=400&auto=format&fit=crop",
+          avatar: hamza,
         },
         {
           id: "m24",
