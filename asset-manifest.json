@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TezosWebsite/static/css/main.3b5d4b2e.css",
-    "main.js": "/TezosWebsite/static/js/main.d630a6fa.js",
+    "main.css": "/TezosWebsite/static/css/main.0420b8b0.css",
+    "main.js": "/TezosWebsite/static/js/main.caf87f50.js",
     "static/js/453.5e034db7.chunk.js": "/TezosWebsite/static/js/453.5e034db7.chunk.js",
     "static/media/01.mp4": "/TezosWebsite/static/media/01.a5640c3c4e7eb668eab7.mp4",
     "static/media/team.svg": "/TezosWebsite/static/media/team.d55865a42c21021f71ca.svg",
@@ -31,12 +31,12 @@
     "static/media/roadmap2.jpeg": "/TezosWebsite/static/media/roadmap2.6ff6be0f29543eaf98fa.jpeg",
     "static/media/Blog1.avif": "/TezosWebsite/static/media/Blog1.c93e2573c4e53667b38c.avif",
     "index.html": "/TezosWebsite/index.html",
-    "main.3b5d4b2e.css.map": "/TezosWebsite/static/css/main.3b5d4b2e.css.map",
-    "main.d630a6fa.js.map": "/TezosWebsite/static/js/main.d630a6fa.js.map",
+    "main.0420b8b0.css.map": "/TezosWebsite/static/css/main.0420b8b0.css.map",
+    "main.caf87f50.js.map": "/TezosWebsite/static/js/main.caf87f50.js.map",
     "453.5e034db7.chunk.js.map": "/TezosWebsite/static/js/453.5e034db7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b5d4b2e.css",
-    "static/js/main.d630a6fa.js"
+    "static/css/main.0420b8b0.css",
+    "static/js/main.caf87f50.js"
   ]
 }
