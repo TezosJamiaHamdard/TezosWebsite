@@ -182,7 +182,7 @@
               flex-direction: row;
               justify-content: center;
               align-items: center;
-              gap: 30px;
+              gap: 25px;
               margin: 15px 0;
             }
           }
@@ -296,5 +296,12 @@
   .link-div {
     width: 28px;
     height: 28px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .link-div {
+    width: 24px;
+    height: 24px;
   }
 }
