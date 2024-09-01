@@ -53,8 +53,6 @@ const TeamMember = ({ id, name, title, bio, avatar, social_links }) => (
               >
                 <div
                   style={{
-                    width: "40px",
-                    height: "40px",
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
@@ -66,8 +64,8 @@ const TeamMember = ({ id, name, title, bio, avatar, social_links }) => (
                     src={`./${link.name.toLowerCase()}.png`}
                     // alt={link.name}
                     style={{
-                      width: link.name === "LinkedIn" ? "100%" : "100%",
-                      height: link.name === "LinkedIn" ? "100%" : "100%",
+                      width: "100%",
+                      height: "100%",
                       cursor: "pointer",
                       objectFit: "cover",
                       transform:

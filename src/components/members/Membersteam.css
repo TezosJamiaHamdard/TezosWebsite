@@ -61,6 +61,7 @@
     gap: 20px;
     width: 100%;
     min-height: 30vh;
+
     .members-name {
       position: relative;
       flex: 0 1 auto;
@@ -70,6 +71,7 @@
       height: 600px;
       flex-wrap: nowrap;
     }
+
     .tile {
       cursor: pointer;
       display: flex;
@@ -172,6 +174,7 @@
               font-weight: 300;
               color: #f0f0f0;
             }
+
             .socialLinks {
               width: 100%;
               height: 50px;
@@ -189,7 +192,7 @@
       input {
         appearance: unset;
 
-        &:checked + .card-mem {
+        &:checked+.card-mem {
           visibility: visible;
           opacity: 1;
         }
@@ -255,6 +258,11 @@
   }
 }
 
+.link-div {
+  width: 40px;
+  height: 40px;
+}
+
 @media screen and (max-width: 1100px) {
   .btn-container {
     padding: 4px 8px;
@@ -268,6 +276,7 @@
     flex-wrap: wrap;
     padding-inline: 10px;
   }
+
   .btn-container {
     padding: 3px 7px;
   }
@@ -280,5 +289,12 @@
 @media screen and (max-width: 500px) {
   .members-name {
     width: 20%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .link-div {
+    width: 28px;
+    height: 28px;
   }
 }
