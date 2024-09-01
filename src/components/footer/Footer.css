@@ -1,5 +1,5 @@
 .footer-div {
-  height: 70vh;
+  height: 80vh;
   background: #000;
   position: relative;
 }
@@ -10,7 +10,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 60vh;
+  height: 70vh;
   overflow: hidden;
   padding-inline: 100px;
   background: #000;
@@ -103,17 +103,21 @@ hr {
   margin-top: 20px;
 }
 
-/* .whatsapp{
-
-} */
+@media (max-width: 900px) {
+  .top-footer h3 {
+    font-size: 14px;
+  }
+  .footer_div {
+    padding-inline: 40px;
+  }
+}
 
 @media (max-width: 768px) {
-  /* .logo {
-    display: none;
-  } */
-  .top-footer h2,
-  h3 {
-    font-size: 25px;
+  .top-footer h2 {
+    font-size: 18px;
+  }
+  .top-footer h3 {
+    font-size: 13px;
   }
 
   .footer_div {

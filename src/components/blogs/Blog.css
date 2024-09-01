@@ -151,4 +151,15 @@
   .blog-title h3 {
     font-size: 1rem;
   }
+  .swiper-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+  }
+  .card-list .card-item .user-name {
+    font-size: 20px;
+  }
+  .card-list .card-item .user-profession {
+    font-size: 14px;
+  }
 }

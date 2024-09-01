@@ -28,7 +28,15 @@ export default function First() {
 
   return (
     <div>
-      <video src={video} autoPlay loop muted playsInline className="back-video">
+      <video
+        src={video}
+        autoPlay
+        loop
+        muted
+        playsInline
+        preload="none"
+        className="back-video"
+      >
         Your browser does not support the video tag.
       </video>
       <div className="featured-box" id="main">

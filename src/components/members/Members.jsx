@@ -30,14 +30,23 @@ const TeamMember = ({ id, name, title, bio, avatar, social_links }) => (
                 rel="noopener noreferrer"
                 key={index}
               >
-                <div style={{ width: "50px", height: "50px" }}>
+                <div
+                  style={{
+                    width: "40px",
+                    height: "40px",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                  className="link-div"
+                >
                   <img
                     title={`${link.name} Profile`}
                     src={`./${link.name.toLowerCase()}.png`}
                     // alt={link.name}
                     style={{
-                      width: link.name === "LinkedIn" ? "130%" : "100%",
-                      height: link.name === "LinkedIn" ? "130%" : "100%",
+                      width: link.name === "LinkedIn" ? "100%" : "100%",
+                      height: link.name === "LinkedIn" ? "100%" : "100%",
                       cursor: "pointer",
                       objectFit: "cover",
                       transform:
