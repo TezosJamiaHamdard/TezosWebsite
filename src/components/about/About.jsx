@@ -8,17 +8,14 @@ import Article3 from "../../assets/article3.jpeg";
 import Article4 from "../../assets/article4.jpg";
 import Article5 from "../../assets/article5.jpg";
 import Article7 from "../../assets/article7.jpg";
-function About() {
+function About({ Aboutref }) {
   return (
     <>
-      <div className="about">
+      <div className="about" ref={Aboutref}>
         <div className="about-image">
           <h1 className="about-title">About Us</h1>
         </div>
         <div className="about-details">
-          {/* <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style={{ position: "absolute", opacity: "0.4", left: "0", top: "10" }}>
-            <path fill="#8E05C2" d="M60.8,-51.2C72,-34.5,69.6,-9.6,63.6,13.7C57.6,36.9,48.1,58.4,31.3,67.6C14.4,76.7,-9.6,73.4,-29.6,63.1C-49.5,52.9,-65.2,35.7,-69.8,15.8C-74.5,-4,-68,-26.5,-54.5,-43.7C-41,-60.9,-20.5,-72.9,2.2,-74.6C24.8,-76.3,49.6,-67.8,60.8,-51.2Z" transform="translate(100 100)" />
-          </svg> */}
           <h2 className="tezos-1">What Is Tezos?</h2>
           <div className="about-background">
             <p className="about-text">

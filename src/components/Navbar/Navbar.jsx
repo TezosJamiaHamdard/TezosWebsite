@@ -35,7 +35,6 @@ export default function Navbar({ contactRef, EventRef }) {
 
     // Add a scroll event listener to the window
     window.addEventListener("scroll", updateNav);
-    // MenuFunction();
   });
 
   return (

@@ -5,9 +5,10 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import Logo from "../../assets/logo.png";
+// import Logo from "../../assets/logo.png";
+import { Link } from "react-router-dom";
 
-function Footer() {
+function Footer({ contactRef, EventRef, AboutRef, BlogRef }) {
   return (
     <div className="footer-div">
       {/* --------------- FOOTER --------------- */}
@@ -104,9 +105,25 @@ function Footer() {
           <div className="middle-footer">
             <div className="general">
               <h2>General</h2>
-              <a href="/">Fundraiser</a>
+              <Link to="/#contact">
+                <span
+                  onClick={() => (
+                    setTimeout(() => contactRef.current.scrollIntoView()), 1000
+                  )}
+                >
+                  Contact
+                </span>
+              </Link>
               <a href="/">Career</a>
-              <a href="/">Blog</a>
+              <Link to="/blogs">
+                <span
+                  onClick={() => (
+                    setTimeout(() => BlogRef.current.scrollIntoView()), 1000
+                  )}
+                >
+                  Blog
+                </span>
+              </Link>
             </div>
           </div>
 
@@ -114,8 +131,24 @@ function Footer() {
             <div className="miscellaneous">
               <h2>Miscellaneous</h2>
               <a href="/">Merchandise</a>
-              <a href="/">Events</a>
-              <a href="/">Blog</a>
+              <Link to="/#events">
+                <span
+                  onClick={() => (
+                    setTimeout(() => EventRef.current.scrollIntoView()), 1000
+                  )}
+                >
+                  Events
+                </span>
+              </Link>
+              <Link to="/about">
+                <span
+                  onClick={() => (
+                    setTimeout(() => AboutRef.current.scrollIntoView()), 1000
+                  )}
+                >
+                  About
+                </span>
+              </Link>
             </div>
           </div>
         </div>

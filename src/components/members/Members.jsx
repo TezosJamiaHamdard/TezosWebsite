@@ -2,6 +2,27 @@ import { useEffect, useState } from "react";
 import "./Membersteam.css";
 import khalique from "../../assets/khalique2.jpg";
 import hamza from "../../assets/hamza.jpg";
+import hamzarizvi from "../../assets/members/1696533983538 - Syed Hamza Mehdi Rizvi.jpg";
+import toxiclicker from "../../assets/members/EE188CF1-27CA-444E-ACD0-2563450A1EBE - TOXIC LICKER.jpeg";
+import zeba from "../../assets/members/WhatsApp Image 2024-08-31 at 8.36.30 PM - Zeba.jpeg";
+import zubiya from "../../assets/members/WhatsApp Image 2024-05-20 at 8.19.03 PM - 241 Zubiya Azeem.jpeg";
+import laiba from "../../assets/members/Snapchat-660827288 - Laiba Zeeai.jpg";
+import rahul from "../../assets/members/photo - Rahul Singh.png";
+import nazia from "../../assets/members/nazia - Nazia Khatun(1).jpg";
+import charu from "../../assets/members/me - Charu Gupta.jpeg";
+import maaz from "../../assets/members/IMG-20231215-WA0016 - Maaz Khan.jpg";
+import vanshika from "../../assets/members/IMG-20230906-WA0031 - Vanshika Nagarajan.jpg";
+import danish from "../../assets/members/IMG_20240901_213010 - Mohammad Danish.jpg";
+import zaman from "../../assets/members/IMG_20240901_010650 - Naquiuzzaman.jpg";
+import adnan from "../../assets/members/Screenshot_2024-09-01-19-16-07-50_254de13a4bc8758c9908fff1f73e3725 - khan adnan.png";
+import ahmed from "../../assets/members/Screenshot 2024-08-31 211908 - Ahmed.png";
+import sana from "../../assets/members/IMG_20240831_192620 - Sana Siddique.jpg";
+import simran from "../../assets/members/IMG_20240831_185941 - Simran Bhagat.jpg";
+import sufiyan from "../../assets/members/IMG_20240827_234219_290 - Sufian Khan.jpg";
+import shazia from "../../assets/members/IMG_9817 - Shazia Saifi.jpeg";
+import mariya from "../../assets/members/IMG_2727 - Mariya Mallick.JPG";
+import bilal from "../../assets/members/IMG_1097 - Bilal Ahmad.jpg";
+import raza from "../../assets/members/Screenshot_20240831-191700 (1) - Raza.png";
 
 const TeamMember = ({ id, name, title, bio, avatar, social_links }) => (
   <>
@@ -12,7 +33,7 @@ const TeamMember = ({ id, name, title, bio, avatar, social_links }) => (
         className="avatar"
         style={{
           width: "100%",
-          height: "400px",
+          height: "500px",
           // minHeight: "5rem",
           // minWidth: "5rem",
           objectFit: "cover",
@@ -136,7 +157,7 @@ function Members() {
       members: [
         {
           id: "m1",
-          name: "Khalique Hussain",
+          name: "Syed Khalique Hussain",
           title: "BCA 3rd YEAR",
           bio: "Hi, my name is Khalique Hussain. I’m currently in a BCA 3rd year at Jamia Hamdard University majoring in Computer Science. I’m also a member of the Tezos Tech team. I’m passionate about learning new technologies and collaborating with others.",
           avatar: khalique,
@@ -161,89 +182,85 @@ function Members() {
         },
         {
           id: "m2",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          name: "Syed Hamza Rizvi",
+          title: "BTECH (CSE)",
+          bio: "I am FullStack Engineer at BarsaatiMedia & Stir , an L.A.-based startup. Mentoring under Ankur Singla, Founder of Tapzo (Currently Amazon Pay). Previously worked with Delhi Police, Cluster Protocol. I have won numerous hackathons, around 16 of them. Building YoctoMed, secured $40k in pre-seed funding for my Quick Commerce, Yoctomed.if I weren’t a coder, I’d probably be a professional Bug Catcher. Don't message me for fixing your printers.",
+          avatar: hamzarizvi,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/mostuselessboy/",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/devhamzarizvi/",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:mostuselessboy@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+918595593127",
             },
           ],
         },
         {
           id: "m3",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          name: "Raza Rizvi",
+          title: "BTECH (CSE)",
+          bio: "Hey, I'm Raza! I'm a Full Stack and Cross-Platform Developer, always learning and pushing the boundaries to create seamless, innovative applications across all devices.",
+          avatar: raza,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/razaaa2gud?igsh=MXJnbTFuMWYzcWkzZg==",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/razarizvi-js",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:razasfs2003@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+918287770740",
             },
           ],
         },
         {
           id: "m4",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          name: "Zeba",
+          title: "BTECH (CSE)",
+          bio: "Hey! I'm Zeba, an upcoming blockchain developer, React Native expert, and full-stack developer. Blending creativity with modern technology to craft innovative solutions that address real-life problems head-on, making a meaningful impact in the digital world.",
+          avatar: zeba,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/__heyheyhi?igsh=MWhuY3UzZzU4YmFtMQ==",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "http://www.linkedin.com/in/zeba-k-ba96a5292",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:zebakhan0316@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+919625487388",
             },
           ],
         },
         {
           id: "m5",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          name: "Vanshika Nagarajan",
+          title: "BTECH (CSE)",
+          bio: "As a Data Science Mentor, I provide comprehensive guidance to my fellow friends in mastering the intricacies of data handling and analytics. My role involves assisting learners in navigating through complex data challenges, ensuring they develop a strong foundation in data manipulation, statistical analysis, and visualization techniques. Beyond addressing immediate concerns, I work closely with students to design and implement personalized roadmaps that lead to proficiency in machine learning and deep learning. My mentorship focuses on equipping students with the practical skills and knowledge necessary to excel in the rapidly evolving field of data science, empowering them to achieve their academic and professional goals.",
+          avatar: vanshika,
           social_links: [
             {
               name: "Instagram",
@@ -251,67 +268,65 @@ function Members() {
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/vanshika-nagarajan-2bb766228/",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:vanshikanagarajan@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+919625337117",
             },
           ],
         },
         {
           id: "m6",
-          name: "Jane Smith",
+          name: "Rahul ",
           title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          bio: "I’m Rahul Singh, a B.Tech Computer Science student at Jamia Hamdard, and a Tech member of the Tezos Jamia Hamdard Club. My journey in tech has led me to explore both web development and Web3 technologies, areas where I’m deeply passionate. I have hands-on experience with the MERN stack (MongoDB, Express.js, React, Node.js), which allows me to create dynamic and responsive web applications. I’m also comfortable working in Linux environments and have experience with Python, shell scripting, and essential tools like Git, virtual machines, and MySQL. Being part of the Tezos community has been a fantastic experience, giving me a deeper understanding of blockchain, decentralized systems, and smart contracts. I’m always eager to learn more ",
+          avatar: rahul,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/rahul_singh_4020?igsh=ODBvNDl4b3ltMnNp",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/rahul-singh-b14676259/",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:rs739025@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+919540127213",
             },
           ],
         },
         {
           id: "m7",
-          name: "Jane Smith",
+          name: "Mohd Ahmed",
           title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          bio: "Mohammed Ahmed - Ethical Hacker & Front-End Developer I’m an ethical hacking enthusiast currently studying Btech Computer Science at Jamia Hamdard. Alongside my passion for cybersecurity, I’m a front-end web developer. I’m dedicated to learning and growing in both fields, eager to tackle challenges and contribute to innovative projects.",
+          avatar: ahmed,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/__ahmed_010/",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/mohammad-ahmed-094859245/",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:venomm472@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+918851808190",
             },
           ],
         },
@@ -374,11 +389,10 @@ function Members() {
       members: [
         {
           id: "m10",
-          name: "Bob Johnson",
-          title: "Member",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1639149888905-fb39731f2e6c?q=80&w=400&auto=format&fit=crop",
+          name: "Syed Khalique Hussain",
+          title: "BCA 3rd YEAR",
+          bio: "Hi, my name is Khalique Hussain. I’m currently in a BCA 3rd year at Jamia Hamdard University majoring in Computer Science. I’m also a member of the Tezos Tech team. I’m passionate about learning new technologies and collaborating with others.",
+          avatar: khalique,
           social_links: [
             {
               name: "Instagram",
@@ -561,15 +575,14 @@ function Members() {
         },
         {
           id: "m17",
-          name: "Emma Davis",
-          title: "Board Member",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=400&auto=format&fit=crop",
+          name: "Nauman Ali Siddiqui",
+          title: "Btech CSE",
+          bio: "Photographer for Tezoz, the college club that brings together creativity and camaraderie. I specialize in capturing the dynamic and engaging moments of our events, from lively gatherings to spontaneous interactions, all while showcasing the vibrant spirit and community of Tezoz. Through my lens, I aim to preserve and highlight the memorable experiences that define our club.",
+          avatar: toxiclicker,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/naumaan.siddiqui.96?igsh=d2tweW94cXU1ejN1&utm_source=qr",
             },
             {
               name: "LinkedIn",
@@ -577,11 +590,11 @@ function Members() {
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:siddiquinaumaan54321@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+918851103076",
             },
           ],
         },
@@ -868,27 +881,26 @@ function Members() {
         },
         {
           id: "m28",
-          name: "Emily Martinez",
-          title: "Content Creator",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=400&auto=format&fit=crop",
+          name: "Shazia Saifi",
+          title: "BCA",
+          bio: "As a content writer can write engaging and informative content. Also can enthusiastically work as speaker/host. ",
+          avatar: shazia,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/shazia.saif1?igsh=bmtjbmtuZ2Z6amNu&utm_source=qr",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/shazia-saifi-a734b62a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:saifishazia663@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+918860018804",
             },
           ],
         },
@@ -977,115 +989,118 @@ function Members() {
       members: [
         {
           id: "m32",
-          name: "William Thompson",
-          title: "Manager",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1639149888905-fb39731f2e6c?q=80&w=400&auto=format&fit=crop",
+          name: "Mohammad Sufian",
+          title: "Btech Cse ",
+          bio: "Hello!!! I'm Mohmmad Sufian , a dedicated member of the Tezos community and proud to serve on the management team. Passionate about blockchain innovation and community growth, I'm committed to contributing to the success of Tezos and its ecosystem.",
+          avatar: sufiyan,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/sufianxss510?igsh=bGZoMmE2dGpyNm80",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/mohammad-sufian-08077a2b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:khansyrian1@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+916200126662",
             },
           ],
         },
         {
           id: "m33",
-          name: "Ava Garcia",
-          title: "Manager",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&auto=format&fit=crop",
+          name: "NAZIA",
+          title: "Btech CSE",
+          bio: "I'm studying for a Bachelor of Technology degree at Jamia Hamdard, where I'm learning about technology and engineering. I'm really interested in creating new things and using technology to solve problems. I also really enjoy playing basketball, which has shown me how important it is to work well with others, be disciplined, and keep trying even when things are tough. Managing both my studies and basketball has helped me become a more balanced person, keeping me focused and full of energy. I love learning new things, whether in school or on the basketball court, and I'm always working on improving myself as a student and as a person. My aim is to use what I learn and my experiences to make a good difference in my field and help the people around me.",
+          avatar: nazia,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/nk_17_25?igsh=MWVob2czYTV4YzVvMA==",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/nazia-khatun-b2966b27a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:naziakhatun1257@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+919540127213",
+            },
+            {
+              name: "Whatsapp",
+              link: "https://x.com/NaziaKhatu79980?t=vFrK98Klf-SZsrVamizyCg&s=09",
             },
           ],
         },
         {
           id: "m34",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          name: "Charu",
+          title: "BCA",
+          bio: "As the Management Team Lead at Tezos JH, I leverage my leadership qualities to ensure operational excellence. With a background in team management and team coordination,  My role involves fostering a collaborative environment where innovation thrives, guiding teams through complex challenges, and ensuring that our projects not only meet but exceed expectations. I am passionate about the transformative potential of Tezos, and I work closely with developers and community members to promote the adoption and integration of Tezos technology across various industries. My commitment to continuous improvement and my ability to coordinate team members makes me a key contributor of management team at Tezos JH.",
+          avatar: charu,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/ugh.nvm._?igsh=cDVhaTloczRtZnl1",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/charu-gupta-0a5a49299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:charugupta.217740@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+919953729271",
             },
           ],
         },
         {
           id: "m35",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          name: "Mohammad Muzakkir Jamal ",
+          title: "B-TECH CSE",
+          bio: "As a member of the management team, I help make decisions, organize activities, and ensure everything runs smoothly for the society.",
+          avatar: raza,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/muzakkir_jamal",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/mohammad-muzakkir-jamal-47b035293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:mohammadmuzakkirjamal@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+918929630069",
+            },
+            {
+              name: "X",
+              link: "https://x.com/muazakkir_jamal?t=qPKHcNj7pELueyBzzyovSw&s=09",
             },
           ],
         },
         {
           id: "m36",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          name: "MAAZ KHAN ",
+          title: "B-TECH CSE",
+          bio: "I am a dedicated B.Tech Computer Science Engineering student with a strong passion for technology and innovation. My academic journey has equipped me with a solid foundation in management which I continuously build upon. I am highly motivated to stay at the forefront of emerging tech trends such as artificial intelligence, machine learning.Beyond academics, I am eager to collaborate with like-minded peers in a tech society, where I can contribute my skills while also learning from others. My goal is to actively participate in tech-related events, and workshops to broaden my knowledge and network with industry professionals. Joining your esteemed tech society would provide me with the platform to further enhance my technical abilities and work on innovative projects that make a real impact.",
+          avatar: maaz,
           social_links: [
             {
               name: "Instagram",
@@ -1097,11 +1112,36 @@ function Members() {
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:maazkhan14917@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+918218440644",
+            },
+          ],
+        },
+        {
+          id: "m47",
+          name: "Mohammad Danish",
+          title: "B-TECH CSE",
+          bio: "I am Mohammad Danish Ahmed, a B.Tech Computer Science student at Jamia Hamdard University, currently in the early stages of my tech journey. As a beginner, I'm actively learning the fundamentals of programming, data structures, and algorithms, with a strong desire to explore various areas of technology. In addition to my studies, I hold an event management position in the Tezos Society, where I engage with the community and organize events focused on blockchain and decentralized technologies. My focus is on gaining practical skills through hands-on projects and continuous learning. I look forward to connecting with others who share my passion for tech and exploring opportunities to grow and develop my skills.",
+          avatar: danish,
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/vibeswith_danish?igsh=MXFsNGR3MXV2cnhh",
+            },
+            {
+              name: "LinkedIn",
+              link: "https://www.linkedin.com/in/mohammad-danish14",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:danish.sab05@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+918294534533",
             },
           ],
         },
@@ -1112,63 +1152,68 @@ function Members() {
       members: [
         {
           id: "m37",
-          name: "Michael Robinson",
-          title: "Designer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=400&auto=format&fit=crop",
+          name: "Simran Bhagat",
+          title: "BTech CSE",
+          bio: "Hello! I’m Simran Bhagat, a graphic designer and a B.Tech CSE student. As a proud member of the Tezos JH design team, I channel my creativity into crafting stunning visuals that represent our team. Graphic designing isn’t just a hobby for me; it’s my passion. I thrive on creating amazing designs that captivate and inspire.Beyond design, I have a keen interest in data science, constantly exploring the fascinating world of data and its endless possibilities. If you have any queries or need assistance, feel free to reach out. Let’s connect and create something extraordinary together!",
+          avatar: simran,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/simxcreates?igsh=b3djZXB0bWRrbWFs",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/simran-bhagat-a27180244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:simransmidel@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+918920798331",
+            },
+            {
+              name: "X",
+              link: "https://x.com/Simran_305?t=yCrm72qTEl48b_0MM3__Gw&s=09",
             },
           ],
         },
         {
           id: "m38",
-          name: "Sofia Hernandez",
-          title: "Designer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=400&auto=format&fit=crop",
+          name: "Sana Siddique",
+          title: "B-TECH",
+          bio: "I’m Sana Siddique, a B-Tech student from Jamia Hamdard University ,where i am a part of  Graphic Design team at Tezos JH . While I love being creative with graphic design, my real passion is diving into the world of data science and AI/ML. I’m fascinated by how data can uncover insights and help solve complex problems. I’ve got experience working with Python, Java, C, My SQL, AutoCAD and I’m pretty handy with data visualization tools like Power BI and Tableau.  I also enjoy working with data using libraries like NumPy, Matplotlib, Pandas, and Seaborn.When it comes to graphic design, I use tools like Canva and Adobe Illustrator to bring my ideas to life. Combining my design skills with my love for data science gives me a unique perspective, and I’m always eager to learn more and tackle new challenges. I’m really excited about where technology is heading.",
+          avatar: sana,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/_sana_sid239_?igsh=d2hleTFlM3FxcHNp",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/sana-sid-421ab1277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:siddiquesana239@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+919354181389",
+            },
+            {
+              name: "X",
+              link: "https://x.com/SanaSiddiq91223?t=onANdskluX0mjHosWJzLuw&s=09",
             },
           ],
         },
         {
           id: "m39",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          name: "Bilal Ahmad",
+          title: "BCA",
+          bio: "Hey!! Bilal here, I'm a skilled web developer and UX designer with a strong passion for creating engaging and user-friendly designs. I have expertise in tools like Figma, Photoshop, Canva, and Framer, which I use to bring my design ideas to life.",
+          avatar: bilal,
           social_links: [
             {
               name: "Instagram",
@@ -1176,67 +1221,61 @@ function Members() {
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/bilal-ahmad-92b3a82a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:Bilalstg468@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+918287416877",
             },
           ],
         },
         {
           id: "m40",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          name: "Zubiya",
+          title: "B-TECH",
+          bio: "howdy guys ,I am Zubiya Azeem, the Head of the Graphics Board! Pursuing a BTech (CSE), Icombines my technical prowess with creative flair to lead my team in producing dynamic and impactful graphics. My dedication to excellence and passion for design are essential in driving visual projects forward.",
+          avatar: zubiya,
           social_links: [
             {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/zubiya-azeem-40054a24a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:zubiya.hamdard@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+917827456065",
             },
           ],
         },
         {
           id: "m41",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          name: "Mariya Mallick ",
+          title: "B-TECH CSE",
+          bio: "As a member of the Tezos Jamia Hamdard Design Team, I play a crucial role in bringing creative vision and innovative design solutions to the forefront of blockchain and decentralized applications.",
+          avatar: mariya,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/maariya2378?igsh=YTZsN2RtNTVlMGds",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/mariya-mallick-718a01304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:mariyamallick176@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+919868073808",
             },
           ],
         },
@@ -1247,79 +1286,80 @@ function Members() {
       members: [
         {
           id: "m42",
-          name: "Michael Robinson",
-          title: "Designer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=400&auto=format&fit=crop",
+          name: "Naquiuzzaman ",
+          title: "B-TECH CSE",
+          bio: "As a dedicated PR member of the Tezos community, I am passionate about promoting and advancing the unique benefits of the Tezos blockchain. I focus on fostering strong relationships within the community and beyond, ensuring that our innovative platform is well-represented and understood.",
+          avatar: zaman,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/tabish_marhaba_007?igsh=MTNmZTAxdTdhamVmOA==",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/naquiuz-zaman-44967a294",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:marhabatabish1@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+917779879534",
             },
           ],
         },
         {
           id: "m43",
-          name: "Sofia Hernandez",
-          title: "Designer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=400&auto=format&fit=crop",
+          name: "Adnan Khan",
+          title: "BCA",
+          bio: "Hello and welcome! I'm Adnan, and I genuinely appreciate you taking the time to explore my profile, it means a lot (and probably burns a few calories, so double win!).As someone who's always eager to dive into new challenges, I have a strong passion for learning and exploring various tech domains. Currently, I’m honing my skills as a Web Developer, while also taking on the role of PR Lead at Tezoz, where I bridge the gap between innovation and communication.",
+          avatar: adnan,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/adnan_khan_afridi4?igsh=MTVvaDIwY3VzMW9jMA==",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/adnan-khan-afridi-46595129a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:adnandelhi2004@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+919810878071",
+            },
+            {
+              name: "X",
+              link: "https://x.com/afridi4_khan?t=-llfMZ05rwIMcb0yODuSlQ&s=09",
             },
           ],
         },
         {
           id: "m44",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          name: "Laiba zeeai",
+          title: "Bsc(hons)cs",
+          bio: "Pr (public relation) is all about to expand communication and to conveying the messages to the audience, clients, many more. As a pr i thrilled to manage pr work while maintaining the audience aware of the information and building a positive relationship between the audience nd the organizors. ",
+          avatar: laiba,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/just_capricious?igsh=dngzdDUxOXpqcjU4",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/laiba-zeeai-830b53302",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:laibazeeai68@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+919711099468",
             },
           ],
         },

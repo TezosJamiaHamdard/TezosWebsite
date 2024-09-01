@@ -5,9 +5,9 @@ import Blog2 from "../../assets/Blog2.avif";
 import Blog3 from "../../assets/blog3.jpeg";
 import Blog4 from "../../assets/blog4.avif";
 
-export default function Blog() {
+export default function Blog({ Blogref }) {
   return (
-    <div className="blogs">
+    <div className="blogs" ref={Blogref}>
       <div className="blog-img">
         <div className="blog-title">
           <q className="blog-quote">Read Our Blogs</q>
@@ -18,6 +18,32 @@ export default function Blog() {
       <div className="container-blog swiper">
         <div className="slider-wrapper">
           <div className="card-list swiper-wrapper">
+            {/* 1 */}
+
+            <div className="card-item swiper-slide">
+              <img
+                decoding="async"
+                src={Blog4}
+                alt="4"
+                className="user-image"
+              />
+              <h2 className="user-name">Hamza</h2>
+              <p className="user-profession">
+                In the ever-evolving IT landscape, you’ve likely come across the
+                term “DevOps” — a concept that’s rapidly gaining traction among
+                major tech companies. With its emphasis on streamlining
+                operations and development, DevOps is shaping the future of IT
+                practices. In this blog, I’ll dive into what DevOps means, and
+                the key aspects we’ll explore include:-
+              </p>
+              <button className="message-button">
+                <a href="https://hashnode.com/post/cm0i7yhxm000609jqcd6ee2ch">
+                  {" "}
+                  Read More{" "}
+                </a>
+              </button>
+            </div>
+
             <div className="card-item swiper-slide">
               <img
                 // decoding="async"
@@ -39,27 +65,8 @@ export default function Blog() {
                 </a>
               </button>
             </div>
-            <div className="card-item swiper-slide">
-              <img
-                // decoding="async"
-                src={Blog2}
-                alt="Blog 2"
-                className="user-image"
-              />
-              <h2 className="user-name">Tauqeer Ahmed</h2>
-              <p className="user-profession">
-                Welcome to the world of Azure Command-Line Interface (CLI)! As
-                cloud computing continues to revolutionize the way we build,
-                deploy, and manage applications, having a powerful and efficient
-                tool like the Azure CLI in your toolkit is essential.
-              </p>
-              <button className="message-button">
-                <a href="https://tauqeerahmad.hashnode.dev/navigating-the-microsoft-azure-cli">
-                  {" "}
-                  Read More{" "}
-                </a>
-              </button>
-            </div>
+
+            {/* 3 */}
             <div className="card-item swiper-slide">
               <img
                 decoding="async"
@@ -85,29 +92,29 @@ export default function Blog() {
                 </a>
               </button>
             </div>
+            {/* 4 */}
             <div className="card-item swiper-slide">
               <img
-                decoding="async"
-                src={Blog4}
-                alt="4"
+                // decoding="async"
+                src={Blog2}
+                alt="Blog 2"
                 className="user-image"
               />
-              <h2 className="user-name">Hamza</h2>
+              <h2 className="user-name">Tauqeer Ahmed</h2>
               <p className="user-profession">
-                In the ever-evolving IT landscape, you’ve likely come across the
-                term “DevOps” — a concept that’s rapidly gaining traction among
-                major tech companies. With its emphasis on streamlining
-                operations and development, DevOps is shaping the future of IT
-                practices. In this blog, I’ll dive into what DevOps means, and
-                the key aspects we’ll explore include:-
+                Welcome to the world of Azure Command-Line Interface (CLI)! As
+                cloud computing continues to revolutionize the way we build,
+                deploy, and manage applications, having a powerful and efficient
+                tool like the Azure CLI in your toolkit is essential.
               </p>
               <button className="message-button">
-                <a href="https://hashnode.com/post/cm0i7yhxm000609jqcd6ee2ch">
+                <a href="https://tauqeerahmad.hashnode.dev/navigating-the-microsoft-azure-cli">
                   {" "}
                   Read More{" "}
                 </a>
               </button>
             </div>
+
             <div className="card-item swiper-slide">
               <img
                 decoding="async"
