@@ -305,3 +305,10 @@
     height: 24px;
   }
 }
+@media screen and (max-width: 370px) {
+  .link-div {
+    width: 20px;
+    height: 20px;
+    margin: 0  -5px;
+  }
+}
