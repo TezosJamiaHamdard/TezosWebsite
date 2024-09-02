@@ -7,6 +7,7 @@ import Article2 from "../../assets/article2.jpeg";
 import Article3 from "../../assets/article3.jpeg";
 import Article4 from "../../assets/article4.jpg";
 import Article5 from "../../assets/article5.jpg";
+import Article6 from "../../assets/article6.jpeg";
 import Article7 from "../../assets/article7.jpg";
 function About({ Aboutref }) {
   return (
@@ -176,7 +177,7 @@ function About({ Aboutref }) {
         </div>
         <div className="item-5">
           <a
-            href="https://design.tutsplus.com/tutorials/stranger-things-inspired-text-effect--cms-27139"
+            href="https://TezosJamiaHamdard.github.io/TezosWebsite"
             className="card"
           >
             <div
@@ -186,28 +187,22 @@ function About({ Aboutref }) {
               }}
             />
             <article>
-              <h1>Tezos Jamia Hamdard Offical Website.</h1>
+              <h1>Tezos Jamia Hamdard .</h1>
               <span>Tezos JHU</span>
             </article>
           </a>
         </div>
         <div className="item-6">
-          <a
-            href="https://photography.tutsplus.com/articles/5-inspirational-business-portraits-and-how-to-make-your-own--cms-27338"
-            className="card"
-          >
+          <a href="https://roadmap.sh/full-stack" className="card">
             <div
               className="thumb"
               style={{
-                backgroundImage:
-                  "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flor.jpg)",
+                backgroundImage: `url(${Article6})`,
               }}
             />
             <article>
-              <h1>
-                5 Inspirational Business Portraits and How to Make Your Own
-              </h1>
-              <span>Marie Gardiner</span>
+              <h1>Full Stack Web Developmet</h1>
+              <span>Tezos</span>
             </article>
           </a>
         </div>

@@ -1,19 +1,20 @@
 import { useEffect, useState } from "react";
 import "./Membersteam.css";
-import khalique from "../../assets/khalique2.jpg";
+// import khalique from "../../assets/khalique2.jpg";
+import khalique from "../../assets/khalique.jpg";
 import hamza from "../../assets/hamza.jpg";
 import hamzarizvi from "../../assets/members/1696533983538 - Syed Hamza Mehdi Rizvi.jpg";
 import toxiclicker from "../../assets/members/EE188CF1-27CA-444E-ACD0-2563450A1EBE - TOXIC LICKER.jpeg";
 import zeba from "../../assets/members/WhatsApp Image 2024-08-31 at 8.36.30 PM - Zeba.jpeg";
 import zubiya from "../../assets/members/WhatsApp Image 2024-05-20 at 8.19.03 PM - 241 Zubiya Azeem.jpeg";
-import laiba from "../../assets/members/Snapchat-660827288 - Laiba Zeeai.jpg";
+import laiba from "../../assets/members/laiba.jpg";
 import rahul from "../../assets/members/photo - Rahul Singh.png";
-import nazia from "../../assets/members/nazia - Nazia Khatun(1).jpg";
+import nazia from "../../assets/members/nazia.jpg";
 import charu from "../../assets/members/me - Charu Gupta.jpeg";
 import maaz from "../../assets/members/IMG-20231215-WA0016 - Maaz Khan.jpg";
 import vanshika from "../../assets/members/IMG-20230906-WA0031 - Vanshika Nagarajan.jpg";
 import danish from "../../assets/members/IMG_20240901_213010 - Mohammad Danish.jpg";
-import zaman from "../../assets/members/IMG_20240901_010650 - Naquiuzzaman.jpg";
+import zaman from "../../assets/members/zama.jpg";
 import adnan from "../../assets/members/Screenshot_2024-09-01-19-16-07-50_254de13a4bc8758c9908fff1f73e3725 - khan adnan.png";
 import ahmed from "../../assets/members/Screenshot 2024-08-31 211908 - Ahmed.png";
 import sana from "../../assets/members/IMG_20240831_192620 - Sana Siddique.jpg";
@@ -23,6 +24,12 @@ import shazia from "../../assets/members/IMG_9817 - Shazia Saifi.jpeg";
 import mariya from "../../assets/members/IMG_2727 - Mariya Mallick.JPG";
 import bilal from "../../assets/members/IMG_1097 - Bilal Ahmad.jpg";
 import raza from "../../assets/members/Screenshot_20240831-191700 (1) - Raza.png";
+import saad from "../../assets/members/saad.jpg";
+import aasif from "../../assets/members/aasif.jpg";
+import muzakkir from "../../assets/members/muzakkir.jpg";
+import asna from "../../assets/members/asna.jpg";
+import shariq from "../../assets/members/IMG_7125 - Shariq.jpg";
+import alfiya from "../../assets/members/alfiya.jpg";
 
 const TeamMember = ({ id, name, title, bio, avatar, social_links }) => (
   <>
@@ -176,6 +183,14 @@ function Members() {
               name: "Whatsapp",
               link: "http://wa.me/+919711644284",
             },
+            {
+              name: "X",
+              link: "https://x.com/KhaliqHussainnn",
+            },
+            {
+              name: "Github",
+              link: "https://github.com/khaliqhussainn",
+            },
           ],
         },
         {
@@ -303,83 +318,6 @@ function Members() {
             },
           ],
         },
-        {
-          id: "m7",
-          name: "Mohd Ahmed",
-          title: "Developer",
-          bio: "Mohammed Ahmed - Ethical Hacker & Front-End Developer I’m an ethical hacking enthusiast currently studying Btech Computer Science at Jamia Hamdard. Alongside my passion for cybersecurity, I’m a front-end web developer. I’m dedicated to learning and growing in both fields, eager to tackle challenges and contribute to innovative projects.",
-          avatar: ahmed,
-          social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/__ahmed_010/",
-            },
-            {
-              name: "LinkedIn",
-              link: "https://www.linkedin.com/in/mohammad-ahmed-094859245/",
-            },
-            {
-              name: "Gmail",
-              link: "mailto:venomm472@gmail.com",
-            },
-            {
-              name: "Whatsapp",
-              link: "http://wa.me/+918851808190",
-            },
-          ],
-        },
-        {
-          id: "m8",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
-          social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
-              name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
-            },
-            {
-              name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
-            },
-            {
-              name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
-            },
-          ],
-        },
-        {
-          id: "m9",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
-          social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
-              name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
-            },
-            {
-              name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
-            },
-            {
-              name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
-            },
-          ],
-        },
       ],
     },
     2: {
@@ -412,53 +350,51 @@ function Members() {
         },
         {
           id: "m11",
-          name: "Alice Brown",
-          title: "Member",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=400&auto=format&fit=crop",
+          name: "Jane Smith",
+          title: "BBA",
+          bio: "As the LinkedIn handler for Tezos Club at Jamia Hamdard, I am responsible for managing and curating our online presence on LinkedIn. My role involves creating engaging content, highlighting our club’s activities, promoting events, and sharing updates related to blockchain technology and the Tezos ecosystem. Through strategic content planning and networking, I aim to enhance our club’s visibility and influence in the blockchain community.",
+          avatar: alfiya,
           social_links: [
             {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/alfiya-rizvi-0a24a629a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:rizvi.alfiya03@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+917481049419",
             },
           ],
         },
         {
           id: "m12",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          name: "Shariq Ansari",
+          title: "B-tech CSE",
+          bio: "As a B.Tech student, I am driven by a passion for technology and engineering. My academic journey is centered around gaining a deep understanding of the principles that power our modern world. Through my coursework, I’ve developed strong analytical and problem-solving skills, with a particular interest in areas like software development, electronics, and data science. I enjoy exploring how theoretical concepts can be applied to practical challenges, and I am always eager to engage in projects that push the boundaries of what’s possible.Beyond academics, I am committed to continuous learning and staying updated on the latest advancements in technology. Whether working on assignments, participating in group projects, or exploring personal tech interests, I approach every task with enthusiasm and a desire to excel. My goal is to leverage my education and skills to contribute to innovative solutions and make a positive impact in the tech industry.",
+          avatar: shariq,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/shaaaariq._/",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/shariq-ansari-4a1a57262/",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:shariqsss087@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+919958484624",
+            },
+            {
+              name: "X",
+              link: "https://x.com/Shariq847821932",
             },
           ],
         },
@@ -596,58 +532,6 @@ function Members() {
             },
           ],
         },
-        {
-          id: "m18",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
-          social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
-              name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
-            },
-            {
-              name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
-            },
-            {
-              name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
-            },
-          ],
-        },
-        {
-          id: "m19",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
-          social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
-              name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
-            },
-            {
-              name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
-            },
-            {
-              name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
-            },
-          ],
-        },
       ],
     },
     4: {
@@ -688,53 +572,59 @@ function Members() {
         },
         {
           id: "m21",
-          name: "Olivia Wilson",
-          title: "Founding Member",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=400&auto=format&fit=crop",
+          name: "Sheikh Mohammad Saad Akhtar",
+          title: "B-Tech",
+          bio: "Description of my profile: As the Community Lead for Tezos Jamia Hamdard, I spearhead initiatives to educate and engage students in blockchain technology, particularly within the Tezos ecosystem. My role involves organizing and leading workshops, seminars, and hackathons, providing members with hands-on experience in decentralized applications and smart contracts. I act as a liaison between Jamia Hamdard and the broader Tezos community, fostering collaboration and innovation. By building a vibrant, knowledge-driven community, I aim to empower students to explore blockchain technology's potential, contribute to open-source projects, and stay at the forefront of technological advancements. My leadership focuses on nurturing talent, encouraging creative problem-solving, and promoting a deeper understanding of Tezos, ultimately preparing members to become future leaders in the blockchain space.",
+          avatar: saad,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/ethereal.macroni",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "http://www.linkedin.com/in/saad-akhtar-337b0228a",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:saadakhtr51@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+919234735525",
+            },
+            {
+              name: "X",
+              link: "https://x.com/EtherealMacroni",
+            },
+            {
+              name: "Github",
+              link: "https://github.com/saadakhtr29",
             },
           ],
         },
         {
           id: "m22",
           name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          title: "B.Tech Computer Science and Engineering",
+          bio: "I am a second-year Computer Science and Engineering student with a strong interest in technology and content writing. Currently, I am exploring web development and am particularly fascinated by Web 3 and blockchain technology. The potential of decentralized systems and secure digital interactions captivates me, fueling my passion for the future of the web. I enjoy connecting with like-minded people and am committed to continuous learning and personal growth.",
+          avatar: aasif,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/syed_aasif09/",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/md-aasif",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:syedaasif009@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+919718406196",
             },
           ],
         },
@@ -1069,7 +959,7 @@ function Members() {
           name: "Mohammad Muzakkir Jamal ",
           title: "B-TECH CSE",
           bio: "As a member of the management team, I help make decisions, organize activities, and ensure everything runs smoothly for the society.",
-          avatar: raza,
+          avatar: muzakkir,
           social_links: [
             {
               name: "Instagram",
@@ -1140,6 +1030,31 @@ function Members() {
             {
               name: "Whatsapp",
               link: "http://wa.me/+918294534533",
+            },
+          ],
+        },
+        {
+          id: "m48",
+          name: "Asna Shah",
+          title: "B.Sc.computer science ",
+          bio: "I'm Asna Shah pursuing B.Sc. computer science from jamia Hamdard. As a co lead of tezos management team i collaborate closely with fellow leaders for smooth functioning in the club. Willing to learn new skills and helping others along the way.",
+          avatar: asna,
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/_asnashah?igsh=MTZ0aHdhNWh6dzkwcQ==",
+            },
+            {
+              name: "LinkedIn",
+              link: "https://www.linkedin.com/in/asna-shah-11365529a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:asnashah2005@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+919675517000",
             },
           ],
         },
@@ -1274,6 +1189,31 @@ function Members() {
             {
               name: "Whatsapp",
               link: "http://wa.me/+919868073808",
+            },
+          ],
+        },
+        {
+          id: "m7",
+          name: "Mohd Ahmed",
+          title: "Developer",
+          bio: "Mohammed Ahmed - Ethical Hacker & Front-End Developer I’m an ethical hacking enthusiast currently studying Btech Computer Science at Jamia Hamdard. Alongside my passion for cybersecurity, I’m a front-end web developer. I’m dedicated to learning and growing in both fields, eager to tackle challenges and contribute to innovative projects.",
+          avatar: ahmed,
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/__ahmed_010/",
+            },
+            {
+              name: "LinkedIn",
+              link: "https://www.linkedin.com/in/mohammad-ahmed-094859245/",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:venomm472@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+918851808190",
             },
           ],
         },

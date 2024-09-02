@@ -1,4 +1,4 @@
-.PageSecond{
+.PageSecond {
   position: relative;
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -7,7 +7,7 @@
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background: #3d1053;
+  background: #240046;
   /* background: rgb(92,15,163);
 background: linear-gradient(90deg, rgba(92,15,163,1) 0%, rgba(117,33,235,0.9922093837535014) 21%, rgba(121,44,228,1) 35%, rgba(111,41,210,1) 53%, rgba(0,212,255,1) 100%); */
 }
@@ -54,7 +54,7 @@ background: linear-gradient(90deg, rgba(92,15,163,1) 0%, rgba(117,33,235,0.99220
   background-position: right;
 }
 
-.btn-event{
+.btn-event {
   text-decoration: none;
   border-radius: 100px;
   position: absolute;
@@ -68,19 +68,19 @@ background: linear-gradient(90deg, rgba(92,15,163,1) 0%, rgba(117,33,235,0.99220
   opacity: 0;
   box-shadow: 0 0 0.2em 0 #6c0b87;
 }
-.panel.active .btn-event{
+.panel.active .btn-event {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
 
-.btn-event:hover{
+.btn-event:hover {
   transition: 0.5s;
   outline: 0.1em solid transparent;
   outline-offset: 0.2em;
   box-shadow: 0 0 0.4em 0 #6c0b87;
 }
 
-.btn-vid-event{
+.btn-vid-event {
   padding: 3px 20px;
   text-decoration: none;
   border-radius: 100px;
@@ -95,7 +95,7 @@ background: linear-gradient(90deg, rgba(92,15,163,1) 0%, rgba(117,33,235,0.99220
   opacity: 0;
   box-shadow: 0 0 0.2em 0 #6c0b87;
 }
-.panel.active .btn-vid-event{
+.panel.active .btn-vid-event {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
@@ -132,10 +132,10 @@ background: linear-gradient(90deg, rgba(92,15,163,1) 0%, rgba(117,33,235,0.99220
   .panel.active {
     flex-grow: 1.5;
   }
-  .btn-event{
+  .btn-event {
     padding: 2px 3px;
   }
-  .btn-vid-event{
+  .btn-vid-event {
     padding: 2px 3px;
   }
 }
