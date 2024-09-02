@@ -292,23 +292,32 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   .link-div {
     width: 28px;
     height: 28px;
+    margin: 0 -5px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .link-div {
+    width: 26.5px;
+    height: 26.5px;
+    margin: 0 -8px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .link-div {
-    width: 24px;
-    height: 24px;
+    width: 25px;
+    height: 25px;
+    margin:0 -10px ;
   }
 }
 @media screen and (max-width: 370px) {
   .link-div {
     width: 20px;
     height: 20px;
-    margin: 0  -5px;
+    margin: 0  -10px;
   }
 }
