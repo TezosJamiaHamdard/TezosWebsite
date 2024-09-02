@@ -7,6 +7,7 @@ import { CiMenuBurger } from "react-icons/ci";
 // /* ----- NAVIGATION BAR FUNCTION ----- */
 function MenuFunction() {
   var menuBtn = document.getElementById("myNavMenu");
+  console.log("pressed btn");
 
   if (menuBtn.className === "nav-menu") {
     menuBtn.className += " responsive";
@@ -43,18 +44,18 @@ export default function Navbar({ contactRef, EventRef }) {
         <img src={Logo} alt="" className="Navbar-logo" />
         <div className="nav-menu" id="myNavMenu">
           <ul className="nav_menu_list">
-            <li className="nav_list">
+            <li className="nav_list" onClick={() => MenuFunction()}>
               <Link to="/" className="nav-link active-link">
                 Home
               </Link>
             </li>
-            <li className="nav_list">
+            <li className="nav_list" onClick={() => MenuFunction()}>
               <Link to="/members" className="nav-link">
                 Members
               </Link>
             </li>
             <li className="nav_list">
-              <Link to="/#events" className="nav-link">
+              <Link to="/#events" className="nav-link" onClick={() => MenuFunction()}>
                 <span
                   onClick={() => (
                     setTimeout(() => EventRef.current.scrollIntoView()), 1000
@@ -64,12 +65,12 @@ export default function Navbar({ contactRef, EventRef }) {
                 </span>
               </Link>
             </li>
-            <li className="nav_list">
+            <li className="nav_list" onClick={() => MenuFunction()}>
               <Link to="/blogs" className="nav-link">
                 Blogs
               </Link>
             </li>
-            <li className="nav_list">
+            <li className="nav_list" onClick={() => MenuFunction()}>
               <Link to="/roadmap" className="nav-link roadmap-link">
                 Roadmap
               </Link>
@@ -78,9 +79,10 @@ export default function Navbar({ contactRef, EventRef }) {
           <div className="nav-button">
             <Link to="/#contactform">
               <button
-                onClick={() => (
-                  setTimeout(() => contactRef.current.scrollIntoView()), 1000
-                )}
+                onClick={() => {
+                  MenuFunction();
+                  setTimeout(() => contactRef.current.scrollIntoView())
+                }}
                 className="join"
                 style={{ whiteSpace: "pre" }}
               >
@@ -90,7 +92,7 @@ export default function Navbar({ contactRef, EventRef }) {
             </Link>
 
             <Link to="/about">
-              <button className="join" style={{ whiteSpace: "pre" }}>
+              <button className="join" style={{ whiteSpace: "pre" }} onClick={() => MenuFunction()}>
                 {" "}
                 About Us{" "}
               </button>
