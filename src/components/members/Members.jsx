@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Membersteam.css";
-// import khalique from "../../assets/khalique2.jpg";
 import khalique from "../../assets/khalique.jpg";
 import hamza from "../../assets/hamza.jpg";
-import hamzarizvi from "../../assets/members/1696533983538 - Syed Hamza Mehdi Rizvi.jpg";
 import toxiclicker from "../../assets/members/EE188CF1-27CA-444E-ACD0-2563450A1EBE - TOXIC LICKER.jpeg";
 import zeba from "../../assets/members/WhatsApp Image 2024-08-31 at 8.36.30 PM - Zeba.jpeg";
 import zubiya from "../../assets/members/WhatsApp Image 2024-05-20 at 8.19.03 PM - 241 Zubiya Azeem.jpeg";
@@ -16,7 +14,6 @@ import vanshika from "../../assets/members/IMG-20230906-WA0031 - Vanshika Nagara
 import danish from "../../assets/members/IMG_20240901_213010 - Mohammad Danish.jpg";
 import zaman from "../../assets/members/zama.jpg";
 import adnan from "../../assets/members/Screenshot_2024-09-01-19-16-07-50_254de13a4bc8758c9908fff1f73e3725 - khan adnan.png";
-import ahmed from "../../assets/members/Screenshot 2024-08-31 211908 - Ahmed.png";
 import sana from "../../assets/members/IMG_20240831_192620 - Sana Siddique.jpg";
 import simran from "../../assets/members/IMG_20240831_185941 - Simran Bhagat.jpg";
 import sufiyan from "../../assets/members/IMG_20240827_234219_290 - Sufian Khan.jpg";
@@ -30,6 +27,10 @@ import muzakkir from "../../assets/members/muzakkir.jpg";
 import asna from "../../assets/members/asna.jpg";
 import shariq from "../../assets/members/IMG_7125 - Shariq.jpg";
 import alfiya from "../../assets/members/alfiya.jpg";
+import ahmed from "../../assets/members/ahmed.jpg";
+import hamzarizvi from "../../assets/members/hamzarizvi.jpg";
+import tauqeer from "../../assets/members/tauqeer.jpg";
+import rameez from "../../assets/members/Picsart_23-12-25_15-22-48-108 - rameez imteyaz.jpg";
 
 const TeamMember = ({ id, name, title, bio, avatar, social_links }) => (
   <>
@@ -350,7 +351,7 @@ function Members() {
         },
         {
           id: "m11",
-          name: "Jane Smith",
+          name: "Alfiya Rizvi",
           title: "BBA",
           bio: "As the LinkedIn handler for Tezos Club at Jamia Hamdard, I am responsible for managing and curating our online presence on LinkedIn. My role involves creating engaging content, highlighting our club’s activities, promoting events, and sharing updates related to blockchain technology and the Tezos ecosystem. Through strategic content planning and networking, I aim to enhance our club’s visibility and influence in the blockchain community.",
           avatar: alfiya,
@@ -400,11 +401,10 @@ function Members() {
         },
         {
           id: "m13",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+          name: "Rameez Imteyaz ",
+          title: "B-tech CSE",
+          bio: "Hello, I'm Rameez Imteyaz, currently pursuing my B.TECH in Computer Science, and I'm on a journey to explore the limitless world of technology. I'm eager to connect with fellow tech enthusiasts, mentors, and professionals to learn, share ideas, and collaborate on exciting projects.In addition to my academic pursuits, I'm an extrovert who loves connecting with people from various fields, learning about their work, and gaining insights into different professions.As the lead of the Social Media Board at Tezos, I manage all our social media platforms, recognizing the immense potential of social media in building connections, sharing knowledge, and fostering communities. Social media has become a crucial tool for networking and staying updated with industry trends, making it a vital part of my efforts to grow professionally and personally.",
+          avatar: rameez,
           social_links: [
             {
               name: "Instagram",
@@ -412,67 +412,19 @@ function Members() {
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.instagram.com/syed.rameezz/?next=%2Fchinatown_forever%2Ftagged%2F&ref=article&hl=ne",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:rameezimteyaz5786@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
-            },
-          ],
-        },
-        {
-          id: "m14",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
-          social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "http://wa.me/+916388260210",
             },
             {
-              name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
-            },
-            {
-              name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
-            },
-            {
-              name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
-            },
-          ],
-        },
-        {
-          id: "m15",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
-          social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
-              name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
-            },
-            {
-              name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
-            },
-            {
-              name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              name: "X",
+              link: "https://twitter.com/RImteyaz37926",
             },
           ],
         },
@@ -483,32 +435,6 @@ function Members() {
       members: [
         {
           id: "m16",
-          name: "Tom Williams",
-          title: "Board Member",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=400&auto=format&fit=crop",
-          social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
-              name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
-            },
-            {
-              name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
-            },
-            {
-              name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
-            },
-          ],
-        },
-        {
-          id: "m17",
           name: "Nauman Ali Siddiqui",
           title: "Btech CSE",
           bio: "Photographer for Tezoz, the college club that brings together creativity and camaraderie. I specialize in capturing the dynamic and engaging moments of our events, from lively gatherings to spontaneous interactions, all while showcasing the vibrant spirit and community of Tezoz. Through my lens, I aim to preserve and highlight the memorable experiences that define our club.",
@@ -635,26 +561,30 @@ function Members() {
       members: [
         {
           id: "m23",
-          name: "Hamza ",
-          title: "BCA 3rd YEAR",
-          bio: "User Bio Goes Here",
-          avatar: hamza,
+          name: "Tauqeer Ahmad",
+          title: "BTCSE Passed Out",
+          bio: "Hi, I am Tauqeer Ahmad, Developer Relations Engineer at Tezos from the India Region. I am the one who manages all the educational communities around the India space and build the advocacy through it. ",
+          avatar: tauqeer,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/tauqeer.code/",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "https://www.linkedin.com/in/tauqeerahmad5201/",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:tauqeer@tezosindia.foundation",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+917840870352",
+            },
+            {
+              name: "X",
+              link: "https://x.com/_TauqeerAhmad",
             },
           ],
         },
@@ -742,32 +672,6 @@ function Members() {
       title: "CONTENT TEAM",
       members: [
         {
-          id: "m27",
-          name: "James Anderson",
-          title: "Content Creator",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
-          social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
-              name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
-            },
-            {
-              name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
-            },
-            {
-              name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
-            },
-          ],
-        },
-        {
           id: "m28",
           name: "Shazia Saifi",
           title: "BCA",
@@ -789,84 +693,6 @@ function Members() {
             {
               name: "Whatsapp",
               link: "http://wa.me/+918860018804",
-            },
-          ],
-        },
-        {
-          id: "m29",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
-          social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
-              name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
-            },
-            {
-              name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
-            },
-            {
-              name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
-            },
-          ],
-        },
-        {
-          id: "m30",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
-          social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
-              name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
-            },
-            {
-              name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
-            },
-            {
-              name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
-            },
-          ],
-        },
-        {
-          id: "m31",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
-          social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
-              name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
-            },
-            {
-              name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
-            },
-            {
-              name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
             },
           ],
         },
@@ -1223,6 +1049,35 @@ function Members() {
       title: "PR TEAM",
       members: [
         {
+          id: "m49",
+          name: "Tauqeer Ahmad",
+          title: "BTCSE Passed Out",
+          bio: "Hi, I am Tauqeer Ahmad, Developer Relations Engineer at Tezos from the India Region. I am the one who manages all the educational communities around the India space and build the advocacy through it. ",
+          avatar: tauqeer,
+          social_links: [
+            {
+              name: "Instagram",
+              link: "https://www.instagram.com/tauqeer.code/",
+            },
+            {
+              name: "LinkedIn",
+              link: "https://www.linkedin.com/in/tauqeerahmad5201/",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:tauqeer@tezosindia.foundation",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+917840870352",
+            },
+            {
+              name: "X",
+              link: "https://x.com/_TauqeerAhmad",
+            },
+          ],
+        },
+        {
           id: "m42",
           name: "Naquiuzzaman ",
           title: "B-TECH CSE",
@@ -1298,58 +1153,6 @@ function Members() {
             {
               name: "Whatsapp",
               link: "http://wa.me/+919711099468",
-            },
-          ],
-        },
-        {
-          id: "m45",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
-          social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
-              name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
-            },
-            {
-              name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
-            },
-            {
-              name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
-            },
-          ],
-        },
-        {
-          id: "m46",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
-          social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
-              name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
-            },
-            {
-              name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
-            },
-            {
-              name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
             },
           ],
         },
