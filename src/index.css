@@ -1,5 +1,12 @@
 /* ----- BASE ----- */
-*{
+@font-face {
+  font-family: 'Bring Race';
+  src: url('../public/fonts/Bring\ Race.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,7 +16,8 @@
 
 
 /* ----- SMOOTH SCROLL ----- */
-html,body{
+html,
+body {
   height: 100%;
   width: 100%;
   scroll-behavior: smooth;
@@ -32,12 +40,12 @@ html,body{
   background: #bbb;
 } */
 
-a{
+a {
   text-decoration: none;
   color: white;
 }
 
 /* global css */
-section{
+section {
   background-color: #151515;
 }

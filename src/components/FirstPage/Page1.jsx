@@ -43,7 +43,7 @@ export default function First() {
       <div className="featured-box" id="main">
         <div className="featured-text">
           <div className="first-section">
-            <h1>
+            <h1 style={{ fontFamily: "Bring Race, sans-serif" }}>
               Tezos<h3>Jamia Hamdard</h3>
             </h1>
           </div>

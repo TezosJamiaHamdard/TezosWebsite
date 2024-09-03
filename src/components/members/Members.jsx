@@ -96,7 +96,7 @@ const TeamMember = ({ id, name, title, bio, avatar, social_links }) => (
 const Team = ({ teamMembers, title }) => (
   <div className="team-members-div" style={{ display: "flex" }}>
     <div className="wrapper-members active-members" style={{ display: "flex" }}>
-      <div className="intro-wrapper">
+      <div className="intro-wrapper" style={{ display: "flex" , flexDirection: "column", alignItems: "center", justifyContent: "center"}}>
         <div className="team-title">{title}</div>
       </div>
       {/* issue starts from here */}
