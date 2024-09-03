@@ -598,56 +598,59 @@ function Members() {
         },
         {
           id: "m16",
-          name: "Sophia Taylor",
-          title: "Photographer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=400&auto=format&fit=crop",
+          name: "Yatharth Jain",
+          title: "B-tech CSE",
+          bio: "Hustler by charm builder by nature",
+          // avatar: yatharth,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/depindaddy?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
             },
             {
               name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
+              link: "http://linkedin.com/in/depindaddy",
             },
             {
               name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
+              link: "mailto:yatharth@clusterprotocol.io",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+918383817047",
+            },
+            {
+              name: "X",
+              link: "X.com/clusterprotocol",
             },
           ],
         },
-        {
-          id: "m17",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
-          social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
-              name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
-            },
-            {
-              name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
-            },
-            {
-              name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
-            },
-          ],
-        },
+        // {
+        //   id: "m17",
+        //   name: "Jane Smith",
+        //   title: "Developer",
+        //   bio: "User Bio Goes Here",
+        //   avatar:
+        //     "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
+        //   social_links: [
+        //     {
+        //       name: "Instagram",
+        //       link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+        //     },
+        //     {
+        //       name: "LinkedIn",
+        //       link: "http://linkedin.com/in/khaliquehussain7",
+        //     },
+        //     {
+        //       name: "Gmail",
+        //       link: "mailto:khaliquehussain7@gmail.com",
+        //     },
+        //     {
+        //       name: "Whatsapp",
+        //       link: "http://wa.me/+919711644284",
+        //     },
+        //   ],
+        // },
       ],
     },
     6: {
@@ -799,14 +802,6 @@ function Members() {
           avatar: maaz,
           social_links: [
             {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
-              name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
-            },
-            {
               name: "Gmail",
               link: "mailto:maazkhan14917@gmail.com",
             },
@@ -936,10 +931,6 @@ function Members() {
           bio: "Hey!! Bilal here, I'm a skilled web developer and UX designer with a strong passion for creating engaging and user-friendly designs. I have expertise in tools like Figma, Photoshop, Canva, and Framer, which I use to bring my design ideas to life.",
           avatar: bilal,
           social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
             {
               name: "LinkedIn",
               link: "https://www.linkedin.com/in/bilal-ahmad-92b3a82a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
