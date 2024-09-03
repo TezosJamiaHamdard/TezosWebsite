@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TezosWebsite/static/css/main.20f670a6.css",
-    "main.js": "/TezosWebsite/static/js/main.a4da3506.js",
+    "main.css": "/TezosWebsite/static/css/main.491d6aa4.css",
+    "main.js": "/TezosWebsite/static/js/main.bd8becdb.js",
     "static/js/453.d271c045.chunk.js": "/TezosWebsite/static/js/453.d271c045.chunk.js",
     "static/media/IMG_1097 - Bilal Ahmad.jpg": "/TezosWebsite/static/media/IMG_1097 - Bilal Ahmad.35f87201ce1d00a6ed98.jpg",
     "static/media/01.mp4": "/TezosWebsite/static/media/01.a5640c3c4e7eb668eab7.mp4",
@@ -52,6 +52,7 @@
     "static/media/roadmap4.jpg": "/TezosWebsite/static/media/roadmap4.3b354f900c2f6bbb3252.jpg",
     "static/media/event4.jpg": "/TezosWebsite/static/media/event4.d169cf108356076b3fd8.jpg",
     "static/media/khalique.jpg": "/TezosWebsite/static/media/khalique.434af1f98efa01841290.jpg",
+    "static/media/alfiya.jpg": "/TezosWebsite/static/media/alfiya.a76b407afbc05b84bcd1.jpg",
     "static/media/Bring Race.otf": "/TezosWebsite/static/media/Bring Race.0cd049890dd928d12192.otf",
     "static/media/me - Charu Gupta.jpeg": "/TezosWebsite/static/media/me - Charu Gupta.b6efe0388c6b71b80527.jpeg",
     "static/media/nazia.jpg": "/TezosWebsite/static/media/nazia.8152d4b68a7a64b1cf8e.jpg",
@@ -60,7 +61,6 @@
     "static/media/hamza.jpg": "/TezosWebsite/static/media/hamza.127514f8d9db25d7b37c.jpg",
     "static/media/article2.jpeg": "/TezosWebsite/static/media/article2.59ffae03aa0fb8fe0021.jpeg",
     "static/media/aasif.jpg": "/TezosWebsite/static/media/aasif.fb0efdb6ae1d1834d16d.jpg",
-    "static/media/alfiya.jpg": "/TezosWebsite/static/media/alfiya.dde5edfc38144d1349b2.jpg",
     "static/media/logo-no-bg.png": "/TezosWebsite/static/media/logo-no-bg.ba9bee0ef1eb2a02e95b.png",
     "static/media/roadmap1.jpg": "/TezosWebsite/static/media/roadmap1.342f642598e9ad6b7073.jpg",
     "static/media/WhatsApp Image 2024-05-20 at 8.19.03 PM - 241 Zubiya Azeem.jpeg": "/TezosWebsite/static/media/WhatsApp Image 2024-05-20 at 8.19.03 PM - 241 Zubiya Azeem.b11cb3853814218296f1.jpeg",
@@ -70,12 +70,12 @@
     "static/media/roadmap2.jpeg": "/TezosWebsite/static/media/roadmap2.6ff6be0f29543eaf98fa.jpeg",
     "static/media/Blog1.avif": "/TezosWebsite/static/media/Blog1.c93e2573c4e53667b38c.avif",
     "index.html": "/TezosWebsite/index.html",
-    "main.20f670a6.css.map": "/TezosWebsite/static/css/main.20f670a6.css.map",
-    "main.a4da3506.js.map": "/TezosWebsite/static/js/main.a4da3506.js.map",
+    "main.491d6aa4.css.map": "/TezosWebsite/static/css/main.491d6aa4.css.map",
+    "main.bd8becdb.js.map": "/TezosWebsite/static/js/main.bd8becdb.js.map",
     "453.d271c045.chunk.js.map": "/TezosWebsite/static/js/453.d271c045.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20f670a6.css",
-    "static/js/main.a4da3506.js"
+    "static/css/main.491d6aa4.css",
+    "static/js/main.bd8becdb.js"
   ]
 }
