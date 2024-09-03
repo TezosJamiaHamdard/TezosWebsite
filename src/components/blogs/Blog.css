@@ -1,7 +1,7 @@
 .blogs {
   position: relative;
   height: auto;
-  background: #240046;
+  background: #fff;
 }
 .blog-img {
   background-image: url("../../assets/hero.png");
@@ -73,7 +73,7 @@
     #59017e,
     #520077
   ); */
-  background-color: #5a189a;
+  background-color: rgba(69, 138, 134);
   /* background-image: linear-gradient(to top, #ab00f2, #a601e9, #a002e0, #9b03d7, #9504ce, #8d04c4, #8604b9, #7e04af, #7303a1, #670293, #5d0185, #520077); */
 }
 
@@ -106,7 +106,7 @@
   border-radius: 6px;
   font-weight: 500;
   cursor: pointer;
-  background: #520077;
+  background: #1f2833;
   border: 2px solid transparent;
   transition: 0.5s;
   height: 50px;

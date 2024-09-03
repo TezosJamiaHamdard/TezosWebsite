@@ -96,7 +96,15 @@ const TeamMember = ({ id, name, title, bio, avatar, social_links }) => (
 const Team = ({ teamMembers, title }) => (
   <div className="team-members-div" style={{ display: "flex" }}>
     <div className="wrapper-members active-members" style={{ display: "flex" }}>
-      <div className="intro-wrapper" style={{ display: "flex" , flexDirection: "column", alignItems: "center", justifyContent: "center"}}>
+      <div
+        className="intro-wrapper"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
         <div className="team-title">{title}</div>
       </div>
       {/* issue starts from here */}
@@ -408,11 +416,11 @@ function Members() {
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
+              link: "https://www.instagram.com/syed.rameezz/?next=%2Fchinatown_forever%2Ftagged%2F&ref=article&hl=ne",
             },
             {
               name: "LinkedIn",
-              link: "https://www.instagram.com/syed.rameezz/?next=%2Fchinatown_forever%2Ftagged%2F&ref=article&hl=ne",
+              link: "https://www.linkedin.com/in/rameez-imteyaz-02ab49252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             },
             {
               name: "Gmail",
@@ -420,7 +428,7 @@ function Members() {
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+916388260210",
+              link: "http://wa.me/+919838381369",
             },
             {
               name: "X",
