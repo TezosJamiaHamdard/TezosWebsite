@@ -325,7 +325,7 @@ function Members() {
       title: "SOCIAL MEDIA TEAM",
       members: [
         {
-          id: "m10",
+          id: "m7",
           name: "Syed Khalique Hussain",
           title: "BCA 3rd YEAR",
           bio: "Hi, my name is Khalique Hussain. I’m currently in a BCA 3rd year at Jamia Hamdard University majoring in Computer Science. I’m also a member of the Tezos Tech team. I’m passionate about learning new technologies and collaborating with others.",
@@ -350,7 +350,7 @@ function Members() {
           ],
         },
         {
-          id: "m11",
+          id: "m8",
           name: "Alfiya Rizvi",
           title: "BBA",
           bio: "As the LinkedIn handler for Tezos Club at Jamia Hamdard, I am responsible for managing and curating our online presence on LinkedIn. My role involves creating engaging content, highlighting our club’s activities, promoting events, and sharing updates related to blockchain technology and the Tezos ecosystem. Through strategic content planning and networking, I aim to enhance our club’s visibility and influence in the blockchain community.",
@@ -371,7 +371,7 @@ function Members() {
           ],
         },
         {
-          id: "m12",
+          id: "m9",
           name: "Shariq Ansari",
           title: "B-tech CSE",
           bio: "As a B.Tech student, I am driven by a passion for technology and engineering. My academic journey is centered around gaining a deep understanding of the principles that power our modern world. Through my coursework, I’ve developed strong analytical and problem-solving skills, with a particular interest in areas like software development, electronics, and data science. I enjoy exploring how theoretical concepts can be applied to practical challenges, and I am always eager to engage in projects that push the boundaries of what’s possible.Beyond academics, I am committed to continuous learning and staying updated on the latest advancements in technology. Whether working on assignments, participating in group projects, or exploring personal tech interests, I approach every task with enthusiasm and a desire to excel. My goal is to leverage my education and skills to contribute to innovative solutions and make a positive impact in the tech industry.",
@@ -400,7 +400,7 @@ function Members() {
           ],
         },
         {
-          id: "m13",
+          id: "m10",
           name: "Rameez Imteyaz ",
           title: "B-tech CSE",
           bio: "Hello, I'm Rameez Imteyaz, currently pursuing my B.TECH in Computer Science, and I'm on a journey to explore the limitless world of technology. I'm eager to connect with fellow tech enthusiasts, mentors, and professionals to learn, share ideas, and collaborate on exciting projects.In addition to my academic pursuits, I'm an extrovert who loves connecting with people from various fields, learning about their work, and gaining insights into different professions.As the lead of the Social Media Board at Tezos, I manage all our social media platforms, recognizing the immense potential of social media in building connections, sharing knowledge, and fostering communities. Social media has become a crucial tool for networking and staying updated with industry trends, making it a vital part of my efforts to grow professionally and personally.",
@@ -434,7 +434,7 @@ function Members() {
       title: "PHOTOGRAPHY TEAM",
       members: [
         {
-          id: "m16",
+          id: "m11",
           name: "Nauman Ali Siddiqui",
           title: "Btech CSE",
           bio: "Photographer for Tezoz, the college club that brings together creativity and camaraderie. I specialize in capturing the dynamic and engaging moments of our events, from lively gatherings to spontaneous interactions, all while showcasing the vibrant spirit and community of Tezoz. Through my lens, I aim to preserve and highlight the memorable experiences that define our club.",
@@ -464,7 +464,7 @@ function Members() {
       title: "BOARD MEMBERS",
       members: [
         {
-          id: "m20",
+          id: "m12",
           name: "HAMZA",
           title: "BCA 3rd YEAR",
           bio: "I’m Hamza, currently pursuing a BCA degree from Jamia Hamdard, where I’m deeply involved in the tech community as the chairperson of Tezos JH. My passion for Web Development and DevOps drives me to engage with various societies, including Hacked JH and GDSC JH, where I collaborate with like-minded individuals to push the boundaries of what technology can achieve. My hands-on experience includes an internship with Delhi Police, where I applied my skills in Web Development and DevOps to real-world challenges, making a tangible impact. I’ve also had the opportunity to participate in and win multiple hackathons with my team, where we leveraged our expertise in Linux, C, C++, Java, SQL, and DSA to create innovative solutions. Beyond technical projects, I’m committed to sharing knowledge and building strong connections. Through my tech blogs and LinkedIn, I’ve established a network of professionals and enthusiasts who inspire and challenge me to keep learning and growing. Guiding students and staying on the cutting edge of technology are what keep me motivated. I’m always eager to take on new challenges, explore emerging technologies, and contribute to the ever-evolving tech landscape. Let’s connect and collaborate to shape the future of technology together!",
@@ -497,7 +497,7 @@ function Members() {
           ],
         },
         {
-          id: "m21",
+          id: "m13",
           name: "Sheikh Mohammad Saad Akhtar",
           title: "B-Tech",
           bio: "Description of my profile: As the Community Lead for Tezos Jamia Hamdard, I spearhead initiatives to educate and engage students in blockchain technology, particularly within the Tezos ecosystem. My role involves organizing and leading workshops, seminars, and hackathons, providing members with hands-on experience in decentralized applications and smart contracts. I act as a liaison between Jamia Hamdard and the broader Tezos community, fostering collaboration and innovation. By building a vibrant, knowledge-driven community, I aim to empower students to explore blockchain technology's potential, contribute to open-source projects, and stay at the forefront of technological advancements. My leadership focuses on nurturing talent, encouraging creative problem-solving, and promoting a deeper understanding of Tezos, ultimately preparing members to become future leaders in the blockchain space.",
@@ -530,7 +530,7 @@ function Members() {
           ],
         },
         {
-          id: "m22",
+          id: "m14",
           name: "Jane Smith",
           title: "B.Tech Computer Science and Engineering",
           bio: "I am a second-year Computer Science and Engineering student with a strong interest in technology and content writing. Currently, I am exploring web development and am particularly fascinated by Web 3 and blockchain technology. The potential of decentralized systems and secure digital interactions captivates me, fueling my passion for the future of the web. I enjoy connecting with like-minded people and am committed to continuous learning and personal growth.",
@@ -560,7 +560,7 @@ function Members() {
       title: "FOUNDING MEMBERS",
       members: [
         {
-          id: "m23",
+          id: "m15",
           name: "Tauqeer Ahmad",
           title: "BTCSE Passed Out",
           bio: "Hi, I am Tauqeer Ahmad, Developer Relations Engineer at Tezos from the India Region. I am the one who manages all the educational communities around the India space and build the advocacy through it. ",
@@ -589,7 +589,7 @@ function Members() {
           ],
         },
         {
-          id: "m24",
+          id: "m16",
           name: "Sophia Taylor",
           title: "Photographer",
           bio: "User Bio Goes Here",
@@ -615,33 +615,7 @@ function Members() {
           ],
         },
         {
-          id: "m25",
-          name: "Jane Smith",
-          title: "Developer",
-          bio: "User Bio Goes Here",
-          avatar:
-            "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop",
-          social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
-              name: "LinkedIn",
-              link: "http://linkedin.com/in/khaliquehussain7",
-            },
-            {
-              name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
-            },
-            {
-              name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
-            },
-          ],
-        },
-        {
-          id: "m26",
+          id: "m17",
           name: "Jane Smith",
           title: "Developer",
           bio: "User Bio Goes Here",
@@ -672,7 +646,7 @@ function Members() {
       title: "CONTENT TEAM",
       members: [
         {
-          id: "m28",
+          id: "m18",
           name: "Shazia Saifi",
           title: "BCA",
           bio: "As a content writer can write engaging and informative content. Also can enthusiastically work as speaker/host. ",
@@ -702,7 +676,7 @@ function Members() {
       title: "MANAGEMENT TEAM",
       members: [
         {
-          id: "m32",
+          id: "m19",
           name: "Mohammad Sufian",
           title: "Btech Cse ",
           bio: "Hello!!! I'm Mohmmad Sufian , a dedicated member of the Tezos community and proud to serve on the management team. Passionate about blockchain innovation and community growth, I'm committed to contributing to the success of Tezos and its ecosystem.",
@@ -727,7 +701,7 @@ function Members() {
           ],
         },
         {
-          id: "m33",
+          id: "m20",
           name: "NAZIA",
           title: "Btech CSE",
           bio: "I'm studying for a Bachelor of Technology degree at Jamia Hamdard, where I'm learning about technology and engineering. I'm really interested in creating new things and using technology to solve problems. I also really enjoy playing basketball, which has shown me how important it is to work well with others, be disciplined, and keep trying even when things are tough. Managing both my studies and basketball has helped me become a more balanced person, keeping me focused and full of energy. I love learning new things, whether in school or on the basketball court, and I'm always working on improving myself as a student and as a person. My aim is to use what I learn and my experiences to make a good difference in my field and help the people around me.",
@@ -756,7 +730,7 @@ function Members() {
           ],
         },
         {
-          id: "m34",
+          id: "m21",
           name: "Charu",
           title: "BCA",
           bio: "As the Management Team Lead at Tezos JH, I leverage my leadership qualities to ensure operational excellence. With a background in team management and team coordination,  My role involves fostering a collaborative environment where innovation thrives, guiding teams through complex challenges, and ensuring that our projects not only meet but exceed expectations. I am passionate about the transformative potential of Tezos, and I work closely with developers and community members to promote the adoption and integration of Tezos technology across various industries. My commitment to continuous improvement and my ability to coordinate team members makes me a key contributor of management team at Tezos JH.",
@@ -781,7 +755,7 @@ function Members() {
           ],
         },
         {
-          id: "m35",
+          id: "m22",
           name: "Mohammad Muzakkir Jamal ",
           title: "B-TECH CSE",
           bio: "As a member of the management team, I help make decisions, organize activities, and ensure everything runs smoothly for the society.",
@@ -810,7 +784,7 @@ function Members() {
           ],
         },
         {
-          id: "m36",
+          id: "m23",
           name: "MAAZ KHAN ",
           title: "B-TECH CSE",
           bio: "I am a dedicated B.Tech Computer Science Engineering student with a strong passion for technology and innovation. My academic journey has equipped me with a solid foundation in management which I continuously build upon. I am highly motivated to stay at the forefront of emerging tech trends such as artificial intelligence, machine learning.Beyond academics, I am eager to collaborate with like-minded peers in a tech society, where I can contribute my skills while also learning from others. My goal is to actively participate in tech-related events, and workshops to broaden my knowledge and network with industry professionals. Joining your esteemed tech society would provide me with the platform to further enhance my technical abilities and work on innovative projects that make a real impact.",
@@ -835,7 +809,7 @@ function Members() {
           ],
         },
         {
-          id: "m47",
+          id: "m24",
           name: "Mohammad Danish",
           title: "B-TECH CSE",
           bio: "I am Mohammad Danish Ahmed, a B.Tech Computer Science student at Jamia Hamdard University, currently in the early stages of my tech journey. As a beginner, I'm actively learning the fundamentals of programming, data structures, and algorithms, with a strong desire to explore various areas of technology. In addition to my studies, I hold an event management position in the Tezos Society, where I engage with the community and organize events focused on blockchain and decentralized technologies. My focus is on gaining practical skills through hands-on projects and continuous learning. I look forward to connecting with others who share my passion for tech and exploring opportunities to grow and develop my skills.",
@@ -860,7 +834,7 @@ function Members() {
           ],
         },
         {
-          id: "m48",
+          id: "m25",
           name: "Asna Shah",
           title: "B.Sc.computer science ",
           bio: "I'm Asna Shah pursuing B.Sc. computer science from jamia Hamdard. As a co lead of tezos management team i collaborate closely with fellow leaders for smooth functioning in the club. Willing to learn new skills and helping others along the way.",
@@ -890,7 +864,7 @@ function Members() {
       title: "DESIGNING TEAM",
       members: [
         {
-          id: "m37",
+          id: "m26",
           name: "Simran Bhagat",
           title: "BTech CSE",
           bio: "Hello! I’m Simran Bhagat, a graphic designer and a B.Tech CSE student. As a proud member of the Tezos JH design team, I channel my creativity into crafting stunning visuals that represent our team. Graphic designing isn’t just a hobby for me; it’s my passion. I thrive on creating amazing designs that captivate and inspire.Beyond design, I have a keen interest in data science, constantly exploring the fascinating world of data and its endless possibilities. If you have any queries or need assistance, feel free to reach out. Let’s connect and create something extraordinary together!",
@@ -919,7 +893,7 @@ function Members() {
           ],
         },
         {
-          id: "m38",
+          id: "m27",
           name: "Sana Siddique",
           title: "B-TECH",
           bio: "I’m Sana Siddique, a B-Tech student from Jamia Hamdard University ,where i am a part of  Graphic Design team at Tezos JH . While I love being creative with graphic design, my real passion is diving into the world of data science and AI/ML. I’m fascinated by how data can uncover insights and help solve complex problems. I’ve got experience working with Python, Java, C, My SQL, AutoCAD and I’m pretty handy with data visualization tools like Power BI and Tableau.  I also enjoy working with data using libraries like NumPy, Matplotlib, Pandas, and Seaborn.When it comes to graphic design, I use tools like Canva and Adobe Illustrator to bring my ideas to life. Combining my design skills with my love for data science gives me a unique perspective, and I’m always eager to learn more and tackle new challenges. I’m really excited about where technology is heading.",
@@ -948,7 +922,7 @@ function Members() {
           ],
         },
         {
-          id: "m39",
+          id: "m28",
           name: "Bilal Ahmad",
           title: "BCA",
           bio: "Hey!! Bilal here, I'm a skilled web developer and UX designer with a strong passion for creating engaging and user-friendly designs. I have expertise in tools like Figma, Photoshop, Canva, and Framer, which I use to bring my design ideas to life.",
@@ -973,7 +947,7 @@ function Members() {
           ],
         },
         {
-          id: "m40",
+          id: "m29",
           name: "Zubiya",
           title: "B-TECH",
           bio: "howdy guys ,I am Zubiya Azeem, the Head of the Graphics Board! Pursuing a BTech (CSE), Icombines my technical prowess with creative flair to lead my team in producing dynamic and impactful graphics. My dedication to excellence and passion for design are essential in driving visual projects forward.",
@@ -994,7 +968,7 @@ function Members() {
           ],
         },
         {
-          id: "m41",
+          id: "m30",
           name: "Mariya Mallick ",
           title: "B-TECH CSE",
           bio: "As a member of the Tezos Jamia Hamdard Design Team, I play a crucial role in bringing creative vision and innovative design solutions to the forefront of blockchain and decentralized applications.",
@@ -1019,7 +993,7 @@ function Members() {
           ],
         },
         {
-          id: "m7",
+          id: "m31",
           name: "Mohd Ahmed",
           title: "Developer",
           bio: "Mohammed Ahmed - Ethical Hacker & Front-End Developer I’m an ethical hacking enthusiast currently studying Btech Computer Science at Jamia Hamdard. Alongside my passion for cybersecurity, I’m a front-end web developer. I’m dedicated to learning and growing in both fields, eager to tackle challenges and contribute to innovative projects.",
@@ -1049,7 +1023,7 @@ function Members() {
       title: "PR TEAM",
       members: [
         {
-          id: "m49",
+          id: "m32",
           name: "Tauqeer Ahmad",
           title: "BTCSE Passed Out",
           bio: "Hi, I am Tauqeer Ahmad, Developer Relations Engineer at Tezos from the India Region. I am the one who manages all the educational communities around the India space and build the advocacy through it. ",
@@ -1078,7 +1052,7 @@ function Members() {
           ],
         },
         {
-          id: "m42",
+          id: "m33",
           name: "Naquiuzzaman ",
           title: "B-TECH CSE",
           bio: "As a dedicated PR member of the Tezos community, I am passionate about promoting and advancing the unique benefits of the Tezos blockchain. I focus on fostering strong relationships within the community and beyond, ensuring that our innovative platform is well-represented and understood.",
@@ -1103,7 +1077,7 @@ function Members() {
           ],
         },
         {
-          id: "m43",
+          id: "m34",
           name: "Adnan Khan",
           title: "BCA",
           bio: "Hello and welcome! I'm Adnan, and I genuinely appreciate you taking the time to explore my profile, it means a lot (and probably burns a few calories, so double win!).As someone who's always eager to dive into new challenges, I have a strong passion for learning and exploring various tech domains. Currently, I’m honing my skills as a Web Developer, while also taking on the role of PR Lead at Tezoz, where I bridge the gap between innovation and communication.",
@@ -1132,7 +1106,7 @@ function Members() {
           ],
         },
         {
-          id: "m44",
+          id: "m35",
           name: "Laiba zeeai",
           title: "Bsc(hons)cs",
           bio: "Pr (public relation) is all about to expand communication and to conveying the messages to the audience, clients, many more. As a pr i thrilled to manage pr work while maintaining the audience aware of the information and building a positive relationship between the audience nd the organizors. ",
