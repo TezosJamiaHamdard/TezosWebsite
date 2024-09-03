@@ -82,14 +82,7 @@ function Footer({ contactRef, EventRef, AboutRef, BlogRef }) {
               href="https://chat.whatsapp.com/H9aWrPegFYNEzesrkfMksM"
               className="btn-icon"
             >
-              <FaWhatsapp
-                style={{
-                  color: "#fff",
-                  marginLeft: "15px",
-                  marginBottom: "-6px",
-                }}
-                size={25}
-              />
+              <FaWhatsapp className="whatsapp" />
             </a>
           </h3>
           {/* </div> */}

@@ -192,7 +192,7 @@
       input {
         appearance: unset;
 
-        &:checked+.card-mem {
+        &:checked + .card-mem {
           visibility: visible;
           opacity: 1;
         }
@@ -284,6 +284,9 @@
   .info-member {
     font-size: 15px;
   }
+  .team-title {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -311,13 +314,13 @@
   .link-div {
     width: 25px;
     height: 25px;
-    margin:0 -10px ;
+    margin: 0 -10px;
   }
 }
 @media screen and (max-width: 370px) {
   .link-div {
     width: 20px;
     height: 20px;
-    margin: 0  -10px;
+    margin: 0 -10px;
   }
 }

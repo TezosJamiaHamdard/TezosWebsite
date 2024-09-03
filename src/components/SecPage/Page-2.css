@@ -138,4 +138,8 @@ background: linear-gradient(90deg, rgba(92,15,163,1) 0%, rgba(117,33,235,0.99220
   .btn-vid-event {
     padding: 2px 3px;
   }
+  .PageSecond {
+    padding-bottom: 40px;
+    height: 120vh;
+  }
 }

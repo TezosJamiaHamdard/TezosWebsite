@@ -4,6 +4,8 @@ import Blog1 from "../../assets/Blog1.avif";
 import Blog2 from "../../assets/Blog2.avif";
 import Blog3 from "../../assets/blog3.jpeg";
 import Blog4 from "../../assets/blog4.avif";
+import Blog5 from "../../assets/blog5.webp";
+import Blog6 from "../../assets/blog6.png";
 
 export default function Blog({ Blogref }) {
   return (
@@ -44,28 +46,32 @@ export default function Blog({ Blogref }) {
               </button>
             </div>
 
+            {/* 2 */}
             <div className="card-item swiper-slide">
               <img
-                // decoding="async"
-                src={Blog1}
-                alt="user"
+                decoding="async"
+                src={Blog6}
+                alt="blog5"
                 className="user-image"
               />
-              <h2 className="user-name">Tauqeer Ahmed</h2>
+              <h2 className="user-name">Tauqeer Ahmad</h2>
               <p className="user-profession">
-                Deploying your Application on Azure Kubernetes ServiceAzure
-                Kubernetes Service (AKS) is a managed Kubernetes service
-                provided by Microsoft. It allows you to deploy and manage
-                containerized applications without the
+                GitHub, the world’s leading platform for version control and
+                collaborative software development, offers a special programme
+                for students under the GitHub Student Developer Pack. This pack
+                provides a resources, and benefits to help students learn,
+                collaborate, and build their skills. In this blog post, we’ll
+                explore why GitHub is essential for students, the relevance of
+                GitHub Education, and how to apply for the Student Developer
+                Pack.{" "}
               </p>
               <button className="message-button">
-                <a href="https://tauqeerahmad.hashnode.dev/deploying-your-application-on-azure-kubernetes-service">
+                <a href="https://tauqeerahmad.hashnode.dev/get-your-github-student-developer-pack">
                   {" "}
                   Read More{" "}
                 </a>
               </button>
             </div>
-
             {/* 3 */}
             <div className="card-item swiper-slide">
               <img
@@ -77,13 +83,13 @@ export default function Blog({ Blogref }) {
               <h2 className="user-name">Khalique Hussain</h2>
               <p className="user-profession">
                 Software development is a dynamic field that requires a deep
-                understanding of technology, user needs, and market trends. By
-                following best practices, adopting the right methodologies, and
-                staying updated with emerging trends, developers can create
-                high-quality software that meets the needs of businesses and
-                users alike. Whether you're a beginner or an experienced
-                developer, continuous learning and adaptation are key to success
-                in the ever-evolving world of software development.
+                understanding of technology and user needs. By following best
+                practices, adopting the right methodologies, and staying updated
+                with emerging trends, developers can create high-quality
+                software that meets the needs of users alike. Whether you're a
+                beginner or an experienced developer, continuous learning and
+                adaptation are key to success in the ever-evolving world of
+                software development.
               </p>
               <button className="message-button">
                 <a href="https://khaliquehussain.hashnode.dev/software-development">
@@ -118,24 +124,48 @@ export default function Blog({ Blogref }) {
             <div className="card-item swiper-slide">
               <img
                 decoding="async"
-                // src="images/Shannon Howarth.png"
+                src={Blog5}
                 alt="Userr"
                 className="user-image"
               />
-              <h2 className="user-name">Shannon Howarth</h2>
-              <p className="user-profession">SEO Scientist</p>
-              <button className="message-button">Read More</button>
+              <h2 className="user-name">Md Aasif</h2>
+              <p className="user-profession">
+                Welcome to the exciting world of Android development, where
+                you’ll learn to create your own mobile apps from scratch.
+                Whether you’re new to coding or have some experience, this
+                journey is all about making things happen in a fun and
+                approachable way.
+              </p>
+              <button className="message-button">
+                <a href="https://medium.com/@syedaasif009/a-playful-dive-into-android-development-for-beginners-080b0fe33ce2">
+                  {" "}
+                  Read More{" "}
+                </a>
+              </button>
             </div>
+
+            {/* blog6 */}
+
             <div className="card-item swiper-slide">
               <img
-                decoding="async"
-                // src="images/Warren Bailey.png"
-                alt="blog5"
+                // decoding="async"
+                src={Blog1}
+                alt="user"
                 className="user-image"
               />
-              <h2 className="user-name">Warren Bailey</h2>
-              <p className="user-profession">Digital Marketer</p>
-              <button className="message-button">Read More</button>
+              <h2 className="user-name">Tauqeer Ahmed</h2>
+              <p className="user-profession">
+                Deploying your Application on Azure Kubernetes ServiceAzure
+                Kubernetes Service (AKS) is a managed Kubernetes service
+                provided by Microsoft. It allows you to deploy and manage
+                containerized applications without the
+              </p>
+              <button className="message-button">
+                <a href="https://tauqeerahmad.hashnode.dev/deploying-your-application-on-azure-kubernetes-service">
+                  {" "}
+                  Read More{" "}
+                </a>
+              </button>
             </div>
           </div>
           <div className="swiper-pagination" />
