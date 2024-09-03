@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TezosWebsite/static/css/main.c5591902.css",
-    "main.js": "/TezosWebsite/static/js/main.71566d35.js",
+    "main.js": "/TezosWebsite/static/js/main.ed59fe19.js",
     "static/js/453.d271c045.chunk.js": "/TezosWebsite/static/js/453.d271c045.chunk.js",
     "static/media/IMG_1097 - Bilal Ahmad.jpg": "/TezosWebsite/static/media/IMG_1097 - Bilal Ahmad.35f87201ce1d00a6ed98.jpg",
     "static/media/01.mp4": "/TezosWebsite/static/media/01.a5640c3c4e7eb668eab7.mp4",
@@ -68,11 +68,11 @@
     "static/media/Blog1.avif": "/TezosWebsite/static/media/Blog1.c93e2573c4e53667b38c.avif",
     "index.html": "/TezosWebsite/index.html",
     "main.c5591902.css.map": "/TezosWebsite/static/css/main.c5591902.css.map",
-    "main.71566d35.js.map": "/TezosWebsite/static/js/main.71566d35.js.map",
+    "main.ed59fe19.js.map": "/TezosWebsite/static/js/main.ed59fe19.js.map",
     "453.d271c045.chunk.js.map": "/TezosWebsite/static/js/453.d271c045.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5591902.css",
-    "static/js/main.71566d35.js"
+    "static/js/main.ed59fe19.js"
   ]
 }
