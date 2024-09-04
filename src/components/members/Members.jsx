@@ -233,7 +233,7 @@ function Members() {
           id: "m3",
           name: "Raza Rizvi",
           title: "BTECH (CSE)",
-          bio: "Hey, I'm Raza! I'm a Full Stack and Cross-Platform Developer, always learning and pushing the boundaries to create seamless, innovative applications across all devices.",
+          bio: "Hi, I'm Raza! I'm a Full Stack and Cross-Platform Developer, always learning and pushing the boundaries to create seamless, innovative applications across all devices.",
           avatar: raza,
           social_links: [
             {
