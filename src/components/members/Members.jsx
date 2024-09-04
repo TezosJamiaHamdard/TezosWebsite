@@ -31,6 +31,7 @@ import ahmed from "../../assets/members/ahmed.jpg";
 import hamzarizvi from "../../assets/members/hamzarizvi.jpg";
 import tauqeer from "../../assets/members/tauqeer.jpg";
 import yatharth from "../../assets/members/yatharth.jpg";
+import mdzama from "../../assets/members/mdzama.jpg";
 import rameez from "../../assets/members/Picsart_23-12-25_15-22-48-108 - rameez imteyaz.jpg";
 
 const TeamMember = ({ id, name, title, bio, avatar, social_links }) => (
@@ -325,6 +326,27 @@ function Members() {
             {
               name: "Whatsapp",
               link: "http://wa.me/+919540127213",
+            },
+          ],
+        },
+        {
+          id: "m36",
+          name: "Mohd Zama",
+          title: "B-Tech CSE",
+          bio: "Hey, I'm Mohd Zama! I'm a Full Stack and Cross-Platform Developer, always learning and pushing the boundaries to create seamless, innovative applications across all devices.",
+          avatar: mdzama,
+          social_links: [
+            {
+              name: "LinkedIn",
+              link: "https://www.linkedin.com/in/mohd-zama-35878324a",
+            },
+            {
+              name: "Gmail",
+              link: "mailto:rs739025@gmail.com",
+            },
+            {
+              name: "Whatsapp",
+              link: "http://wa.me/+916395538545",
             },
           ],
         },
