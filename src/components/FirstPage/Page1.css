@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
 .first-section {
   display: flex;
   align-items: center;
@@ -6,16 +7,16 @@
 }
 
 .first-section h1 {
+  font-family: "Protest Guerrilla", sans-serif;
   text-align: center;
   color: #f1f1f1;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 1000;
   padding-top: 60px;
   /* padding-bottom: 30px; */
   letter-spacing: 20px;
   text-shadow: 0px 0px 10px #000000;
-  font-size: 100px;
-  font-family: "Bebas Neue", sans-serif;
+  font-size: 120px;
 }
 
 .first-section h3 {
@@ -28,7 +29,7 @@
   letter-spacing: 3px;
   text-shadow: 0px 0px 10px #000000;
   font-size: 30px;
-  font-family: "Bebas Neue", sans-serif;
+  /* font-family: "Nerko One", cursive; */
 }
 
 .back-video {

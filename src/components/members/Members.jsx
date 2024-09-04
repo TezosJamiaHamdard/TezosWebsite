@@ -30,6 +30,7 @@ import alfiya from "../../assets/members/alfiya.jpg";
 import ahmed from "../../assets/members/ahmed.jpg";
 import hamzarizvi from "../../assets/members/hamzarizvi.jpg";
 import tauqeer from "../../assets/members/tauqeer.jpg";
+import yatharth from "../../assets/members/yatharth.jpg";
 import rameez from "../../assets/members/Picsart_23-12-25_15-22-48-108 - rameez imteyaz.jpg";
 
 const TeamMember = ({ id, name, title, bio, avatar, social_links }) => (
@@ -601,7 +602,7 @@ function Members() {
           name: "Yatharth Jain",
           title: "B-tech CSE",
           bio: "Hustler by charm builder by nature",
-          // avatar: yatharth,
+          avatar: yatharth,
           social_links: [
             {
               name: "Instagram",

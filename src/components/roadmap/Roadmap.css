@@ -2,7 +2,7 @@
   position: relative;
   font-family: "Poppins", sans-serif;
   height: auto;
-  background: #240046;
+  background: #000;
 }
 .roadmap-img {
   background-image: url("../../assets/roadmap.jpg");
@@ -54,7 +54,13 @@
   justify-content: center;
   border-radius: 10px;
   backdrop-filter: blur(30px);
-  background-color: #5a189a;
+  /* background-color: #5a189a; */
+  background: rgba(41, 55, 69, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(167, 167, 169, 0.194);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255,  255,  0.18 );
   border: 1px solid #ffffff80;
   width: 60vh;
 }
