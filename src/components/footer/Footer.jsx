@@ -29,10 +29,7 @@ function Footer({ contactRef, EventRef, AboutRef, BlogRef }) {
               </a>
             </div>
             <div className="icon">
-              <a
-                href="https://github.com/TezosJamiaHamdard"
-                className="btn-icon"
-              >
+              <a href="https://github.com/tezosjh" className="btn-icon">
                 <FaGithub style={{ color: "#fff" }} size={30} />
               </a>
             </div>
