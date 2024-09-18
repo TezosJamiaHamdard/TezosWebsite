@@ -105,6 +105,23 @@ export default function First() {
                 />
               </a>
             </div>
+            <div className="icon">
+              <a href="https://discord.gg/DwMkR9mG2V" className="btn-icon">
+                <FaDiscord
+                  style={{ color: "#fff", paddingTop: "4px" }}
+                  size={25}
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container-text">
+          <div class="scroll">
+            <div class="RightToLeft">
+              <p><a href="https://www.instagram.com/tezosclub.jh?igsh=MXF5b3h2bDUweTlk"> Recruitment Forms Our Out, Join Us Now! </a></p>
+              <p><a href="https://www.instagram.com/tezosclub.jh?igsh=MXF5b3h2bDUweTlk"> Recruitment Forms Our Out, Join Us Now! </a></p>
+              <p><a href="https://www.instagram.com/tezosclub.jh?igsh=MXF5b3h2bDUweTlk"> Recruitment Forms Our Out, Join Us Now! </a></p>
+            </div>
           </div>
         </div>
       </div>
