@@ -5,7 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-// import Logo from "../../assets/logo.png";
+import { FaDiscord } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 function Footer({ contactRef, EventRef, AboutRef, BlogRef }) {
@@ -66,6 +66,14 @@ function Footer({ contactRef, EventRef, AboutRef, BlogRef }) {
                 className="btn-icon"
               >
                 <FaXTwitter
+                  style={{ color: "#fff", paddingTop: "4px" }}
+                  size={25}
+                />
+              </a>
+            </div>
+            <div className="icon">
+              <a href="https://discord.gg/DwMkR9mG2V" className="btn-icon">
+                <FaDiscord
                   style={{ color: "#fff", paddingTop: "4px" }}
                   size={25}
                 />

@@ -118,9 +118,9 @@ export default function First() {
         <div class="container-text">
           <div class="scroll">
             <div class="RightToLeft">
-              <p><a href="https://www.instagram.com/tezosclub.jh?igsh=MXF5b3h2bDUweTlk"> Recruitment Forms Our Out, Join Us Now! </a></p>
-              <p><a href="https://www.instagram.com/tezosclub.jh?igsh=MXF5b3h2bDUweTlk"> Recruitment Forms Our Out, Join Us Now! </a></p>
-              <p><a href="https://www.instagram.com/tezosclub.jh?igsh=MXF5b3h2bDUweTlk"> Recruitment Forms Our Out, Join Us Now! </a></p>
+              <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSez2eFOWo1-tg3415GIub6zA4LhOSeAW35FSe4pbOaAJ7W6Ew/viewform"> Recruitment Forms Our Out, Join Us Now! Click Here! </a></p>
+              <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSez2eFOWo1-tg3415GIub6zA4LhOSeAW35FSe4pbOaAJ7W6Ew/viewform"> Recruitment Forms Our Out, Join Us Now! Click Here! </a></p>
+              <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSez2eFOWo1-tg3415GIub6zA4LhOSeAW35FSe4pbOaAJ7W6Ew/viewform"> Recruitment Forms Our Out, Join Us Now! Click Here! </a></p>
             </div>
           </div>
         </div>
