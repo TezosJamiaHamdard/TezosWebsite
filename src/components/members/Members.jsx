@@ -287,10 +287,6 @@ function Members() {
           avatar: vanshika,
           social_links: [
             {
-              name: "Instagram",
-              link: "https://www.instagram.com/khaliqhussain_?igsh=emM0eWQ2OWlzZXhj&utm_source=qr",
-            },
-            {
               name: "LinkedIn",
               link: "https://www.linkedin.com/in/vanshika-nagarajan-2bb766228/",
             },
@@ -510,12 +506,8 @@ function Members() {
               link: "https://www.linkedin.com/in/hamza69?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             },
             {
-              name: "Gmail",
-              link: "mailto:khaliquehussain7@gmail.com",
-            },
-            {
               name: "Whatsapp",
-              link: "http://wa.me/+919711644284",
+              link: "http://wa.me/+919810228781",
             },
             {
               name: "X",
@@ -562,7 +554,7 @@ function Members() {
         },
         {
           id: "m14",
-          name: "Jane Smith",
+          name: "Md Aasif",
           title: "B.Tech Computer Science and Engineering",
           bio: "I am a second-year Computer Science and Engineering student with a strong interest in technology and content writing. Currently, I am exploring web development and am particularly fascinated by Web 3 and blockchain technology. The potential of decentralized systems and secure digital interactions captivates me, fueling my passion for the future of the web. I enjoy connecting with like-minded people and am committed to continuous learning and personal growth.",
           avatar: aasif,
@@ -1045,56 +1037,27 @@ function Members() {
       title: "PR TEAM",
       members: [
         {
-          id: "m32",
-          name: "Tauqeer Ahmad",
-          title: "BTCSE Passed Out",
-          bio: "Hi, I am Tauqeer Ahmad, Developer Relations Engineer at Tezos from the India Region. I am the one who manages all the educational communities around the India space and build the advocacy through it. ",
-          avatar: tauqeer,
-          social_links: [
-            {
-              name: "Instagram",
-              link: "https://www.instagram.com/tauqeer.code/",
-            },
-            {
-              name: "LinkedIn",
-              link: "https://www.linkedin.com/in/tauqeerahmad5201/",
-            },
-            {
-              name: "Gmail",
-              link: "mailto:tauqeer@tezosindia.foundation",
-            },
-            {
-              name: "Whatsapp",
-              link: "http://wa.me/+917840870352",
-            },
-            {
-              name: "X",
-              link: "https://x.com/_TauqeerAhmad",
-            },
-          ],
-        },
-        {
           id: "m33",
-          name: "Naquiuzzaman ",
-          title: "B-TECH CSE",
-          bio: "As a dedicated PR member of the Tezos community, I am passionate about promoting and advancing the unique benefits of the Tezos blockchain. I focus on fostering strong relationships within the community and beyond, ensuring that our innovative platform is well-represented and understood.",
-          avatar: zaman,
+          name: "Laiba zeeai",
+          title: "Bsc(hons)cs",
+          bio: "Pr (public relation) is all about to expand communication and to conveying the messages to the audience, clients, many more. As a pr i thrilled to manage pr work while maintaining the audience aware of the information and building a positive relationship between the audience nd the organizors. ",
+          avatar: laiba,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/tabish_marhaba_007?igsh=MTNmZTAxdTdhamVmOA==",
+              link: "https://www.instagram.com/just_capricious?igsh=dngzdDUxOXpqcjU4",
             },
             {
               name: "LinkedIn",
-              link: "https://www.linkedin.com/in/naquiuz-zaman-44967a294",
+              link: "https://www.linkedin.com/in/laiba-zeeai-830b53302",
             },
             {
               name: "Gmail",
-              link: "mailto:marhabatabish1@gmail.com",
+              link: "mailto:laibazeeai68@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+917779879534",
+              link: "http://wa.me/+919711099468",
             },
           ],
         },
@@ -1129,29 +1092,30 @@ function Members() {
         },
         {
           id: "m35",
-          name: "Laiba zeeai",
-          title: "Bsc(hons)cs",
-          bio: "Pr (public relation) is all about to expand communication and to conveying the messages to the audience, clients, many more. As a pr i thrilled to manage pr work while maintaining the audience aware of the information and building a positive relationship between the audience nd the organizors. ",
-          avatar: laiba,
+          name: "Naquiuzzaman ",
+          title: "B-TECH CSE",
+          bio: "As a dedicated PR member of the Tezos community, I am passionate about promoting and advancing the unique benefits of the Tezos blockchain. I focus on fostering strong relationships within the community and beyond, ensuring that our innovative platform is well-represented and understood.",
+          avatar: zaman,
           social_links: [
             {
               name: "Instagram",
-              link: "https://www.instagram.com/just_capricious?igsh=dngzdDUxOXpqcjU4",
+              link: "https://www.instagram.com/tabish_marhaba_007?igsh=MTNmZTAxdTdhamVmOA==",
             },
             {
               name: "LinkedIn",
-              link: "https://www.linkedin.com/in/laiba-zeeai-830b53302",
+              link: "https://www.linkedin.com/in/naquiuz-zaman-44967a294",
             },
             {
               name: "Gmail",
-              link: "mailto:laibazeeai68@gmail.com",
+              link: "mailto:marhabatabish1@gmail.com",
             },
             {
               name: "Whatsapp",
-              link: "http://wa.me/+919711099468",
+              link: "http://wa.me/+917779879534",
             },
           ],
         },
+
       ],
     },
   };
